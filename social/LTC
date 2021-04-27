@@ -1,11 +1,11 @@
 [{
         "discord":"",
         "email":"",
-        "github":"",
+        "github":"https://github.com/litecoin-project",
         "linkedin":"",
-        "reddit":"",
+        "reddit":"https://www.reddit.com/r/litecoin/",
         "telegram":"",
-        "twitter":"",
-        "website":"",
-        "youtube":""
+        "twitter":"https://twitter.com/LitecoinDotCom",
+        "website":"https://litecoin.com/",
+        "youtube":"https://www.youtube.com/user/LitecoinAssociation"
 }]
