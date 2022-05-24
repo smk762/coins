@@ -11344,5 +11344,70 @@
     "protocol": {
       "type": "UTXO"
     }
-  }
+  },
+        {
+            "coin": "ARRR",
+            "asset": "PIRATE",
+          "txversion":4,
+          "overwintered":1,
+          "mm2":1,
+          "protocol":{
+            "type":"ZHTLC",
+            "protocol_data":{
+              "consensus_params":{
+                "overwinter_activation_height": 152855,
+                "sapling_activation_height": 152855,
+                "blossom_activation_height":null,
+                "heartwood_activation_height":null,
+                "canopy_activation_height":null,
+                "coin_type":133,
+                "hrp_sapling_extended_spending_key":"secret-extended-key-main",
+                "hrp_sapling_extended_full_viewing_key":"zxviews",
+                "hrp_sapling_payment_address":"zs",
+                "b58_pubkey_address_prefix":[
+                  28,
+                  184
+                ],
+                "b58_script_address_prefix":[
+                  28,
+                  189
+                ]
+              }
+            }
+          },
+          "requires_notarization":true,
+          "required_confirmations":1
+        },
+        {
+          "coin":"ZOMBIE",
+          "asset":"ZOMBIE",
+          "txversion":4,
+          "overwintered":1,
+          "mm2":1,
+          "protocol":{
+            "type":"ZHTLC",
+            "protocol_data":{
+              "consensus_params":{
+                "overwinter_activation_height":0,
+                "sapling_activation_height":1,
+                "blossom_activation_height":null,
+                "heartwood_activation_height":null,
+                "canopy_activation_height":null,
+                "coin_type":133,
+                "hrp_sapling_extended_spending_key":"secret-extended-key-main",
+                "hrp_sapling_extended_full_viewing_key":"zxviews",
+                "hrp_sapling_payment_address":"zs",
+                "b58_pubkey_address_prefix":[
+                  28,
+                  184
+                ],
+                "b58_script_address_prefix":[
+                  28,
+                  189
+                ]
+              }
+            }
+          },
+          "required_confirmations":1
+        }
 ]
