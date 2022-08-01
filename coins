@@ -5884,7 +5884,7 @@
             "type":"ZHTLC",
             "protocol_data":{
               "consensus_params":{
-                "overwinter_activation_height": 152855,
+                "overwinter_activation_height": 0,
                 "sapling_activation_height": 152855,
                 "blossom_activation_height":null,
                 "heartwood_activation_height":null,
