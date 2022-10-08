@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Generate configs
-        shell: python
+        shell: bash
         run: ${{ github.workspace }}/utils/generate_app_configs.py
             
       - name: Update files in repo
