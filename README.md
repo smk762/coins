@@ -1,7 +1,7 @@
 
 > NOTE
 >
-> The filename in each subdirectory needs to match the coin's symbol exactly, it is the unique field by which different coins are indexed. Please use .png files for icons.
+> The filename in each subdirectory needs to match the coin's symbol exactly, it is the unique field by which different coins are indexed. Please use .png files for icons. 
 
 ## About this repository
 
