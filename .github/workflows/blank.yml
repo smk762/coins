@@ -2,7 +2,7 @@ name: Update Coin Configs
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "parse_repo" ]
     paths-ignore:
       - 'utils/**'
   schedule:
