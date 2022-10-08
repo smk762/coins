@@ -16,13 +16,13 @@ jobs:
 
       - name: Generate configs
         shell: python
-        run: $GITHUB_WORKSPACE/utils/generate_app_configs.py
+        run: ${{ github.workspace }}/utils/generate_app_configs.py
             
       - name: Update files in repo
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add $GITHUB_WORKSPACE/utils 
+          git add ${{ github.workspace }}/utils 
           git commit -m "Update coin configs"
       - name: Push changes
         uses: ad-m/github-push-action@master
