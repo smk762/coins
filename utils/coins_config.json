@@ -697,9 +697,9 @@
         "coin": "ANKR-PLG20",
         "type": "Matic",
         "name": "Ankr",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ankr-ankr-network",
+        "coingecko_id": "ankr",
+        "nomics_id": "ANKR",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -774,9 +774,9 @@
         "coin": "APE-FTM20",
         "type": "FTM-20",
         "name": "ApeCoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ape-apecoin",
+        "coingecko_id": "apecoin",
+        "nomics_id": "APE7",
         "explorer_url": [
             "https://ftmscan.com/"
         ],
@@ -797,9 +797,9 @@
         "coin": "APE-PLG20",
         "type": "Matic",
         "name": "ApeCoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ape-apecoin",
+        "coingecko_id": "apecoin",
+        "nomics_id": "APE7",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -823,7 +823,7 @@
         "type": "BEP-20",
         "name": "ARPA Chain",
         "coinpaprika_id": "arpa-arpa-chain",
-        "coingecko_id": "arpa-chain",
+        "coingecko_id": "arpa",
         "nomics_id": "ARPA",
         "explorer_url": [
             "https://bscscan.com/"
@@ -849,7 +849,7 @@
         "type": "ERC-20",
         "name": "ARPA Chain",
         "coinpaprika_id": "arpa-arpa-chain",
-        "coingecko_id": "arpa-chain",
+        "coingecko_id": "arpa",
         "nomics_id": "ARPA",
         "explorer_url": [
             "https://etherscan.io/"
@@ -970,9 +970,9 @@
         "coin": "ATOM-PLG20",
         "type": "Matic",
         "name": "Cosmos",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos",
+        "nomics_id": "ATOM",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -1335,9 +1335,9 @@
         "coin": "AYA",
         "type": "UTXO",
         "name": "Aryacoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "aya-aryacoin",
+        "coingecko_id": "aryacoin",
+        "nomics_id": "AYA",
         "explorer_url": [
             "https://explorer.aryacoin.io/"
         ],
@@ -2641,9 +2641,9 @@
         "coin": "BRZ-PLG20",
         "type": "Matic",
         "name": "Brazilian Digital Token",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "brz-brazilian-digital-token",
+        "coingecko_id": "brz",
+        "nomics_id": "BRZ",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -2660,15 +2660,16 @@
             "https://poly-rpc.gateway.pokt.network",
             "https://rpc-mainnet.maticvigil.com"
         ],
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "forex_id": "BRL"
     },
     "BRZ-AVX20": {
         "coin": "BRZ-AVX20",
         "type": "AVX-20",
         "name": "Brazilian Digital Token",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "brz-brazilian-digital-token",
+        "coingecko_id": "brz",
+        "nomics_id": "BRZ",
         "explorer_url": [
             "https://cchain.explorer.avax.network/",
             "https://snowtrace.io/"
@@ -2684,7 +2685,8 @@
         "nodes": [
             "https://api.avax.network/ext/bc/C/rpc"
         ],
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "forex_id": "BRL"
     },
     "BSTY": {
         "coin": "BSTY",
@@ -2890,9 +2892,9 @@
         "coin": "BTCZ-BEP20",
         "type": "BEP-20",
         "name": "BitcoinZ",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "btcz-bitcoinz",
+        "coingecko_id": "bitcoinz",
+        "nomics_id": "BTCZ",
         "explorer_url": [
             "https://bscscan.com/"
         ],
@@ -7111,9 +7113,9 @@
         "coin": "GLM-ERC20",
         "type": "ERC-20",
         "name": "Golem",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "glm-golem",
+        "coingecko_id": "golem",
+        "nomics_id": "GLM",
         "explorer_url": [
             "https://etherscan.io/"
         ],
@@ -7137,9 +7139,9 @@
         "coin": "GLM-PLG20",
         "type": "Matic",
         "name": "Golem",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "glm-golem",
+        "coingecko_id": "golem",
+        "nomics_id": "GLM",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -7214,9 +7216,9 @@
         "coin": "GMX-AVX20",
         "type": "AVX-20",
         "name": "GMX",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "gmx-gmx",
+        "coingecko_id": "gmx",
+        "nomics_id": "GMX4",
         "explorer_url": [
             "https://cchain.explorer.avax.network/",
             "https://snowtrace.io/"
@@ -8724,9 +8726,9 @@
         "coin": "KNC-PLG20",
         "type": "Matic",
         "name": "Kyber Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "knc-kyber-network",
+        "coingecko_id": "kyber-network-crystal",
+        "nomics_id": "KNC3",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -8749,9 +8751,9 @@
         "coin": "KNC-AVX20",
         "type": "AVX-20",
         "name": "Kyber Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "knc-kyber-network",
+        "coingecko_id": "kyber-network-crystal",
+        "nomics_id": "KNC3",
         "explorer_url": [
             "https://cchain.explorer.avax.network/",
             "https://snowtrace.io/"
@@ -9069,9 +9071,9 @@
         "coin": "LDO-ERC20",
         "type": "ERC-20",
         "name": "Lido DAO",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ldo-lido-dao",
+        "coingecko_id": "lido-dao",
+        "nomics_id": "LDO",
         "explorer_url": [
             "https://etherscan.io/"
         ],
@@ -9095,9 +9097,9 @@
         "coin": "LDO-PLG20",
         "type": "Matic",
         "name": "Lido DAO",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ldo-lido-dao",
+        "coingecko_id": "lido-dao",
+        "nomics_id": "LDO",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -9115,46 +9117,6 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "LNC": {
-        "coin": "LNC",
-        "type": "UTXO",
-        "name": "LightningCash",
-        "coinpaprika_id": "lnc-lightningcash",
-        "coingecko_id": "lightningcash",
-        "nomics_id": "LNC3",
-        "explorer_url": [
-            "https://explorer.lightningcash-coin.com/"
-        ],
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "74.208.95.26:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "merlin@lightningcash-coin.com"
-                    },
-                    {
-                        "discord": "merlin#7125"
-                    },
-                    {
-                        "twitter": "LightningCash_1"
-                    }
-                ]
-            }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
     },
     "LEO-ERC20": {
         "coin": "LEO-ERC20",
@@ -10618,12 +10580,6 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
-                "url": "electrumx1.monacoin.ninja:50001"
-            },
-            {
-                "url": "electrumx3.monacoin.nl:50001"
             }
         ],
         "is_segwit_on": false,
@@ -12327,43 +12283,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "PRUX": {
-        "coin": "PRUX",
-        "type": "UTXO",
-        "name": "PRUX",
-        "coinpaprika_id": "prux-prux-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "PRUX",
-        "explorer_url": [
-            "https://explorer.prux.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
-                "url": "txserver.live:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "txserver.live:50002",
-                "protocol": "SSL"
-            }
-        ]
-    },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
         "type": "BEP-20",
@@ -12420,9 +12339,9 @@
         "coin": "SHIB-KRC20",
         "type": "KRC-20",
         "name": "Shiba Inu",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "shib-shiba-inu",
+        "coingecko_id": "shiba-inu",
+        "nomics_id": "SHIB",
         "explorer_url": [
             "https://explorer.kcc.io/en/"
         ],
@@ -13958,9 +13877,9 @@
         "coin": "SOL-PLG20",
         "type": "Matic",
         "name": "Solana",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "sol-solana",
+        "coingecko_id": "solana",
+        "nomics_id": "SOL",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -16714,9 +16633,9 @@
         "coin": "WOO-ERC20",
         "type": "ERC-20",
         "name": "WOO Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "nomics_id": "WOO",
         "explorer_url": [
             "https://etherscan.io/"
         ],
@@ -16740,9 +16659,9 @@
         "coin": "WOO-AVX20",
         "type": "AVX-20",
         "name": "WOO Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "nomics_id": "WOO",
         "explorer_url": [
             "https://cchain.explorer.avax.network/",
             "https://snowtrace.io/"
@@ -16764,9 +16683,9 @@
         "coin": "WOO-BEP20",
         "type": "BEP-20",
         "name": "WOO Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "nomics_id": "WOO",
         "explorer_url": [
             "https://bscscan.com/"
         ],
@@ -16790,9 +16709,9 @@
         "coin": "WOO-FTM20",
         "type": "FTM-20",
         "name": "WOO Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "nomics_id": "WOO",
         "explorer_url": [
             "https://ftmscan.com/"
         ],
@@ -16813,9 +16732,9 @@
         "coin": "WOO-PLG20",
         "type": "Matic",
         "name": "WOO Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "nomics_id": "WOO",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -17231,9 +17150,6 @@
             {
                 "url": "electrumx2.vanillacash.info:50011",
                 "ws_url": "electrumx2.vanillacash.info:50013"
-            },
-            {
-                "url": "failover.xvc.ewmcx.biz:50001"
             }
         ]
     },
@@ -17509,9 +17425,9 @@
         "coin": "YFI-PLG20",
         "type": "Matic",
         "name": "yearn.finance",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "yfi-yearnfinance",
+        "coingecko_id": "yearn-finance",
+        "nomics_id": "YFI",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -17795,11 +17711,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
@@ -20647,6 +20558,15 @@
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
                     }
                 ]
+            },
+            {
+                "url": "testnet.bitcoincash.network:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
             }
         ]
     },
@@ -21037,7 +20957,15 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.actioncoin.com:10001"
+            },
+            {
                 "url": "electrumx2.actioncoin.com:10001"
+            },
+            {
+                "url": "electrumx1.actioncoin.com:30001",
+                "ws_url": "electrumx1.actioncoin.com:20001",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumx2.actioncoin.com:30001",
