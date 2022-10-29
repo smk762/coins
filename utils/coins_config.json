@@ -20962,7 +20962,15 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.actioncoin.com:10001"
+            },
+            {
                 "url": "electrumx2.actioncoin.com:10001"
+            },
+            {
+                "url": "electrumx1.actioncoin.com:30001",
+                "ws_url": "electrumx1.actioncoin.com:20001",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumx2.actioncoin.com:30001",
