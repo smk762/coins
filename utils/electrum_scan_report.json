@@ -1644,19 +1644,19 @@
     },
     "ILN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum1.ilien.io:65011": [
-                true,
-                "Passed"
-            ],
             "electrum2.ilien.io:65011": [
                 true,
                 "Passed"
+            ],
+            "electrum1.ilien.io:65011": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},

@@ -7879,18 +7879,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum1.ilien.io:65011",
-                "contact": [
-                    {
-                        "email": "support@chainmake.rs"
-                    },
-                    {
-                        "discord": "siu - Chainmakers#3920"
-                    }
-                ],
-                "ws_url": "electrum1.ilien.io:30069"
-            },
-            {
                 "url": "electrum2.ilien.io:65011",
                 "contact": [
                     {
