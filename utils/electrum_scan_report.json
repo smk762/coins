@@ -1773,11 +1773,11 @@
     },
     "KOIN": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 5,
         "electrums_total_tcp": 3,
         "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10024": [
                 true,
@@ -1802,8 +1802,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20024": [
-                true,
-                "Passed"
+                false,
+                "_ssl.c:1114: The handshake operation timed out"
             ]
         },
         "ws": {
