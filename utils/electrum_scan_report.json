@@ -2361,17 +2361,13 @@
     },
     "NAV": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
-            "electrum.nav.community:40002": [
-                true,
-                "Passed"
-            ],
             "electrum2.nav.community:40002": [
                 true,
                 "Passed"
@@ -2383,6 +2379,10 @@
             "electrum4.nav.community:40002": [
                 true,
                 "Passed"
+            ],
+            "electrum.nav.community:40002": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
