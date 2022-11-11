@@ -2702,6 +2702,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "66.172.33.175:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "bsty-bkp.coinmunity.gold:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -16971,9 +16975,6 @@
         "wallet_only": true,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrumx.gemmer.primecoin.org:50011"
-            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
