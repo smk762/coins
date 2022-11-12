@@ -84,29 +84,29 @@
     },
     "ARRR": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "node1.chainkeeper.pro:10032": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "node1.chainkeeper.pro:10132": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "node1.chainkeeper.pro:20032": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "node1.chainkeeper.pro:20132": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -122,11 +122,11 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
@@ -138,8 +138,8 @@
                 "Passed"
             ],
             "lenoir.ecoincore.com:12343": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1230,11 +1230,11 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
@@ -1245,15 +1245,15 @@
                 true,
                 "Passed"
             ],
+            "lenoir.ecoincore.com:11017": [
+                true,
+                "Passed"
+            ],
             "electrum5.egulden.org:11017": [
                 false,
                 "timed out"
             ],
             "holland.ecoincore.com:11017": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "lenoir.ecoincore.com:11017": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -3722,12 +3722,16 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
+            "electrumx.gemmer.primecoin.org:50011": [
+                true,
+                "Passed"
+            ],
             "electrumx.mainnet.primecoin.org:50011": [
                 true,
                 "Passed"
@@ -3735,10 +3739,6 @@
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
-            ],
-            "electrumx.gemmer.primecoin.org:50011": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},

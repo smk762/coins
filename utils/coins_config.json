@@ -864,50 +864,6 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
-    "ARRR": {
-        "coin": "ARRR",
-        "type": "ZHTLC",
-        "name": "Pirate",
-        "coinpaprika_id": "arrr-pirate",
-        "coingecko_id": "pirate-chain",
-        "nomics_id": "ARRR",
-        "explorer_url": [
-            "https://pirate.explorer.dexstats.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "light_wallet_d_servers": [
-            "http://node1.chainkeeper.pro:443"
-        ],
-        "electrum": [
-            {
-                "url": "node1.chainkeeper.pro:10032",
-                "protocol": "TCP"
-            },
-            {
-                "url": "node1.chainkeeper.pro:10132",
-                "protocol": "TCP"
-            },
-            {
-                "url": "node1.chainkeeper.pro:20032",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "node1.chainkeeper.pro:30058"
-            },
-            {
-                "url": "node1.chainkeeper.pro:20132",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "node1.chainkeeper.pro:30059"
-            }
-        ],
-        "asset": "PIRATE"
-    },
     "ARRR-BEP20": {
         "coin": "ARRR-BEP20",
         "type": "BEP-20",
@@ -1015,6 +971,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ]
     },
@@ -5729,6 +5690,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum2.egulden.org:50004"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -16975,6 +16942,9 @@
         "wallet_only": true,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx.gemmer.primecoin.org:50011"
+            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
