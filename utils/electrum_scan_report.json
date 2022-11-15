@@ -1,13 +1,17 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 4,
         "tcp": {},
         "ssl": {
+            "elec-seeder-one.artbytecoin.org:50012": [
+                true,
+                "Passed"
+            ],
             "elec-seeder-two.artbytecoin.org:50012": [
                 true,
                 "Passed"
@@ -19,10 +23,6 @@
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
-            ],
-            "elec-seeder-one.artbytecoin.org:50012": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -84,29 +84,29 @@
     },
     "ARRR": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 2,
         "tcp": {
             "node1.chainkeeper.pro:10032": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "node1.chainkeeper.pro:10132": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "node1.chainkeeper.pro:20032": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "node1.chainkeeper.pro:20132": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2971,23 +2971,23 @@
     },
     "SCA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.scalaris.info:10001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.scalaris.info:10001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.scalaris.info:10001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},

@@ -437,6 +437,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -863,6 +869,50 @@
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
+    },
+    "ARRR": {
+        "coin": "ARRR",
+        "type": "ZHTLC",
+        "name": "Pirate",
+        "coinpaprika_id": "arrr-pirate",
+        "coingecko_id": "pirate-chain",
+        "nomics_id": "ARRR",
+        "explorer_url": [
+            "https://pirate.explorer.dexstats.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "light_wallet_d_servers": [
+            "http://node1.chainkeeper.pro:443"
+        ],
+        "electrum": [
+            {
+                "url": "node1.chainkeeper.pro:10032",
+                "protocol": "TCP"
+            },
+            {
+                "url": "node1.chainkeeper.pro:10132",
+                "protocol": "TCP"
+            },
+            {
+                "url": "node1.chainkeeper.pro:20032",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "node1.chainkeeper.pro:30058"
+            },
+            {
+                "url": "node1.chainkeeper.pro:20132",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "node1.chainkeeper.pro:30059"
+            }
+        ],
+        "asset": "PIRATE"
     },
     "ARRR-BEP20": {
         "coin": "ARRR-BEP20",
@@ -14634,70 +14684,6 @@
         "address_format": {
             "format": "standard"
         }
-    },
-    "SCA": {
-        "coin": "SCA",
-        "type": "UTXO",
-        "name": "Scalaris",
-        "coinpaprika_id": "sca-scalaris",
-        "coingecko_id": "test-coin",
-        "nomics_id": "SCA2",
-        "explorer_url": [
-            "https://explorer.scalaris.info/",
-            "https://openchains.info/coin/scalaris/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum1.scalaris.info:10001",
-                "contact": [
-                    {
-                        "email": "scalariscoin@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/scalaris-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.scalaris.info:10001",
-                "contact": [
-                    {
-                        "email": "scalariscoin@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/scalaris-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.scalaris.info:10001",
-                "contact": [
-                    {
-                        "email": "scalariscoin@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/scalaris-project/electrumx/issues"
-                    }
-                ]
-            }
-        ]
     },
     "TAMA-ERC20": {
         "coin": "TAMA-ERC20",
