@@ -14685,6 +14685,70 @@
             "format": "standard"
         }
     },
+    "SCA": {
+        "coin": "SCA",
+        "type": "UTXO",
+        "name": "Scalaris",
+        "coinpaprika_id": "sca-scalaris",
+        "coingecko_id": "test-coin",
+        "nomics_id": "SCA2",
+        "explorer_url": [
+            "https://explorer.scalaris.info/",
+            "https://openchains.info/coin/scalaris/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum1.scalaris.info:10001",
+                "contact": [
+                    {
+                        "email": "scalariscoin@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/scalaris-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.scalaris.info:10001",
+                "contact": [
+                    {
+                        "email": "scalariscoin@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/scalaris-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.scalaris.info:10001",
+                "contact": [
+                    {
+                        "email": "scalariscoin@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/scalaris-project/electrumx/issues"
+                    }
+                ]
+            }
+        ]
+    },
     "TAMA-ERC20": {
         "coin": "TAMA-ERC20",
         "type": "ERC-20",
