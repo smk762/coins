@@ -453,12 +453,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -9680,29 +9674,9 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum5.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum5.getlynx.io:50004"
-            },
-            {
-                "url": "electrum6.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum6.getlynx.io:50004"
-            },
-            {
-                "url": "electrum7.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum7.getlynx.io:50004"
-            },
-            {
                 "url": "electrum8.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum8.getlynx.io:50004"
-            },
-            {
-                "url": "electrum9.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum9.getlynx.io:50004"
             }
         ]
     },
@@ -18043,6 +18017,12 @@
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx2.runonflux.io:50004"
+            },
+            {
+                "url": "electrumx.runonflux.io:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrumx.runonflux.io:50004"
             }
         ]
     },
