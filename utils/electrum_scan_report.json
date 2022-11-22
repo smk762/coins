@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -21,8 +21,8 @@
                 "Passed"
             ],
             "electrumx-three.artbyte.live:50012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -463,15 +463,15 @@
     },
     "BSTY": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
         "electrums_working_ssl": 2,
         "tcp": {
             "66.172.33.175:50001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {
@@ -2017,7 +2017,7 @@
         "tcp": {
             "electrum.getlynx.io:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {

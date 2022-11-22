@@ -453,12 +453,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -2712,10 +2706,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "66.172.33.175:50001",
-                "protocol": "TCP"
-            },
             {
                 "url": "bsty-bkp.coinmunity.gold:50012",
                 "protocol": "SSL",
