@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -17,8 +17,8 @@
                 "Passed"
             ],
             "electrumx-four.artbyte.live:50012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrumx-three.artbyte.live:50012": [
                 false,
@@ -4007,18 +4007,14 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrs.electroncash.de:60002": [
-                true,
-                "Passed"
-            ],
-            "tbch.loping.net:60002": [
                 true,
                 "Passed"
             ],
@@ -4029,6 +4025,10 @@
             "electroncash.de:50004": [
                 false,
                 "[Errno 101] Network is unreachable"
+            ],
+            "tbch.loping.net:60002": [
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ws": {}
