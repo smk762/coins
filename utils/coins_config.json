@@ -447,6 +447,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
+            },
+            {
+                "url": "electrumx-four.artbyte.live:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-four.artbyte.live:50013"
             }
         ]
     },
