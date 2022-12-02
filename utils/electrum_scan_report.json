@@ -46,19 +46,19 @@
     },
     "ACTN": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrumx1.actioncoin.com:10001": [
                 true,
                 "Passed"
             ],
             "electrumx2.actioncoin.com:10001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -67,8 +67,8 @@
                 "Passed"
             ],
             "electrumx2.actioncoin.com:30001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -782,9 +782,9 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -797,8 +797,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10007": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -2406,9 +2406,9 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2421,8 +2421,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -3045,15 +3045,15 @@
     },
     "SMART": {
         "electrums_total_all": 6,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 6,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.smartcash.cc:50001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "electrum2.smartcash.cc:50001": [
                 false,
