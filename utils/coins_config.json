@@ -12267,8 +12267,16 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -14957,14 +14965,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "1.eu.thc.electrum.dexstats.info:10020",
-                "contact": [
-                    {
-                        "discord": "CHMEX#0686"
-                    }
-                ]
-            },
             {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
