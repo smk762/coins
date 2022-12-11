@@ -155,9 +155,9 @@
     },
     "AVN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -166,8 +166,8 @@
                 "Passed"
             ],
             "electrum-us.avn.network:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1333,9 +1333,9 @@
     },
     "FIRO": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -1348,8 +1348,8 @@
                 "Passed"
             ],
             "electrumx03.firo.org:50001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
@@ -3722,16 +3722,12 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrumx.gemmer.primecoin.org:50011": [
-                true,
-                "Passed"
-            ],
             "electrumx.mainnet.primecoin.org:50011": [
                 true,
                 "Passed"
@@ -3739,6 +3735,10 @@
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx.gemmer.primecoin.org:50011": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},

@@ -1148,14 +1148,6 @@
                         "email": "alamshafil@pm.me"
                     }
                 ]
-            },
-            {
-                "url": "electrum-us.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "alamshafil@pm.me"
-                    }
-                ]
             }
         ]
     },
@@ -6469,15 +6461,6 @@
             },
             {
                 "url": "electrumx02.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx03.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -16926,9 +16909,6 @@
         "wallet_only": true,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrumx.gemmer.primecoin.org:50011"
-            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
