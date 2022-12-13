@@ -1148,6 +1148,14 @@
                         "email": "alamshafil@pm.me"
                     }
                 ]
+            },
+            {
+                "url": "electrum-us.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "alamshafil@pm.me"
+                    }
+                ]
             }
         ]
     },
