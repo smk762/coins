@@ -2536,29 +2536,29 @@
     },
     "NYAN": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.live:50020": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50020": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50022": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50022": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -2660,29 +2660,29 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "electrumx.live:50010": [
-                true,
-                "Passed"
-            ],
             "txserver.live:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx.live:50010": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "electrumx.live:50012": [
-                true,
-                "Passed"
-            ],
             "txserver.live:50002": [
                 true,
                 "Passed"
+            ],
+            "electrumx.live:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
