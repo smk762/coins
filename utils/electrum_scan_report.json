@@ -696,7 +696,7 @@
             ],
             "holland.ecoincore.com:34333": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "miami.ecoincore.com:34333": [
                 false,
@@ -1357,19 +1357,19 @@
     },
     "FJC": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrumx1.fujicoin.org:50001": [
                 true,
                 "Passed"
             ],
             "electrumx2.fujicoin.org:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -1378,8 +1378,8 @@
                 "Passed"
             ],
             "electrumx2.fujicoin.org:50003": [
-                true,
-                "Passed"
+                false,
+                ""
             ]
         },
         "ws": {}
