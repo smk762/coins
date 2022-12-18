@@ -547,9 +547,9 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -558,8 +558,8 @@
                 "Passed"
             ],
             "electrum2.btcz.rocks:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -1939,15 +1939,15 @@
     },
     "LNC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "74.208.95.26:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "74.56.11.23:50001": [
                 false,
@@ -4007,14 +4007,18 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrs.electroncash.de:60002": [
+                true,
+                "Passed"
+            ],
+            "tbch.loping.net:60002": [
                 true,
                 "Passed"
             ],
@@ -4023,10 +4027,6 @@
                 "Passed"
             ],
             "electroncash.de:50004": [
-                false,
-                "[Errno 101] Network is unreachable"
-            ],
-            "tbch.loping.net:60002": [
                 false,
                 "[Errno 101] Network is unreachable"
             ]
