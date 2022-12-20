@@ -2233,19 +2233,19 @@
     },
     "MONA": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "103.125.218.246:50001": [
-                true,
-                "Passed"
-            ],
             "electrumx.tamami-foundation.org:50001": [
                 true,
                 "Passed"
+            ],
+            "103.125.218.246:50001": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrumx1.monacoin.ninja:50001": [
                 false,
@@ -2361,18 +2361,14 @@
     },
     "NAV": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrum.nav.community:40002": [
-                true,
-                "Passed"
-            ],
-            "electrum2.nav.community:40002": [
                 true,
                 "Passed"
             ],
@@ -2383,6 +2379,10 @@
             "electrum4.nav.community:40002": [
                 true,
                 "Passed"
+            ],
+            "electrum2.nav.community:40002": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
