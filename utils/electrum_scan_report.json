@@ -1357,19 +1357,19 @@
     },
     "FJC": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrumx1.fujicoin.org:50001": [
                 true,
                 "Passed"
             ],
             "electrumx2.fujicoin.org:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -1378,8 +1378,8 @@
                 "Passed"
             ],
             "electrumx2.fujicoin.org:50003": [
-                false,
-                ""
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -4007,11 +4007,11 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrs.electroncash.de:60002": [
@@ -4022,13 +4022,13 @@
                 true,
                 "Passed"
             ],
-            "testnet.bitcoincash.network:60002": [
-                true,
-                "Passed"
-            ],
             "electroncash.de:50004": [
                 false,
                 "[Errno 101] Network is unreachable"
+            ],
+            "testnet.bitcoincash.network:60002": [
+                false,
+                ""
             ]
         },
         "ws": {}
