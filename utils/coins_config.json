@@ -16419,41 +16419,6 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
-    "VRM": {
-        "coin": "VRM",
-        "type": "UTXO",
-        "name": "Verium Reserve",
-        "coinpaprika_id": "vrm-veriumreserve",
-        "coingecko_id": "test-coin",
-        "nomics_id": "VRM",
-        "explorer_url": [
-            "https://explorer-vrm.vericonomy.com/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum01-vrm.vericonomy.com:50001",
-                "contact": [
-                    {
-                        "email": "dev@vericoin.info"
-                    },
-                    {
-                        "twitter": "vericonomy"
-                    },
-                    {
-                        "github": "VeriConomy"
-                    }
-                ]
-            }
-        ]
-    },
     "VRSC": {
         "coin": "VRSC",
         "type": "Smart Chain",
@@ -20560,6 +20525,15 @@
             },
             {
                 "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "testnet.bitcoincash.network:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
