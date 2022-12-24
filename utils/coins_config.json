@@ -447,12 +447,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
-            },
-            {
-                "url": "electrumx-four.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-four.artbyte.live:50013"
             }
         ]
     },
@@ -9997,6 +9991,18 @@
                 "ws_url": "electrum1.cipig.net:30023"
             },
             {
+                "url": "electrum2.cipig.net:10023",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30023"
+            },
+            {
                 "url": "electrum3.cipig.net:10023",
                 "contact": [
                     {
@@ -10010,6 +10016,18 @@
             },
             {
                 "url": "electrum1.cipig.net:20023",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20023",
                 "protocol": "SSL",
                 "contact": [
                     {
