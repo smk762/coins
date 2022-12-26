@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -17,8 +17,8 @@
                 "Passed"
             ],
             "electrumx-four.artbyte.live:50012": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrumx-three.artbyte.live:50012": [
                 false,
@@ -576,19 +576,19 @@
     },
     "BTE": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx6.scalaris.info:20001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "electrumx7.scalaris.info:20001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
@@ -1939,15 +1939,15 @@
     },
     "LNC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "74.208.95.26:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "74.56.11.23:50001": [
                 false,
@@ -2971,23 +2971,23 @@
     },
     "SCA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.scalaris.info:10001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "electrum2.scalaris.info:10001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "electrum3.scalaris.info:10001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
