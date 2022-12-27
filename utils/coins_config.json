@@ -10812,11 +10812,6 @@
                 "ws_url": "electrum.nav.community:40004"
             },
             {
-                "url": "electrum2.nav.community:40002",
-                "protocol": "SSL",
-                "ws_url": "electrum2.nav.community:40004"
-            },
-            {
                 "url": "electrum3.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum3.nav.community:40004"
