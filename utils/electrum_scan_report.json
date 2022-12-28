@@ -667,13 +667,17 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_working_all": 5,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 5,
         "tcp": {},
         "ssl": {
+            "holland.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
             "lenoir.ecoincore.com:34333": [
                 true,
                 "Passed"
@@ -691,10 +695,6 @@
                 "Passed"
             ],
             "chicago.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "holland.ecoincore.com:34333": [
                 false,
                 "timed out"
             ],
@@ -1255,7 +1255,7 @@
             ],
             "electrum5.egulden.org:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3991,15 +3991,15 @@
     },
     "ZOMBIE": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "zombie.sirseven.me:10033": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {},
