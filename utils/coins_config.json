@@ -16841,11 +16841,6 @@
                 "url": "blackie.c3-soft.com:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": false
-            },
-            {
-                "url": "fulcrum.ergon.network:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ]
     },
