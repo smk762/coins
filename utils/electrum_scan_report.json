@@ -596,16 +596,16 @@
     },
     "BTX": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
             "btx-electrumx.coinsmunity.com:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3746,11 +3746,11 @@
     },
     "XRG": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "blackie.c3-soft.com:52138": [
@@ -3758,8 +3758,8 @@
                 "Passed"
             ],
             "fulcrum.ergon.network:52138": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
