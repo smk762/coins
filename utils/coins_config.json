@@ -3015,6 +3015,42 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
+    "BTX": {
+        "coin": "BTX",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "bitcore",
+        "nomics_id": "BTX",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/btx/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "btx-electrumx.coinsmunity.com:50003"
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
+    },
     "BTX-BEP20": {
         "coin": "BTX-BEP20",
         "type": "BEP-20",
@@ -10764,6 +10800,11 @@
                 "url": "electrum.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum.nav.community:40004"
+            },
+            {
+                "url": "electrum2.nav.community:40002",
+                "protocol": "SSL",
+                "ws_url": "electrum2.nav.community:40004"
             },
             {
                 "url": "electrum3.nav.community:40002",
@@ -20620,30 +20661,6 @@
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
-    },
-    "ZOMBIE": {
-        "coin": "ZOMBIE",
-        "type": "ZHTLC",
-        "name": "Zombie",
-        "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://zombie.explorer.lordofthechains.com/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "zombie.sirseven.me:10033"
-            }
-        ],
-        "asset": "ZOMBIE"
     },
     "ZINU-BEP20": {
         "coin": "ZINU-BEP20",
