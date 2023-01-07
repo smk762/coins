@@ -667,22 +667,14 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 5,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 5,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "holland.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
-            "lenoir.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
-            "mumbai.ecoincore.com:34333": [
                 true,
                 "Passed"
             ],
@@ -690,11 +682,11 @@
                 true,
                 "Passed"
             ],
-            "woolloomooloo.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
             "chicago.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ],
+            "lenoir.ecoincore.com:34333": [
                 false,
                 "timed out"
             ],
@@ -702,9 +694,17 @@
                 false,
                 "timed out"
             ],
+            "mumbai.ecoincore.com:34333": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
             "oakland.ecoincore.com:34333": [
                 false,
                 "timed out"
+            ],
+            "woolloomooloo.ecoincore.com:34333": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -782,9 +782,9 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -797,8 +797,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10007": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -2406,9 +2406,9 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2421,8 +2421,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -3991,15 +3991,15 @@
     },
     "ZOMBIE": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "zombie.sirseven.me:10033": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {},

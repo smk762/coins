@@ -3452,27 +3452,9 @@
                 "ws_url": "holland.ecoincore.com:34335"
             },
             {
-                "url": "lenoir.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:34335"
-            },
-            {
-                "url": "mumbai.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "mumbai.ecoincore.com:34335"
-            },
-            {
                 "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "woolloomooloo.ecoincore.com:34335"
             }
         ],
         "is_segwit_on": false,
@@ -3640,6 +3622,17 @@
             },
             {
                 "url": "electrum1.mooo.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.mooo.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -10904,6 +10897,17 @@
             },
             {
                 "url": "electrum1.mooo.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.mooo.com:10001",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -20651,30 +20655,6 @@
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
-    },
-    "ZOMBIE": {
-        "coin": "ZOMBIE",
-        "type": "ZHTLC",
-        "name": "Zombie",
-        "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://zombie.explorer.lordofthechains.com/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "zombie.sirseven.me:10033"
-            }
-        ],
-        "asset": "ZOMBIE"
     },
     "ZINU-BEP20": {
         "coin": "ZINU-BEP20",
