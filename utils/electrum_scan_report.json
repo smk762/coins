@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -17,8 +17,8 @@
                 "Passed"
             ],
             "electrumx-four.artbyte.live:50012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrumx-three.artbyte.live:50012": [
                 false,
@@ -667,14 +667,34 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 2,
+        "electrums_working_all": 8,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 8,
         "tcp": {},
         "ssl": {
+            "chicago.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
             "holland.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "miami.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "mumbai.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "oakland.ecoincore.com:34333": [
                 true,
                 "Passed"
             ],
@@ -682,29 +702,9 @@
                 true,
                 "Passed"
             ],
-            "chicago.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "lenoir.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "miami.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "mumbai.ecoincore.com:34333": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "oakland.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
             "woolloomooloo.ecoincore.com:34333": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
