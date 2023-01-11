@@ -3722,16 +3722,12 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrumx.gemmer.primecoin.org:50011": [
-                true,
-                "Passed"
-            ],
             "electrumx.mainnet.primecoin.org:50011": [
                 true,
                 "Passed"
@@ -3739,6 +3735,10 @@
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx.gemmer.primecoin.org:50011": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3991,15 +3991,15 @@
     },
     "ZOMBIE": {
         "electrums_total_all": 1,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "zombie.sirseven.me:10033": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -4007,11 +4007,11 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrs.electroncash.de:60002": [
@@ -4022,13 +4022,13 @@
                 true,
                 "Passed"
             ],
+            "testnet.bitcoincash.network:60002": [
+                true,
+                "Passed"
+            ],
             "electroncash.de:50004": [
                 false,
                 "[Errno 101] Network is unreachable"
-            ],
-            "testnet.bitcoincash.network:60002": [
-                false,
-                ""
             ]
         },
         "ws": {}
