@@ -12261,16 +12261,8 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -16840,6 +16832,9 @@
         "wallet_only": true,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx.gemmer.primecoin.org:50011"
+            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
