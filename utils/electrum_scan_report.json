@@ -3281,19 +3281,19 @@
     },
     "THC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "1.eu.thc.electrum.dexstats.info:10020": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "2.eu.thc.electrum.dexstats.info:10020": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
