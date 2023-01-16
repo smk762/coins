@@ -1143,14 +1143,6 @@
                         "email": "alamshafil@pm.me"
                     }
                 ]
-            },
-            {
-                "url": "electrum-us.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "alamshafil@pm.me"
-                    }
-                ]
             }
         ]
     },
@@ -16987,31 +16979,6 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
-    "XVC-OLD": {
-        "coin": "XVC-OLD",
-        "type": "UTXO",
-        "name": "VanillaCash (old)",
-        "coinpaprika_id": "xvc-vcash",
-        "coingecko_id": "vcash",
-        "nomics_id": "XVC",
-        "explorer_url": [
-            "https://xvc.freicoin.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "failover.xvc.ewmcx.biz:50001",
-                "protocol": "TCP"
-            }
-        ]
-    },
     "XVC": {
         "coin": "XVC",
         "type": "UTXO",
@@ -17034,10 +17001,6 @@
             {
                 "url": "electrumx1.vanillacash.info:50011",
                 "ws_url": "electrumx1.vanillacash.info:50013"
-            },
-            {
-                "url": "electrumx2.vanillacash.info:50011",
-                "ws_url": "electrumx2.vanillacash.info:50013"
             }
         ]
     },
