@@ -2047,7 +2047,7 @@
             ],
             "electrum.deliverypath.com:50002": [
                 false,
-                "[Errno -2] Name or service not known"
+                "[Errno -5] No address associated with hostname"
             ],
             "electrum.dirtdivas.net:50002": [
                 false,
@@ -2995,37 +2995,37 @@
     },
     "SFUSD": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.cipig.net:10070": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:10070": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:10070": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20070": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:20070": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:20070": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
