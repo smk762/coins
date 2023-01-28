@@ -46,19 +46,19 @@
     },
     "ACTN": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrumx1.actioncoin.com:10001": [
                 true,
                 "Passed"
             ],
             "electrumx2.actioncoin.com:10001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -67,8 +67,8 @@
                 "Passed"
             ],
             "electrumx2.actioncoin.com:30001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2017,7 +2017,7 @@
         "tcp": {
             "electrum.getlynx.io:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
