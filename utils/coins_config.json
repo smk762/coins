@@ -14939,6 +14939,11 @@
                 "ws_url": "electrum.southofheaven.ca:50004"
             },
             {
+                "url": "electrum.terracoin.io:50001",
+                "protocol": "TCP",
+                "ws_url": "electrum.terracoin.io:50004"
+            },
+            {
                 "url": "failover.trc-uis.ewmcx.biz:50006",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -16776,11 +16781,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "blackie.c3-soft.com:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
             {
                 "url": "fulcrum.ergon.network:52138",
                 "protocol": "SSL",
