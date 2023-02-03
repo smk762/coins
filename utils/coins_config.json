@@ -453,6 +453,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -14876,31 +14882,7 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
-                "url": "2.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            },
-            {
-                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
