@@ -1,18 +1,14 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
-            "elec-seeder-two.artbytecoin.org:50012": [
                 true,
                 "Passed"
             ],
@@ -23,6 +19,10 @@
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
+            ],
+            "elec-seeder-two.artbytecoin.org:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -155,9 +155,9 @@
     },
     "AVN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -166,8 +166,8 @@
                 "Passed"
             ],
             "electrum-us.avn.network:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -1052,20 +1052,20 @@
     },
     "DIMI": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
             "electrumx1.diminutivecoin.com:50012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx2.diminutivecoin.com:50012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {
