@@ -9644,6 +9644,11 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum5.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum5.getlynx.io:50004"
+            },
+            {
                 "url": "electrum6.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum6.getlynx.io:50004"
