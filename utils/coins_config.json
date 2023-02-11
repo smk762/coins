@@ -10527,35 +10527,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "MONA": {
-        "coin": "MONA",
-        "type": "UTXO",
-        "name": "MonaCoin",
-        "coinpaprika_id": "mona-monacoin",
-        "coingecko_id": "monacoin",
-        "nomics_id": "MONA",
-        "explorer_url": [
-            "https://blockbook.electrum-mona.org/",
-            "https://mona.chainsight.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx.tamami-foundation.org:50001"
-            }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
-    },
     "MORTY": {
         "coin": "MORTY",
         "type": "Smart Chain",
@@ -16766,9 +16737,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.gemmer.primecoin.org:50011"
-            },
-            {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
             {
@@ -20355,6 +20323,50 @@
                 "contact": [
                     {
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            }
+        ]
+    },
+    "USBL": {
+        "coin": "USBL",
+        "type": "UTXO",
+        "name": "Balanced Dollar",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "USBL",
+        "explorer_url": [
+            "https://softbalanced.com:3001/insight/"
+        ],
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "swap.softbalanced.com:50001",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
+                    }
+                ]
+            },
+            {
+                "url": "swap.softbalanced.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
                     }
                 ]
             }
