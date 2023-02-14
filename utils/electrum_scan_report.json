@@ -16,11 +16,11 @@
                 true,
                 "Passed"
             ],
-            "electrumx-four.artbyte.live:50012": [
+            "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
             ],
-            "electrumx-three.artbyte.live:50012": [
+            "electrumx-four.artbyte.live:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -1131,33 +1131,33 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 5,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 1,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {
-            "big-parrot-60.doi.works:50002": [
-                true,
-                "Passed"
-            ],
             "itchy-jellyfish-89.doi.works:50002": [
                 true,
                 "Passed"
             ],
+            "big-parrot-60.doi.works:50002": [
+                false,
+                "[Errno 101] Network is unreachable"
+            ],
             "pink-deer-69.doi.works:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ],
             "ugly-bird-70.doi.works:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {}
