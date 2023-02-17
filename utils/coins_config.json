@@ -449,6 +449,12 @@
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
             },
             {
+                "url": "electrumx-four.artbyte.live:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-four.artbyte.live:50013"
+            },
+            {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -1329,6 +1335,65 @@
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
+    },
+    "AYA": {
+        "coin": "AYA",
+        "type": "UTXO",
+        "name": "Aryacoin",
+        "coinpaprika_id": "aya-aryacoin",
+        "coingecko_id": "aryacoin",
+        "nomics_id": "AYA",
+        "explorer_url": [
+            "https://explorer.aryacoin.io/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum1.aryacoin.io:2052",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "sales@aryacoin.io"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.aryacoin.io:2052",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "sales@aryacoin.io"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.aryacoin.io:2053",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "sales@aryacoin.io"
+                    }
+                ],
+                "ws_url": "electrum1.aryacoin.io:2051"
+            },
+            {
+                "url": "electrum2.aryacoin.io:2053",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "sales@aryacoin.io"
+                    }
+                ],
+                "ws_url": "electrum2.aryacoin.io:2051"
+            }
+        ]
     },
     "BABYDOGE-BEP20": {
         "coin": "BABYDOGE-BEP20",
@@ -12146,43 +12211,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "PRUX": {
-        "coin": "PRUX",
-        "type": "UTXO",
-        "name": "PRUX",
-        "coinpaprika_id": "prux-prux-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "PRUX",
-        "explorer_url": [
-            "https://explorer.prux.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
-                "url": "txserver.live:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "txserver.live:50002",
-                "protocol": "SSL"
-            }
-        ]
-    },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
         "type": "BEP-20",
@@ -16783,6 +16811,11 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "blackie.c3-soft.com:52138",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
             {
                 "url": "fulcrum.ergon.network:52138",
                 "protocol": "SSL",
