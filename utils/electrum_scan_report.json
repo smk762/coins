@@ -1230,18 +1230,14 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "holland.ecoincore.com:11017": [
-                true,
-                "Passed"
-            ],
-            "lenoir.ecoincore.com:11017": [
                 true,
                 "Passed"
             ],
@@ -1254,6 +1250,10 @@
                 "[Errno 111] Connection refused"
             ],
             "electrum5.egulden.org:11017": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "lenoir.ecoincore.com:11017": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -1516,16 +1516,12 @@
     },
     "GRS": {
         "electrums_total_all": 5,
-        "electrums_working_all": 5,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 5,
-        "electrums_working_tcp": 5,
+        "electrums_working_tcp": 4,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum10.groestlcoin.org:50001": [
-                true,
-                "Passed"
-            ],
             "electrum11.groestlcoin.org:50001": [
                 true,
                 "Passed"
@@ -1541,6 +1537,10 @@
             "electrum14.groestlcoin.org:50001": [
                 true,
                 "Passed"
+            ],
+            "electrum10.groestlcoin.org:50001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2536,29 +2536,29 @@
     },
     "NYAN": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.live:50020": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50020": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50022": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50022": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
