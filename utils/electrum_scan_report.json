@@ -3515,7 +3515,7 @@
         "tcp": {
             "electrum01-vrm.vericonomy.com:50001": [
                 false,
-                "[Errno 104] Connection reset by peer"
+                ""
             ]
         },
         "ssl": {},
