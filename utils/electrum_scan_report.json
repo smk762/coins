@@ -1,14 +1,18 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 4,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
+                true,
+                "Passed"
+            ],
+            "elec-seeder-two.artbytecoin.org:50012": [
                 true,
                 "Passed"
             ],
@@ -19,10 +23,6 @@
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
-            ],
-            "elec-seeder-two.artbytecoin.org:50012": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -596,16 +596,16 @@
     },
     "BTX": {
         "electrums_total_all": 1,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "btx-electrumx.coinsmunity.com:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2361,11 +2361,11 @@
     },
     "NAV": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 4,
         "tcp": {},
         "ssl": {
             "electrum.nav.community:40002": [
@@ -2376,13 +2376,13 @@
                 true,
                 "Passed"
             ],
-            "electrum4.nav.community:40002": [
+            "electrum3.nav.community:40002": [
                 true,
                 "Passed"
             ],
-            "electrum3.nav.community:40002": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrum4.nav.community:40002": [
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2536,29 +2536,29 @@
     },
     "NYAN": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.live:50020": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50020": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50022": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50022": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
