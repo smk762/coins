@@ -1021,11 +1021,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
-            },
-            {
-                "url": "lenoir.ecoincore.com:12343",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
@@ -11920,6 +11915,100 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "SFUSD": {
+        "coin": "SFUSD",
+        "type": "UTXO",
+        "name": "SmartUSD",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://explorer.sfusd.kmd.sh/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10070",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30070"
+            },
+            {
+                "url": "electrum2.cipig.net:10070",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30070"
+            },
+            {
+                "url": "electrum3.cipig.net:10070",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30070"
+            },
+            {
+                "url": "electrum1.cipig.net:20070",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20070",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20070",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "forex_id": "USD"
     },
     "PND": {
         "coin": "PND",
