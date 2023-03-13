@@ -1386,15 +1386,15 @@
     },
     "FLUX": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
         "electrums_working_ssl": 1,
         "tcp": {
             "electrumx2.runonflux.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -2666,21 +2666,21 @@
         "electrums_total_ssl": 2,
         "electrums_working_ssl": 1,
         "tcp": {
-            "txserver.live:50001": [
+            "electrumx.live:50010": [
                 true,
                 "Passed"
             ],
-            "electrumx.live:50010": [
+            "txserver.live:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "txserver.live:50002": [
+            "electrumx.live:50012": [
                 true,
                 "Passed"
             ],
-            "electrumx.live:50012": [
+            "txserver.live:50002": [
                 false,
                 "[Errno 111] Connection refused"
             ]
