@@ -1230,17 +1230,13 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "holland.ecoincore.com:11017": [
-                true,
-                "Passed"
-            ],
             "lenoir.ecoincore.com:11017": [
                 true,
                 "Passed"
@@ -1254,6 +1250,10 @@
                 "[Errno 111] Connection refused"
             ],
             "electrum5.egulden.org:11017": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "holland.ecoincore.com:11017": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -2406,9 +2406,9 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2416,13 +2416,13 @@
                 true,
                 "Passed"
             ],
-            "electrum1.mooo.com:10001": [
-                true,
-                "Passed"
-            ],
             "electrum2.mooo.com:10001": [
                 true,
                 "Passed"
+            ],
+            "electrum1.mooo.com:10001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3795,17 +3795,17 @@
     },
     "XVC-OLD": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "failover.xvc.ewmcx.biz:50001": [
-                true,
-                "Passed"
-            ],
             "electrumx.xvc.ewmcx.org:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "failover.xvc.ewmcx.biz:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
