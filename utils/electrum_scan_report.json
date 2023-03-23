@@ -3704,13 +3704,13 @@
         "tcp": {
             "lenoir.ecoincore.com:10891": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "lenoir.ecoincore.com:10892": [
                 false,
-                "_ssl.c:980: The handshake operation timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
