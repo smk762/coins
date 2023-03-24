@@ -363,16 +363,12 @@
     },
     "BLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
-            "electrum1.blackcoin.nl:10001": [
-                true,
-                "Passed"
-            ],
             "electrum2.blackcoin.nl:20001": [
                 true,
                 "Passed"
@@ -380,13 +376,13 @@
             "electrum3.blackcoin.nl:30001": [
                 true,
                 "Passed"
+            ],
+            "electrum1.blackcoin.nl:10001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "electrum1.blackcoin.nl:10002": [
-                true,
-                "Passed"
-            ],
             "electrum2.blackcoin.nl:20002": [
                 true,
                 "Passed"
@@ -394,6 +390,10 @@
             "electrum3.blackcoin.nl:30002": [
                 true,
                 "Passed"
+            ],
+            "electrum1.blackcoin.nl:10002": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -782,12 +782,16 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
+            "electrum.shorelinecrypto.com:10007": [
+                true,
+                "Passed"
+            ],
             "electrum1.mooo.com:10007": [
                 true,
                 "Passed"
@@ -795,10 +799,6 @@
             "electrum2.mooo.com:10007": [
                 true,
                 "Passed"
-            ],
-            "electrum.shorelinecrypto.com:10007": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2055,7 +2055,7 @@
             ],
             "electrum7.getlynx.io:50002": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2406,12 +2406,16 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
+            "electrum.shorelinecrypto.com:10001": [
+                true,
+                "Passed"
+            ],
             "electrum1.mooo.com:10001": [
                 true,
                 "Passed"
@@ -2419,10 +2423,6 @@
             "electrum2.mooo.com:10001": [
                 true,
                 "Passed"
-            ],
-            "electrum.shorelinecrypto.com:10001": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3597,29 +3597,29 @@
     },
     "WHIVE": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrumx1.cointest.com:50001": [
-                false,
-                "[Errno -2] Name or service not known"
+                true,
+                "Passed"
             ],
             "electrumx2.cointest.com:50001": [
-                false,
-                "[Errno -2] Name or service not known"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrumx1.cointest.com:50002": [
-                false,
-                "[Errno -2] Name or service not known"
+                true,
+                "Passed"
             ],
             "electrumx2.cointest.com:50002": [
-                false,
-                "[Errno -2] Name or service not known"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -3696,21 +3696,21 @@
     },
     "XMY": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "lenoir.ecoincore.com:10891": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "lenoir.ecoincore.com:10892": [
-                false,
-                "_ssl.c:980: The handshake operation timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {
