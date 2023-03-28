@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -21,8 +21,8 @@
                 "Passed"
             ],
             "electrumx-three.artbyte.live:50012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3515,7 +3515,7 @@
         "tcp": {
             "electrum01-vrm.vericonomy.com:50001": [
                 false,
-                "[Errno 104] Connection reset by peer"
+                ""
             ]
         },
         "ssl": {},
