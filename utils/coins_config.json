@@ -2143,6 +2143,14 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20001",
                 "contact": [
                     {
@@ -2151,12 +2159,15 @@
                 ]
             },
             {
-                "url": "electrum3.blackcoin.nl:30001",
+                "url": "electrum1.blackcoin.nl:10002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.blackcoin.nl:10004"
             },
             {
                 "url": "electrum2.blackcoin.nl:20002",
@@ -2168,17 +2179,6 @@
                     }
                 ],
                 "ws_url": "electrum2.blackcoin.nl:20004"
-            },
-            {
-                "url": "electrum3.blackcoin.nl:30002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "electrum3.blackcoin.nl:30004"
             }
         ],
         "is_segwit_on": false,
@@ -2248,14 +2248,6 @@
                 ]
             },
             {
-                "url": "electrum3.blackcoin.nl:30011",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "electrum1.blackcoin.nl:10012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -2276,17 +2268,6 @@
                     }
                 ],
                 "ws_url": "electrum2.blackcoin.nl:20014"
-            },
-            {
-                "url": "electrum3.blackcoin.nl:30012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "electrum3.blackcoin.nl:30014"
             }
         ],
         "is_segwit_on": false,
@@ -16156,14 +16137,6 @@
                 ]
             },
             {
-                "url": "e3.validitytech.com:11001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "e1.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -16184,17 +16157,6 @@
                     }
                 ],
                 "ws_url": "e2.validitytech.com:11004"
-            },
-            {
-                "url": "e3.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "e3.validitytech.com:11004"
             }
         ]
     },
