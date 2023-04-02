@@ -2043,7 +2043,7 @@
             ],
             "electrum.atechhelp.com:50002": [
                 false,
-                "[Errno -2] Name or service not known"
+                "[Errno -5] No address associated with hostname"
             ],
             "electrum.deliverypath.com:50002": [
                 false,
