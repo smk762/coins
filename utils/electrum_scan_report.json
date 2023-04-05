@@ -1230,13 +1230,21 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 4,
         "tcp": {},
         "ssl": {
+            "electrum1.egulden.org:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum2.egulden.org:50002": [
+                true,
+                "Passed"
+            ],
             "holland.ecoincore.com:11017": [
                 true,
                 "Passed"
@@ -1244,14 +1252,6 @@
             "lenoir.ecoincore.com:11017": [
                 true,
                 "Passed"
-            ],
-            "electrum1.egulden.org:50002": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "electrum2.egulden.org:50002": [
-                false,
-                "[Errno 111] Connection refused"
             ],
             "electrum5.egulden.org:11017": [
                 false,
@@ -3045,15 +3045,15 @@
     },
     "SMART": {
         "electrums_total_all": 6,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 6,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.smartcash.cc:50001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "electrum2.smartcash.cc:50001": [
                 false,
