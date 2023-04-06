@@ -2483,7 +2483,7 @@
             ],
             "electrumx1.nmc.bitclc.net:50001": [
                 false,
-                "[Errno 101] Network is unreachable"
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrumx2.nmc.bitclc.net:50001": [
                 false,
