@@ -3515,7 +3515,7 @@
         "tcp": {
             "electrum01-vrm.vericonomy.com:50001": [
                 false,
-                ""
+                "[Errno 104] Connection reset by peer"
             ]
         },
         "ssl": {},
@@ -3991,15 +3991,15 @@
     },
     "ZOMBIE": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "zombie.sirseven.me:10033": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {},
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[Errno 101] Network is unreachable"
+                "_ssl.c:980: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
