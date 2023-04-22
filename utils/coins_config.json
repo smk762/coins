@@ -437,12 +437,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -10930,6 +10924,17 @@
                         "discord": "honglu69#5911"
                     }
                 ]
+            },
+            {
+                "url": "electrum2.mooo.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
             }
         ]
     },
@@ -12245,7 +12250,15 @@
                 "protocol": "TCP"
             },
             {
+                "url": "txserver.live:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.live:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50002",
                 "protocol": "SSL"
             }
         ]
@@ -16349,20 +16362,6 @@
                 ]
             },
             {
-                "url": "el2.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ]
-            },
-            {
                 "url": "el0.verus.io:17486",
                 "protocol": "SSL",
                 "contact": [
@@ -16395,23 +16394,6 @@
                 ],
                 "disable_cert_verification": false,
                 "ws_url": "el1.verus.io:17488"
-            },
-            {
-                "url": "el2.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false,
-                "ws_url": "el2.verus.io:17488"
             }
         ],
         "asset": "VRSC"
