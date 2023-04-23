@@ -16313,6 +16313,41 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
+    "VRM": {
+        "coin": "VRM",
+        "type": "UTXO",
+        "name": "Verium Reserve",
+        "coinpaprika_id": "vrm-veriumreserve",
+        "coingecko_id": "test-coin",
+        "nomics_id": "VRM",
+        "explorer_url": [
+            "https://explorer-vrm.vericonomy.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum01-vrm.vericonomy.com:50001",
+                "contact": [
+                    {
+                        "email": "dev@vericoin.info"
+                    },
+                    {
+                        "twitter": "vericonomy"
+                    },
+                    {
+                        "github": "VeriConomy"
+                    }
+                ]
+            }
+        ]
+    },
     "VRSC": {
         "coin": "VRSC",
         "type": "Smart Chain",
@@ -16362,6 +16397,20 @@
                 ]
             },
             {
+                "url": "el2.verus.io:17485",
+                "contact": [
+                    {
+                        "email": "0x03-ctrlc@protonmail.com"
+                    },
+                    {
+                        "discord": "0x03#8822"
+                    },
+                    {
+                        "keybase": "bloodynora"
+                    }
+                ]
+            },
+            {
                 "url": "el0.verus.io:17486",
                 "protocol": "SSL",
                 "contact": [
@@ -16394,6 +16443,23 @@
                 ],
                 "disable_cert_verification": false,
                 "ws_url": "el1.verus.io:17488"
+            },
+            {
+                "url": "el2.verus.io:17486",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "0x03-ctrlc@protonmail.com"
+                    },
+                    {
+                        "discord": "0x03#8822"
+                    },
+                    {
+                        "keybase": "bloodynora"
+                    }
+                ],
+                "disable_cert_verification": false,
+                "ws_url": "el2.verus.io:17488"
             }
         ],
         "asset": "VRSC"

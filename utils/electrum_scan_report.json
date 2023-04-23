@@ -3507,15 +3507,15 @@
     },
     "VRM": {
         "electrums_total_all": 1,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrum01-vrm.vericonomy.com:50001": [
-                false,
-                "[Errno 104] Connection reset by peer"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -3523,11 +3523,11 @@
     },
     "VRSC": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "el0.verus.io:17485": [
                 true,
@@ -3538,8 +3538,8 @@
                 "Passed"
             ],
             "el2.verus.io:17485": [
-                false,
-                "[Errno -2] Name or service not known"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -3552,8 +3552,8 @@
                 "Passed"
             ],
             "el2.verus.io:17486": [
-                false,
-                "[Errno -2] Name or service not known"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
+                "_ssl.c:980: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
