@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 4,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -21,8 +21,8 @@
                 "Passed"
             ],
             "electrumx-three.artbyte.live:50012": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1131,11 +1131,11 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 5,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
                 true,
@@ -1147,10 +1147,6 @@
                 true,
                 "Passed"
             ],
-            "itchy-jellyfish-89.doi.works:50002": [
-                true,
-                "Passed"
-            ],
             "pink-deer-69.doi.works:50002": [
                 true,
                 "Passed"
@@ -1158,6 +1154,10 @@
             "ugly-bird-70.doi.works:50002": [
                 true,
                 "Passed"
+            ],
+            "itchy-jellyfish-89.doi.works:50002": [
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {}
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
+                "_ssl.c:980: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
