@@ -3281,19 +3281,19 @@
     },
     "THC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "2.eu.thc.electrum.dexstats.info:10020": [
+            "1.eu.thc.electrum.dexstats.info:10020": [
                 true,
                 "Passed"
             ],
-            "1.eu.thc.electrum.dexstats.info:10020": [
-                false,
-                "[Errno 111] Connection refused"
+            "2.eu.thc.electrum.dexstats.info:10020": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -4007,13 +4007,17 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
+            "tbch.loping.net:60002": [
+                true,
+                "Passed"
+            ],
             "testnet.bitcoincash.network:60002": [
                 true,
                 "Passed"
@@ -4025,47 +4029,43 @@
             "electrs.electroncash.de:60002": [
                 false,
                 ""
-            ],
-            "tbch.loping.net:60002": [
-                false,
-                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {}
     },
     "tBLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.blackcoin.nl:10011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.blackcoin.nl:20011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.blackcoin.nl:30011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrum1.blackcoin.nl:10012": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.blackcoin.nl:20012": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.blackcoin.nl:30012": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
