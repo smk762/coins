@@ -3281,9 +3281,9 @@
     },
     "THC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -3292,8 +3292,8 @@
                 "Passed"
             ],
             "2.eu.thc.electrum.dexstats.info:10020": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:980: The handshake operation timed out"
+                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
