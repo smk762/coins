@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -21,8 +21,8 @@
                 "Passed"
             ],
             "electrumx-three.artbyte.live:50012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1931,7 +1931,7 @@
         "tcp": {
             "188.166.117.139:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
@@ -3589,7 +3589,7 @@
             ],
             "electrumx3.widecoin.org:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:980: The handshake operation timed out"
+                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
