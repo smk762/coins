@@ -2487,11 +2487,11 @@
             ],
             "electrumx2.nmc.bitclc.net:50001": [
                 false,
-                "[Errno 101] Network is unreachable"
+                "timed out"
             ],
             "electrumx3.nmc.bitclc.net:50001": [
                 false,
-                "[Errno 101] Network is unreachable"
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrumx4.nmc.bitclc.net:50001": [
                 false,
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
+                "_ssl.c:980: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
