@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 4,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -21,8 +21,8 @@
                 "Passed"
             ],
             "electrumx-three.artbyte.live:50012": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -872,23 +872,23 @@
     },
     "DASH": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10061": [
-                true,
-                "Passed"
-            ],
-            "electrum2.cipig.net:10061": [
                 true,
                 "Passed"
             ],
             "electrum3.cipig.net:10061": [
                 true,
                 "Passed"
+            ],
+            "electrum2.cipig.net:10061": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -896,13 +896,13 @@
                 true,
                 "Passed"
             ],
-            "electrum2.cipig.net:20061": [
-                true,
-                "Passed"
-            ],
             "electrum3.cipig.net:20061": [
                 true,
                 "Passed"
+            ],
+            "electrum2.cipig.net:20061": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1164,15 +1164,15 @@
     },
     "DP": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "1.eu.dp.electrum.dexstats.info:10021": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
