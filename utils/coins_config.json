@@ -10496,6 +10496,9 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "103.125.218.246:50001"
+            },
+            {
                 "url": "electrumx.tamami-foundation.org:50001"
             }
         ],
