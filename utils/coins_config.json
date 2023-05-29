@@ -5681,12 +5681,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "holland.ecoincore.com:11019"
-            },
-            {
-                "url": "lenoir.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -16842,9 +16836,6 @@
         "electrum": [
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
-            },
-            {
-                "url": "electrumx.primecoin.org:50001"
             }
         ]
     },

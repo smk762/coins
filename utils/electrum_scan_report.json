@@ -1230,11 +1230,11 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
@@ -1249,13 +1249,13 @@
                 true,
                 "Passed"
             ],
-            "lenoir.ecoincore.com:11017": [
-                true,
-                "Passed"
-            ],
             "electrum5.egulden.org:11017": [
                 false,
                 "[Errno 111] Connection refused"
+            ],
+            "lenoir.ecoincore.com:11017": [
+                false,
+                "timed out"
             ]
         },
         "ws": {
@@ -3722,9 +3722,9 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -3732,11 +3732,11 @@
                 true,
                 "Passed"
             ],
-            "electrumx.primecoin.org:50001": [
-                true,
-                "Passed"
-            ],
             "electrumx.gemmer.primecoin.org:50011": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrumx.primecoin.org:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
+                "_ssl.c:980: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
