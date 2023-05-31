@@ -2536,29 +2536,29 @@
     },
     "NYAN": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.live:50020": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "txserver.live:50020": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {
             "electrumx.live:50022": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "txserver.live:50022": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ws": {}
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:980: The handshake operation timed out"
+                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
