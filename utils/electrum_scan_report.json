@@ -1386,11 +1386,11 @@
     },
     "FLUX": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrumx2.runonflux.io:50001": [
                 true,
@@ -1399,8 +1399,8 @@
         },
         "ssl": {
             "electrumx.runonflux.io:50002": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3722,9 +3722,9 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -3732,11 +3732,11 @@
                 true,
                 "Passed"
             ],
-            "electrumx.gemmer.primecoin.org:50011": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "electrumx.primecoin.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx.gemmer.primecoin.org:50011": [
                 false,
                 "[Errno 111] Connection refused"
             ]
