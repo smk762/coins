@@ -667,11 +667,11 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 7,
+        "electrums_working_all": 8,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 7,
+        "electrums_working_ssl": 8,
         "tcp": {},
         "ssl": {
             "chicago.ecoincore.com:34333": [
@@ -690,6 +690,10 @@
                 true,
                 "Passed"
             ],
+            "mumbai.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
             "oakland.ecoincore.com:34333": [
                 true,
                 "Passed"
@@ -701,10 +705,6 @@
             "woolloomooloo.ecoincore.com:34333": [
                 true,
                 "Passed"
-            ],
-            "mumbai.ecoincore.com:34333": [
-                false,
-                "timed out"
             ]
         },
         "ws": {
@@ -806,15 +806,15 @@
     },
     "CLC": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.cryptocollider.com:10001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
