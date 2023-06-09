@@ -1255,7 +1255,7 @@
             ],
             "lenoir.ecoincore.com:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2689,23 +2689,23 @@
     },
     "QTUM": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10050": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10050": [
                 true,
                 "Passed"
             ],
             "electrum3.cipig.net:10050": [
                 true,
                 "Passed"
-            ],
-            "electrum2.cipig.net:10050": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -2713,13 +2713,13 @@
                 true,
                 "Passed"
             ],
-            "electrum3.cipig.net:20050": [
+            "electrum2.cipig.net:20050": [
                 true,
                 "Passed"
             ],
-            "electrum2.cipig.net:20050": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrum3.cipig.net:20050": [
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
+                "_ssl.c:980: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
