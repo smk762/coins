@@ -806,15 +806,15 @@
     },
     "CLC": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.cryptocollider.com:10001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
@@ -1131,11 +1131,11 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 5,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
                 true,
@@ -1143,10 +1143,6 @@
             ]
         },
         "ssl": {
-            "big-parrot-60.doi.works:50002": [
-                true,
-                "Passed"
-            ],
             "itchy-jellyfish-89.doi.works:50002": [
                 true,
                 "Passed"
@@ -1158,6 +1154,10 @@
             "ugly-bird-70.doi.works:50002": [
                 true,
                 "Passed"
+            ],
+            "big-parrot-60.doi.works:50002": [
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {}
