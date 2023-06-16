@@ -2648,10 +2648,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "66.172.33.175:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "bsty-bkp.coinmunity.gold:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -5008,29 +5004,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrumx1.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    },
-                    {
-                        "twitter": "coin_dimi"
-                    },
-                    {
-                        "reddit": "DiminutiveCoin_DIMI"
-                    },
-                    {
-                        "github": "MadCatMining"
-                    },
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "electrumx1.diminutivecoin.com:50013"
-            },
             {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
