@@ -1230,11 +1230,11 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
@@ -1245,10 +1245,6 @@
                 true,
                 "Passed"
             ],
-            "holland.ecoincore.com:11017": [
-                true,
-                "Passed"
-            ],
             "lenoir.ecoincore.com:11017": [
                 true,
                 "Passed"
@@ -1256,6 +1252,10 @@
             "electrum5.egulden.org:11017": [
                 false,
                 "[Errno 111] Connection refused"
+            ],
+            "holland.ecoincore.com:11017": [
+                false,
+                "timed out"
             ]
         },
         "ws": {
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:980: The handshake operation timed out"
+                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
             ],
             "electrs.electroncash.de:60002": [
                 false,

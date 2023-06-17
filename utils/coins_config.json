@@ -5666,12 +5666,6 @@
                 "ws_url": "electrum2.egulden.org:50004"
             },
             {
-                "url": "holland.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "holland.ecoincore.com:11019"
-            },
-            {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
