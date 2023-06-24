@@ -576,19 +576,19 @@
     },
     "BTE": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx6.scalaris.info:20001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrumx7.scalaris.info:20001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1255,7 +1255,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
+                "_ssl.c:980: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
