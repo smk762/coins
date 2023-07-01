@@ -2727,15 +2727,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum1.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "ws_url": "electrum1.btcz.rocks:50004"
-            },
-            {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
                     {
@@ -14573,6 +14564,36 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
+    "THC": {
+        "coin": "THC",
+        "type": "Smart Chain",
+        "name": "HempCoin",
+        "coinpaprika_id": "thc-hempcoin",
+        "coingecko_id": "hempcoin-thc",
+        "nomics_id": "THC",
+        "explorer_url": [
+            "https://thc.explorer.dexstats.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "1.eu.thc.electrum.dexstats.info:10020",
+                "contact": [
+                    {
+                        "discord": "CHMEX#0686"
+                    }
+                ]
+            }
+        ],
+        "asset": "THC"
+    },
     "THC-BEP20": {
         "coin": "THC-BEP20",
         "type": "BEP-20",
@@ -17453,6 +17474,11 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx2.runonflux.io:50001",
+                "protocol": "TCP",
+                "ws_url": "electrumx2.runonflux.io:50004"
+            },
+            {
                 "url": "electrumx.runonflux.io:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -19964,6 +19990,15 @@
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
                     }
                 ]
+            },
+            {
+                "url": "testnet.bitcoincash.network:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
             }
         ]
     },
@@ -20325,7 +20360,15 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.actioncoin.com:10001"
+            },
+            {
                 "url": "electrumx2.actioncoin.com:10001"
+            },
+            {
+                "url": "electrumx1.actioncoin.com:30001",
+                "ws_url": "electrumx1.actioncoin.com:20001",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumx2.actioncoin.com:30001",
