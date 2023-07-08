@@ -5487,6 +5487,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum2.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum2.egulden.org:50004"
+            },
+            {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
