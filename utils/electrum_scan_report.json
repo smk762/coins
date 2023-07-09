@@ -1255,7 +1255,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4020,7 +4020,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:980: The handshake operation timed out"
+                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
