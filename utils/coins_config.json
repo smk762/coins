@@ -4467,6 +4467,99 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
+    "DASH": {
+        "coin": "DASH",
+        "type": "UTXO",
+        "name": "Dash",
+        "coinpaprika_id": "dash-dash",
+        "coingecko_id": "dash",
+        "nomics_id": "DASH",
+        "explorer_url": [
+            "https://blockchair.com/dash/"
+        ],
+        "explorer_tx_url": "transaction/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10061",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30061"
+            },
+            {
+                "url": "electrum2.cipig.net:10061",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30061"
+            },
+            {
+                "url": "electrum3.cipig.net:10061",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30061"
+            },
+            {
+                "url": "electrum1.cipig.net:20061",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20061",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20061",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ]
+    },
     "DDD": {
         "coin": "DDD",
         "type": "ERC-20",
@@ -14421,36 +14514,6 @@
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
-    },
-    "THC": {
-        "coin": "THC",
-        "type": "Smart Chain",
-        "name": "HempCoin",
-        "coinpaprika_id": "thc-hempcoin",
-        "coingecko_id": "hempcoin-thc",
-        "nomics_id": "THC",
-        "explorer_url": [
-            "https://thc.explorer.dexstats.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "1.eu.thc.electrum.dexstats.info:10020",
-                "contact": [
-                    {
-                        "discord": "CHMEX#0686"
-                    }
-                ]
-            }
-        ],
-        "asset": "THC"
     },
     "THC-BEP20": {
         "coin": "THC-BEP20",
