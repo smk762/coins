@@ -9475,32 +9475,6 @@
             "format": "standard"
         }
     },
-    "LYNX": {
-        "coin": "LYNX",
-        "type": "UTXO",
-        "name": "Lynx",
-        "coinpaprika_id": "lynx-lynx",
-        "coingecko_id": "lynx",
-        "nomics_id": "LYNX",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/lynx/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum8.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum8.getlynx.io:50004"
-            }
-        ]
-    },
     "MANA-ERC20": {
         "coin": "MANA-ERC20",
         "type": "ERC-20",
@@ -14494,6 +14468,44 @@
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
+    },
+    "THC": {
+        "coin": "THC",
+        "type": "Smart Chain",
+        "name": "HempCoin",
+        "coinpaprika_id": "thc-hempcoin",
+        "coingecko_id": "hempcoin-thc",
+        "nomics_id": "THC",
+        "explorer_url": [
+            "https://thc.explorer.dexstats.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "1.eu.thc.electrum.dexstats.info:10020",
+                "contact": [
+                    {
+                        "discord": "CHMEX#0686"
+                    }
+                ]
+            },
+            {
+                "url": "2.eu.thc.electrum.dexstats.info:10020",
+                "contact": [
+                    {
+                        "discord": "CHMEX#0686"
+                    }
+                ]
+            }
+        ],
+        "asset": "THC"
     },
     "THC-BEP20": {
         "coin": "THC-BEP20",
