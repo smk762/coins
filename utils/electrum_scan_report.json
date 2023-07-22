@@ -3436,21 +3436,21 @@
     },
     "USBL": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "swap.softbalanced.com:50001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "swap.softbalanced.com:50002": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
