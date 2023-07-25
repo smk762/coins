@@ -9287,10 +9287,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.widecoin.org:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.widecoin.org:50001",
                 "protocol": "TCP"
             }

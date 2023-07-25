@@ -3573,19 +3573,19 @@
     },
     "WCN": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrumx.widecoin.org:50001": [
-                true,
-                "Passed"
-            ],
             "electrumx2.widecoin.org:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx.widecoin.org:50001": [
+                false,
+                "timed out"
             ],
             "electrumx3.widecoin.org:50001": [
                 false,
@@ -4020,7 +4020,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
+                "_ssl.c:980: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
