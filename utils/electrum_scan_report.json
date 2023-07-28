@@ -2233,9 +2233,9 @@
     },
     "MONA": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2248,8 +2248,8 @@
                 "Passed"
             ],
             "electrumx1.monacoin.ninja:50001": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ],
             "electrumx3.monacoin.nl:50001": [
                 false,
@@ -4020,7 +4020,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:980: The handshake operation timed out"
+                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
