@@ -1131,14 +1131,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum-eu.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "alamshafil@pm.me"
-                    }
-                ]
-            },
-            {
                 "url": "electrum-us.avn.network:50001",
                 "contact": [
                     {
@@ -8971,6 +8963,35 @@
             "format": "standard"
         }
     },
+    "LCC": {
+        "coin": "LCC",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "nomics_id": "LCC",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/lcc/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "188.166.117.139:50001",
+                "protocol": "TCP"
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
+    },
     "LDO-ERC20": {
         "coin": "LDO-ERC20",
         "type": "ERC-20",
@@ -9572,6 +9593,16 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum5.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum5.getlynx.io:50004"
+            },
+            {
+                "url": "electrum6.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum6.getlynx.io:50004"
+            },
+            {
                 "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum7.getlynx.io:50004"
@@ -9580,6 +9611,11 @@
                 "url": "electrum8.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum8.getlynx.io:50004"
+            },
+            {
+                "url": "electrum9.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum9.getlynx.io:50004"
             }
         ]
     },
@@ -14645,31 +14681,7 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
-                "url": "2.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            },
-            {
-                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16446,9 +16458,6 @@
         "wallet_only": true,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrumx.mainnet.primecoin.org:50011"
-            },
             {
                 "url": "electrumx.primecoin.org:50001"
             }
