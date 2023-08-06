@@ -1009,6 +1009,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ]
     },
@@ -4998,17 +5003,6 @@
                     }
                 ],
                 "ws_url": "electrumx1.diminutivecoin.com:50013"
-            },
-            {
-                "url": "electrumx2.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    }
-                ],
-                "ws_url": "electrumx2.diminutivecoin.com:50013"
             }
         ]
     },
@@ -14681,7 +14675,31 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16458,6 +16476,9 @@
         "wallet_only": true,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx.mainnet.primecoin.org:50011"
+            },
             {
                 "url": "electrumx.primecoin.org:50001"
             }
@@ -19996,6 +20017,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
