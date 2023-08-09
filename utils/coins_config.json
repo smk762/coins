@@ -1136,6 +1136,14 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum-eu.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "alamshafil@pm.me"
+                    }
+                ]
+            },
+            {
                 "url": "electrum-us.avn.network:50001",
                 "contact": [
                     {
@@ -3628,17 +3636,6 @@
             },
             {
                 "url": "electrum1.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.mooo.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -10501,9 +10498,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "103.125.218.246:50001"
-            },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
             },
@@ -20049,6 +20043,50 @@
                 "contact": [
                     {
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            }
+        ]
+    },
+    "USBL": {
+        "coin": "USBL",
+        "type": "UTXO",
+        "name": "Balanced Dollar",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "USBL",
+        "explorer_url": [
+            "https://softbalanced.com:3001/insight/"
+        ],
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "swap.softbalanced.com:50001",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
+                    }
+                ]
+            },
+            {
+                "url": "swap.softbalanced.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
                     }
                 ]
             }

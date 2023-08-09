@@ -155,19 +155,19 @@
     },
     "AVN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum-us.avn.network:50001": [
+            "electrum-eu.avn.network:50001": [
                 true,
                 "Passed"
             ],
-            "electrum-eu.avn.network:50001": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrum-us.avn.network:50001": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -782,9 +782,9 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -797,8 +797,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10007": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {},
@@ -2233,16 +2233,12 @@
     },
     "MONA": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "103.125.218.246:50001": [
-                true,
-                "Passed"
-            ],
             "electrumx.tamami-foundation.org:50001": [
                 true,
                 "Passed"
@@ -2250,6 +2246,10 @@
             "electrumx1.monacoin.ninja:50001": [
                 true,
                 "Passed"
+            ],
+            "103.125.218.246:50001": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrumx3.monacoin.nl:50001": [
                 false,
@@ -3436,21 +3436,21 @@
     },
     "USBL": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "swap.softbalanced.com:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "swap.softbalanced.com:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
+                "_ssl.c:980: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
