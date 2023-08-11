@@ -3436,21 +3436,21 @@
     },
     "USBL": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "swap.softbalanced.com:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "swap.softbalanced.com:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "TLS/SSL connection has been closed (EOF) (_ssl.c:997)"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
