@@ -9467,11 +9467,6 @@
                 "ws_url": "electrum7.getlynx.io:50004"
             },
             {
-                "url": "electrum8.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum8.getlynx.io:50004"
-            },
-            {
                 "url": "electrum9.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum9.getlynx.io:50004"
@@ -16366,6 +16361,11 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "blackie.c3-soft.com:52138",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "fulcrum.ergon.network:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -20004,7 +20004,36 @@
                 ]
             },
             {
+                "url": "electrumx2.cointest.com:50001",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.cointest.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -20073,6 +20102,19 @@
                     },
                     {
                         "twitter": "bytesofman"
+                    }
+                ]
+            },
+            {
+                "url": "fulcrum.pepipierre.fr:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "contact@e.cash"
+                    },
+                    {
+                        "twitter": "ecashofficial"
                     }
                 ]
             }
