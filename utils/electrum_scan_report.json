@@ -688,7 +688,7 @@
             ],
             "holland.ecoincore.com:34333": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "lenoir.ecoincore.com:34333": [
                 false,
@@ -3131,19 +3131,19 @@
     },
     "SPACE": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "electrum1.cipig.net:10011": [
-                true,
-                "Passed"
-            ],
             "electrum2.cipig.net:10011": [
                 true,
                 "Passed"
+            ],
+            "electrum1.cipig.net:10011": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:10011": [
                 false,
@@ -3151,13 +3151,13 @@
             ]
         },
         "ssl": {
-            "electrum1.cipig.net:20011": [
-                true,
-                "Passed"
-            ],
             "electrum2.cipig.net:20011": [
                 true,
                 "Passed"
+            ],
+            "electrum1.cipig.net:20011": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:20011": [
                 false,
