@@ -11972,16 +11972,8 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -13602,53 +13594,6 @@
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
-    },
-    "SPACE": {
-        "coin": "SPACE",
-        "type": "Smart Chain",
-        "name": "Spacecoin",
-        "coinpaprika_id": "space-spacecoin7367",
-        "coingecko_id": "test-coin",
-        "nomics_id": "SPACE7",
-        "explorer_url": [
-            "https://explorer.spaceworks.co/",
-            "https://space.explorer.dexstats.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum2.cipig.net:10011",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30011"
-            },
-            {
-                "url": "electrum2.cipig.net:20011",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ],
-        "asset": "SPACE"
     },
     "SRM-ERC20": {
         "coin": "SRM-ERC20",
