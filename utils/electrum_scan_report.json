@@ -2544,21 +2544,21 @@
         "tcp": {
             "electrumx.live:50020": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50020": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50022": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50022": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -2660,29 +2660,29 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrumx.live:50010": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ],
             "txserver.live:50001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrumx.live:50012": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ],
             "txserver.live:50002": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
