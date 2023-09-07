@@ -84,29 +84,29 @@
     },
     "ARRR": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "node1.chainkeeper.pro:10032": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "node1.chainkeeper.pro:10132": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {
             "node1.chainkeeper.pro:20032": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "node1.chainkeeper.pro:20132": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ws": {
@@ -667,18 +667,14 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "mumbai.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
-            "seattle.ecoincore.com:34333": [
                 true,
                 "Passed"
             ],
@@ -699,6 +695,10 @@
                 "timed out"
             ],
             "oakland.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ],
+            "seattle.ecoincore.com:34333": [
                 false,
                 "timed out"
             ],
