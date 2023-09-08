@@ -313,37 +313,37 @@
     },
     "BET": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.cipig.net:10012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:10012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:10012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:20012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:20012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -667,42 +667,42 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 1,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 6,
         "tcp": {},
         "ssl": {
-            "mumbai.ecoincore.com:34333": [
+            "chicago.ecoincore.com:34333": [
                 true,
                 "Passed"
             ],
-            "chicago.ecoincore.com:34333": [
-                false,
-                "timed out"
+            "lenoir.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "miami.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "oakland.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "seattle.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "woolloomooloo.ecoincore.com:34333": [
+                true,
+                "Passed"
             ],
             "holland.ecoincore.com:34333": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
-            "lenoir.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "miami.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "oakland.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "seattle.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "woolloomooloo.ecoincore.com:34333": [
+            "mumbai.ecoincore.com:34333": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -822,37 +822,37 @@
     },
     "CRYPTO": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10008": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:10008": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:10008": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20008": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:20008": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:20008": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2133,37 +2133,37 @@
     },
     "MESH": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.cipig.net:10016": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:10016": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:10016": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20016": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:20016": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:20016": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2565,37 +2565,37 @@
     },
     "PANGEA": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.cipig.net:10010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:10010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:10010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:20010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:20010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3131,37 +3131,37 @@
     },
     "SPACE": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:10011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:10011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:20011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:20011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3941,37 +3941,37 @@
     },
     "ZILLA": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.cipig.net:10028": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:10028": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:10028": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20028": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:20028": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:20028": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
