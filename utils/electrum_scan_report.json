@@ -3457,16 +3457,12 @@
     },
     "VAL": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
-            "e1.validitytech.com:11001": [
-                true,
-                "Passed"
-            ],
             "e2.validitytech.com:11001": [
                 true,
                 "Passed"
@@ -3474,13 +3470,13 @@
             "e3.validitytech.com:11001": [
                 true,
                 "Passed"
+            ],
+            "e1.validitytech.com:11001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "e1.validitytech.com:11002": [
-                true,
-                "Passed"
-            ],
             "e2.validitytech.com:11002": [
                 true,
                 "Passed"
@@ -3488,6 +3484,10 @@
             "e3.validitytech.com:11002": [
                 true,
                 "Passed"
+            ],
+            "e1.validitytech.com:11002": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
