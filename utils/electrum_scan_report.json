@@ -1230,14 +1230,18 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrum2.egulden.org:50002": [
+                true,
+                "Passed"
+            ],
+            "holland.ecoincore.com:11017": [
                 true,
                 "Passed"
             ],
@@ -1250,10 +1254,6 @@
                 "[Errno 111] Connection refused"
             ],
             "electrum5.egulden.org:11017": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "holland.ecoincore.com:11017": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
