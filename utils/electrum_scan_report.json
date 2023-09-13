@@ -4024,7 +4024,7 @@
             ],
             "electrs.electroncash.de:60002": [
                 false,
-                "[Errno 101] Network is unreachable"
+                ""
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
