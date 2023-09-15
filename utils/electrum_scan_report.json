@@ -1230,11 +1230,11 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrum2.egulden.org:50002": [
@@ -1245,10 +1245,6 @@
                 true,
                 "Passed"
             ],
-            "lenoir.ecoincore.com:11017": [
-                true,
-                "Passed"
-            ],
             "electrum1.egulden.org:50002": [
                 false,
                 "[Errno 111] Connection refused"
@@ -1256,6 +1252,10 @@
             "electrum5.egulden.org:11017": [
                 false,
                 "[Errno 111] Connection refused"
+            ],
+            "lenoir.ecoincore.com:11017": [
+                false,
+                "timed out"
             ]
         },
         "ws": {
@@ -4020,7 +4020,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
