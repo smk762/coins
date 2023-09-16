@@ -1255,7 +1255,7 @@
             ],
             "lenoir.ecoincore.com:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2660,19 +2660,19 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrumx.live:50010": [
                 true,
                 "Passed"
             ],
             "txserver.live:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -2681,8 +2681,8 @@
                 "Passed"
             ],
             "txserver.live:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -3301,19 +3301,19 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "1.eu.tokel.electrum.dexstats.info:10077": [
                 true,
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -3322,8 +3322,8 @@
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:11077": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4020,11 +4020,11 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
-                ""
+                "[Errno 101] Network is unreachable"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
