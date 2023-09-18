@@ -1052,20 +1052,20 @@
     },
     "DIMI": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "electrumx2.diminutivecoin.com:50012": [
+            "electrumx1.diminutivecoin.com:50012": [
                 true,
                 "Passed"
             ],
-            "electrumx1.diminutivecoin.com:50012": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrumx2.diminutivecoin.com:50012": [
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2495,7 +2495,7 @@
             ],
             "electrumx4.nmc.bitclc.net:50001": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
+                "[Errno 101] Network is unreachable"
             ],
             "nmc.bitcoins.sk:50001": [
                 false,
