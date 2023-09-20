@@ -122,11 +122,11 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
@@ -138,8 +138,8 @@
                 "Passed"
             ],
             "lenoir.ecoincore.com:12343": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -667,44 +667,44 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 0,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 6,
         "tcp": {},
         "ssl": {
             "chicago.ecoincore.com:34333": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "miami.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "oakland.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "seattle.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "woolloomooloo.ecoincore.com:34333": [
+                true,
+                "Passed"
             ],
             "holland.ecoincore.com:34333": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
-            ],
-            "lenoir.ecoincore.com:34333": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
-            ],
-            "miami.ecoincore.com:34333": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                "timed out"
             ],
             "mumbai.ecoincore.com:34333": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
-            ],
-            "oakland.ecoincore.com:34333": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
-            ],
-            "seattle.ecoincore.com:34333": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
-            ],
-            "woolloomooloo.ecoincore.com:34333": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1230,14 +1230,18 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrum2.egulden.org:50002": [
+                true,
+                "Passed"
+            ],
+            "holland.ecoincore.com:11017": [
                 true,
                 "Passed"
             ],
@@ -1249,13 +1253,9 @@
                 false,
                 "[Errno 111] Connection refused"
             ],
-            "holland.ecoincore.com:11017": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
-            ],
             "lenoir.ecoincore.com:11017": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
+                "timed out"
             ]
         },
         "ws": {
@@ -3696,21 +3696,21 @@
     },
     "XMY": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "lenoir.ecoincore.com:10891": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "lenoir.ecoincore.com:10892": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4020,7 +4020,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
