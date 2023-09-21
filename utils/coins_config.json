@@ -10169,9 +10169,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
                 "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
@@ -14160,7 +14157,31 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
