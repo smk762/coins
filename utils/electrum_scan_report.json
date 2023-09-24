@@ -1255,7 +1255,7 @@
             ],
             "lenoir.ecoincore.com:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
