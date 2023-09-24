@@ -965,11 +965,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
-            },
-            {
-                "url": "lenoir.ecoincore.com:12343",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
@@ -11550,6 +11545,43 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
+    "PRUX": {
+        "coin": "PRUX",
+        "type": "UTXO",
+        "name": "PRUX",
+        "coinpaprika_id": "prux-prux-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "PRUX",
+        "explorer_url": [
+            "https://explorer.prux.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
+                "url": "txserver.live:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL"
+            }
+        ]
+    },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
         "type": "BEP-20",
@@ -19353,6 +19385,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "electroncash.de:50004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",

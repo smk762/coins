@@ -122,11 +122,11 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
@@ -138,8 +138,8 @@
                 "Passed"
             ],
             "lenoir.ecoincore.com:12343": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2544,21 +2544,21 @@
         "tcp": {
             "electrumx.live:50020": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50020": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50022": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50022": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -2660,29 +2660,29 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrumx.live:50010": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ],
             "txserver.live:50001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrumx.live:50012": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ],
             "txserver.live:50002": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -3929,7 +3929,7 @@
         "ssl": {
             "zeta-seed-c.zetacoin.tech:50012": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4007,13 +4007,17 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
+            "electroncash.de:50004": [
+                true,
+                "Passed"
+            ],
             "electrs.electroncash.de:60002": [
                 true,
                 "Passed"
@@ -4021,10 +4025,6 @@
             "tbch.loping.net:60002": [
                 true,
                 "Passed"
-            ],
-            "electroncash.de:50004": [
-                false,
-                "_ssl.c:990: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
