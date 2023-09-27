@@ -3436,33 +3436,37 @@
     },
     "USBL": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "swap.softbalanced.com:50001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {
             "swap.softbalanced.com:50002": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ws": {}
     },
     "VAL": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
+            "e1.validitytech.com:11001": [
+                true,
+                "Passed"
+            ],
             "e2.validitytech.com:11001": [
                 true,
                 "Passed"
@@ -3470,13 +3474,13 @@
             "e3.validitytech.com:11001": [
                 true,
                 "Passed"
-            ],
-            "e1.validitytech.com:11001": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
+            "e1.validitytech.com:11002": [
+                true,
+                "Passed"
+            ],
             "e2.validitytech.com:11002": [
                 true,
                 "Passed"
@@ -3484,10 +3488,6 @@
             "e3.validitytech.com:11002": [
                 true,
                 "Passed"
-            ],
-            "e1.validitytech.com:11002": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
