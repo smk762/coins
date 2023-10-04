@@ -122,11 +122,11 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
@@ -138,8 +138,8 @@
                 "Passed"
             ],
             "lenoir.ecoincore.com:12343": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1230,14 +1230,18 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "holland.ecoincore.com:11017": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:11017": [
                 true,
                 "Passed"
             ],
@@ -1250,10 +1254,6 @@
                 "[Errno 111] Connection refused"
             ],
             "electrum5.egulden.org:11017": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "lenoir.ecoincore.com:11017": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -2875,7 +2875,7 @@
             ],
             "electrum2.runebase.io:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "electrum4.runebase.io:50001": [
                 false,
@@ -2893,7 +2893,7 @@
             ],
             "electrum2.runebase.io:50002": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "electrum4.runebase.io:50002": [
                 false,
