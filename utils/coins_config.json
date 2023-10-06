@@ -11126,7 +11126,15 @@
                 "protocol": "TCP"
             },
             {
+                "url": "txserver.live:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.live:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50002",
                 "protocol": "SSL"
             }
         ]
@@ -15411,6 +15419,9 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.mainnet.primecoin.org:50011"
+            },
+            {
                 "url": "electrumx.primecoin.org:50001"
             }
         ]
@@ -18855,6 +18866,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
