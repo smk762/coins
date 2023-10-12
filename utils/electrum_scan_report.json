@@ -576,19 +576,19 @@
     },
     "BTE": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx6.scalaris.info:20001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "electrumx7.scalaris.info:20001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
