@@ -1644,19 +1644,19 @@
     },
     "ILN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.ilien.io:65011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.ilien.io:65011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -3815,23 +3815,23 @@
     },
     "ZEC": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10058": [
-                true,
-                "Passed"
-            ],
-            "electrum2.cipig.net:10058": [
                 true,
                 "Passed"
             ],
             "electrum3.cipig.net:10058": [
                 true,
                 "Passed"
+            ],
+            "electrum2.cipig.net:10058": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -3839,13 +3839,13 @@
                 true,
                 "Passed"
             ],
-            "electrum2.cipig.net:20058": [
-                true,
-                "Passed"
-            ],
             "electrum3.cipig.net:20058": [
                 true,
                 "Passed"
+            ],
+            "electrum2.cipig.net:20058": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
