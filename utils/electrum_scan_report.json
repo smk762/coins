@@ -233,21 +233,21 @@
         "tcp": {
             "electrum1.aryacoin.io:2052": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrum2.aryacoin.io:2052": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum1.aryacoin.io:2053": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrum2.aryacoin.io:2053": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
