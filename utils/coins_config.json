@@ -13452,6 +13452,14 @@
                         "discord": "CHMEX#0686"
                     }
                 ]
+            },
+            {
+                "url": "2.eu.thc.electrum.dexstats.info:10020",
+                "contact": [
+                    {
+                        "discord": "CHMEX#0686"
+                    }
+                ]
             }
         ],
         "asset": "THC"
