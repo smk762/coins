@@ -4538,6 +4538,50 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
+    "DIMI": {
+        "coin": "DIMI",
+        "type": "UTXO",
+        "name": "Diminutive Coin",
+        "coinpaprika_id": "dimi-diminutive-coin",
+        "coingecko_id": "diminutive-coin",
+        "nomics_id": "DIMI",
+        "explorer_url": [
+            "https://explorer.diminutivecoin.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "electrumx1.diminutivecoin.com:50013"
+            }
+        ]
+    },
     "DIMI-BEP20": {
         "coin": "DIMI-BEP20",
         "type": "BEP-20",
@@ -14480,14 +14524,6 @@
                 ]
             },
             {
-                "url": "e3.validitytech.com:11001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "e1.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -14508,17 +14544,6 @@
                     }
                 ],
                 "ws_url": "e2.validitytech.com:11004"
-            },
-            {
-                "url": "e3.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "e3.validitytech.com:11004"
             }
         ]
     },
