@@ -139,7 +139,7 @@
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -667,29 +667,13 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 6,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 6,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "chicago.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
-            "lenoir.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
-            "miami.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
-            "oakland.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
             "seattle.ecoincore.com:34333": [
                 true,
                 "Passed"
@@ -698,13 +682,29 @@
                 true,
                 "Passed"
             ],
+            "chicago.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ],
             "holland.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ],
+            "lenoir.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ],
+            "miami.ecoincore.com:34333": [
                 false,
                 "timed out"
             ],
             "mumbai.ecoincore.com:34333": [
                 false,
                 "[Errno 111] Connection refused"
+            ],
+            "oakland.ecoincore.com:34333": [
+                false,
+                "timed out"
             ]
         },
         "ws": {
@@ -1052,11 +1052,11 @@
     },
     "DIMI": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrumx1.diminutivecoin.com:50012": [
@@ -1064,8 +1064,8 @@
                 "Passed"
             ],
             "electrumx2.diminutivecoin.com:50012": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1237,17 +1237,13 @@
         "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
+            "electrum1.egulden.org:50002": [
+                true,
+                "Passed"
+            ],
             "holland.ecoincore.com:11017": [
                 true,
                 "Passed"
-            ],
-            "lenoir.ecoincore.com:11017": [
-                true,
-                "Passed"
-            ],
-            "electrum1.egulden.org:50002": [
-                false,
-                "[Errno 111] Connection refused"
             ],
             "electrum2.egulden.org:50002": [
                 false,
@@ -1256,6 +1252,10 @@
             "electrum5.egulden.org:11017": [
                 false,
                 "[Errno 111] Connection refused"
+            ],
+            "lenoir.ecoincore.com:11017": [
+                false,
+                "timed out"
             ]
         },
         "ws": {
