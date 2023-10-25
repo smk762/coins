@@ -3722,21 +3722,21 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrumx.primecoin.org:50001": [
-                true,
-                "Passed"
-            ],
             "electrumx.gemmer.primecoin.org:50011": [
                 false,
                 "[Errno -3] Temporary failure in name resolution"
             ],
             "electrumx.mainnet.primecoin.org:50011": [
+                false,
+                "[Errno -3] Temporary failure in name resolution"
+            ],
+            "electrumx.primecoin.org:50001": [
                 false,
                 "[Errno -3] Temporary failure in name resolution"
             ]
