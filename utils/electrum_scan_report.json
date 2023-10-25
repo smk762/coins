@@ -139,7 +139,7 @@
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -667,13 +667,33 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 2,
+        "electrums_working_all": 7,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 7,
         "tcp": {},
         "ssl": {
+            "chicago.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "holland.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "miami.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "oakland.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
             "seattle.ecoincore.com:34333": [
                 true,
                 "Passed"
@@ -682,29 +702,9 @@
                 true,
                 "Passed"
             ],
-            "chicago.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "holland.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "lenoir.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
-            "miami.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
             "mumbai.ecoincore.com:34333": [
                 false,
                 "[Errno 111] Connection refused"
-            ],
-            "oakland.ecoincore.com:34333": [
-                false,
-                "timed out"
             ]
         },
         "ws": {
@@ -1230,11 +1230,11 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
@@ -1245,6 +1245,10 @@
                 true,
                 "Passed"
             ],
+            "lenoir.ecoincore.com:11017": [
+                true,
+                "Passed"
+            ],
             "electrum2.egulden.org:50002": [
                 false,
                 "[Errno 111] Connection refused"
@@ -1252,10 +1256,6 @@
             "electrum5.egulden.org:11017": [
                 false,
                 "[Errno 111] Connection refused"
-            ],
-            "lenoir.ecoincore.com:11017": [
-                false,
-                "timed out"
             ]
         },
         "ws": {
@@ -1386,11 +1386,11 @@
     },
     "FLUX": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx2.runonflux.io:50001": [
                 true,
@@ -1399,8 +1399,8 @@
         },
         "ssl": {
             "electrumx.runonflux.io:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {
@@ -2261,15 +2261,15 @@
     },
     "MORTY": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrum1.cipig.net:10018": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:10018": [
                 false,
@@ -2282,8 +2282,8 @@
         },
         "ssl": {
             "electrum1.cipig.net:20018": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:20018": [
                 false,
@@ -2789,15 +2789,15 @@
     },
     "RICK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrum1.cipig.net:10017": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:10017": [
                 false,
@@ -2810,8 +2810,8 @@
         },
         "ssl": {
             "electrum1.cipig.net:20017": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:20017": [
                 false,
@@ -3696,21 +3696,21 @@
     },
     "XMY": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "lenoir.ecoincore.com:10891": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "lenoir.ecoincore.com:10892": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3722,23 +3722,23 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrumx.mainnet.primecoin.org:50011": [
-                true,
-                "Passed"
-            ],
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
             ],
             "electrumx.gemmer.primecoin.org:50011": [
                 false,
-                "[Errno 111] Connection refused"
+                "[Errno -3] Temporary failure in name resolution"
+            ],
+            "electrumx.mainnet.primecoin.org:50011": [
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {},
