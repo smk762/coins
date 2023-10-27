@@ -667,11 +667,11 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 7,
+        "electrums_working_all": 8,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 7,
+        "electrums_working_ssl": 8,
         "tcp": {},
         "ssl": {
             "chicago.ecoincore.com:34333": [
@@ -690,6 +690,10 @@
                 true,
                 "Passed"
             ],
+            "mumbai.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
             "oakland.ecoincore.com:34333": [
                 true,
                 "Passed"
@@ -701,10 +705,6 @@
             "woolloomooloo.ecoincore.com:34333": [
                 true,
                 "Passed"
-            ],
-            "mumbai.ecoincore.com:34333": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2261,19 +2261,19 @@
     },
     "MORTY": {
         "electrums_total_all": 6,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10018": [
                 true,
                 "Passed"
             ],
             "electrum2.cipig.net:10018": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:10018": [
                 false,
@@ -2286,8 +2286,8 @@
                 "Passed"
             ],
             "electrum2.cipig.net:20018": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:20018": [
                 false,
@@ -2789,19 +2789,19 @@
     },
     "RICK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10017": [
                 true,
                 "Passed"
             ],
             "electrum2.cipig.net:10017": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:10017": [
                 false,
@@ -2814,8 +2814,8 @@
                 "Passed"
             ],
             "electrum2.cipig.net:20017": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:20017": [
                 false,
@@ -3523,11 +3523,11 @@
     },
     "VRSC": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "el0.verus.io:17485": [
                 true,
@@ -3538,8 +3538,8 @@
                 "Passed"
             ],
             "el2.verus.io:17485": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {
@@ -3552,8 +3552,8 @@
                 "Passed"
             ],
             "el2.verus.io:17486": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {
