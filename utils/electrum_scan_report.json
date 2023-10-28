@@ -3738,7 +3738,7 @@
             ],
             "electrumx.gemmer.primecoin.org:50011": [
                 false,
-                "[Errno 111] Connection refused"
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {},
