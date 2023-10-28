@@ -363,11 +363,11 @@
     },
     "BLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.blackcoin.nl:10001": [
                 true,
@@ -378,8 +378,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -392,8 +392,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4035,11 +4035,11 @@
     },
     "tBLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.blackcoin.nl:10011": [
                 true,
@@ -4050,8 +4050,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30011": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -4064,8 +4064,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
