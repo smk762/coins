@@ -22,7 +22,7 @@
             ],
             "electrumx-three.artbyte.live:50012": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2261,11 +2261,11 @@
     },
     "MORTY": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10018": [
                 true,
@@ -2276,8 +2276,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:10018": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -2290,8 +2290,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20018": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2789,11 +2789,11 @@
     },
     "RICK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10017": [
                 true,
@@ -2804,8 +2804,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:10017": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -2818,8 +2818,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20017": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3523,11 +3523,11 @@
     },
     "VRSC": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "el0.verus.io:17485": [
                 true,
@@ -3538,8 +3538,8 @@
                 "Passed"
             ],
             "el2.verus.io:17485": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -3552,8 +3552,8 @@
                 "Passed"
             ],
             "el2.verus.io:17486": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ws": {
