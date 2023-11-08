@@ -237,7 +237,7 @@
             ],
             "electrum2.aryacoin.io:2052": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -247,7 +247,7 @@
             ],
             "electrum2.aryacoin.io:2053": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -363,37 +363,37 @@
     },
     "BLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.blackcoin.nl:10001": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrum2.blackcoin.nl:20001": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrum3.blackcoin.nl:30001": [
                 false,
-                "[Errno 111] Connection refused"
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {
             "electrum1.blackcoin.nl:10002": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrum2.blackcoin.nl:20002": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrum3.blackcoin.nl:30002": [
                 false,
-                "[Errno 111] Connection refused"
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ws": {
@@ -4035,37 +4035,37 @@
     },
     "tBLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.blackcoin.nl:10011": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrum2.blackcoin.nl:20011": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrum3.blackcoin.nl:30011": [
                 false,
-                "[Errno 111] Connection refused"
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {
             "electrum1.blackcoin.nl:10012": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrum2.blackcoin.nl:20012": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrum3.blackcoin.nl:30012": [
                 false,
-                "[Errno 111] Connection refused"
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ws": {
