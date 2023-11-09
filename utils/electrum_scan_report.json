@@ -2483,11 +2483,11 @@
             ],
             "electrumx1.nmc.bitclc.net:50001": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx2.nmc.bitclc.net:50001": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx3.nmc.bitclc.net:50001": [
                 false,
@@ -2495,7 +2495,7 @@
             ],
             "electrumx4.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "nmc.bitcoins.sk:50001": [
                 false,
