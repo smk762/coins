@@ -363,11 +363,11 @@
     },
     "BLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.blackcoin.nl:10001": [
                 true,
@@ -378,8 +378,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -392,8 +392,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3457,37 +3457,37 @@
     },
     "VAL": {
         "electrums_total_all": 6,
-        "electrums_working_all": 2,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 3,
         "tcp": {
+            "e1.validitytech.com:11001": [
+                true,
+                "Passed"
+            ],
             "e2.validitytech.com:11001": [
                 true,
                 "Passed"
             ],
-            "e1.validitytech.com:11001": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "e3.validitytech.com:11001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
+            "e1.validitytech.com:11002": [
+                true,
+                "Passed"
+            ],
             "e2.validitytech.com:11002": [
                 true,
                 "Passed"
             ],
-            "e1.validitytech.com:11002": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "e3.validitytech.com:11002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4007,13 +4007,17 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
+            "electroncash.de:50004": [
+                true,
+                "Passed"
+            ],
             "electrs.electroncash.de:60002": [
                 true,
                 "Passed"
@@ -4021,10 +4025,6 @@
             "tbch.loping.net:60002": [
                 true,
                 "Passed"
-            ],
-            "electroncash.de:50004": [
-                false,
-                "[Errno 101] Network is unreachable"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
@@ -4035,11 +4035,11 @@
     },
     "tBLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.blackcoin.nl:10011": [
                 true,
@@ -4050,8 +4050,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -4064,8 +4064,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30012": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
