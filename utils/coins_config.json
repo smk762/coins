@@ -2042,14 +2042,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum1.blackcoin.nl:10011",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.blackcoin.nl:20011",
                 "contact": [
                     {
@@ -2064,17 +2056,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.blackcoin.nl:10012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "electrum1.blackcoin.nl:10014"
             },
             {
                 "url": "electrum2.blackcoin.nl:20012",
