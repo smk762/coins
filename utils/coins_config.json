@@ -2042,6 +2042,14 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10011",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20011",
                 "contact": [
                     {
@@ -2056,6 +2064,17 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "electrum1.blackcoin.nl:10012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "electrum1.blackcoin.nl:10014"
             },
             {
                 "url": "electrum2.blackcoin.nl:20012",
@@ -2523,37 +2542,6 @@
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
-    },
-    "BTCZ": {
-        "coin": "BTCZ",
-        "type": "UTXO",
-        "name": "BitcoinZ",
-        "coinpaprika_id": "btcz-bitcoinz",
-        "coingecko_id": "bitcoinz",
-        "nomics_id": "BTCZ",
-        "explorer_url": [
-            "https://explorer.btcz.rocks/",
-            "https://btczexplorer.blockhub.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum2.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "ws_url": "electrum2.btcz.rocks:50004"
-            }
-        ]
     },
     "BTCZ-BEP20": {
         "coin": "BTCZ-BEP20",
@@ -8223,35 +8211,6 @@
                 "url": "electrum3.cipig.net:20067",
                 "disable_cert_verification": false,
                 "protocol": "SSL"
-            }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
-    },
-    "LCC": {
-        "coin": "LCC",
-        "type": "UTXO",
-        "name": "Litecoin Cash",
-        "coinpaprika_id": "lcc-litecoin-cash",
-        "coingecko_id": "litecoin-cash",
-        "nomics_id": "LCC",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/lcc/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "188.166.117.139:50001",
-                "protocol": "TCP"
             }
         ],
         "is_segwit_on": false,
@@ -15993,11 +15952,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
