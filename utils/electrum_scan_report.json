@@ -1164,15 +1164,15 @@
     },
     "DP": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "1.eu.dp.electrum.dexstats.info:10021": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {},
@@ -3281,19 +3281,19 @@
     },
     "THC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "1.eu.thc.electrum.dexstats.info:10020": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "2.eu.thc.electrum.dexstats.info:10020": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {},
@@ -3301,29 +3301,29 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "1.eu.tokel.electrum.dexstats.info:10077": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {
             "1.eu.tokel.electrum.dexstats.info:11077": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "2.eu.tokel.electrum.dexstats.info:11077": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ws": {
