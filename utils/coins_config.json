@@ -2543,6 +2543,37 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
+    "BTCZ": {
+        "coin": "BTCZ",
+        "type": "UTXO",
+        "name": "BitcoinZ",
+        "coinpaprika_id": "btcz-bitcoinz",
+        "coingecko_id": "bitcoinz",
+        "nomics_id": "BTCZ",
+        "explorer_url": [
+            "https://explorer.btcz.rocks/",
+            "https://btczexplorer.blockhub.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum2.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "ws_url": "electrum2.btcz.rocks:50004"
+            }
+        ]
+    },
     "BTCZ-BEP20": {
         "coin": "BTCZ-BEP20",
         "type": "BEP-20",
@@ -13351,14 +13382,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "1.eu.thc.electrum.dexstats.info:10020",
-                "contact": [
-                    {
-                        "discord": "CHMEX#0686"
-                    }
-                ]
-            },
             {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
