@@ -3689,7 +3689,7 @@
             ],
             "fulcrum.pepipierre.fr:50002": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
