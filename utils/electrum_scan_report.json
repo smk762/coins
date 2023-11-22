@@ -576,19 +576,19 @@
     },
     "BTE": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx6.scalaris.info:20001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ],
             "electrumx7.scalaris.info:20001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -4035,16 +4035,12 @@
     },
     "tBLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
-            "electrum1.blackcoin.nl:10011": [
-                true,
-                "Passed"
-            ],
             "electrum2.blackcoin.nl:20011": [
                 true,
                 "Passed"
@@ -4052,13 +4048,13 @@
             "electrum3.blackcoin.nl:30011": [
                 true,
                 "Passed"
+            ],
+            "electrum1.blackcoin.nl:10011": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "electrum1.blackcoin.nl:10012": [
-                true,
-                "Passed"
-            ],
             "electrum2.blackcoin.nl:20012": [
                 true,
                 "Passed"
@@ -4066,6 +4062,10 @@
             "electrum3.blackcoin.nl:30012": [
                 true,
                 "Passed"
+            ],
+            "electrum1.blackcoin.nl:10012": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
