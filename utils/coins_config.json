@@ -4277,99 +4277,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "DASH": {
-        "coin": "DASH",
-        "type": "UTXO",
-        "name": "Dash",
-        "coinpaprika_id": "dash-dash",
-        "coingecko_id": "dash",
-        "nomics_id": "DASH",
-        "explorer_url": [
-            "https://blockchair.com/dash/"
-        ],
-        "explorer_tx_url": "transaction/",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:10061",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum1.cipig.net:30061"
-            },
-            {
-                "url": "electrum2.cipig.net:10061",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30061"
-            },
-            {
-                "url": "electrum3.cipig.net:10061",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30061"
-            },
-            {
-                "url": "electrum1.cipig.net:20061",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20061",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20061",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ]
-    },
     "DDD": {
         "coin": "DDD",
         "type": "ERC-20",
@@ -15350,32 +15257,6 @@
             }
         ]
     },
-    "XRG": {
-        "coin": "XRG",
-        "type": "UTXO",
-        "name": "Ergon",
-        "coinpaprika_id": "xrg-ergon",
-        "coingecko_id": "test-coin",
-        "nomics_id": "XRG",
-        "explorer_url": [
-            "https://explorer.ergon.network/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "fulcrum.ergon.network:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            }
-        ]
-    },
     "XRP-BEP20": {
         "coin": "XRP-BEP20",
         "type": "BEP-20",
@@ -18972,6 +18853,19 @@
                     },
                     {
                         "twitter": "bytesofman"
+                    }
+                ]
+            },
+            {
+                "url": "fulcrum.pepipierre.fr:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "contact@e.cash"
+                    },
+                    {
+                        "twitter": "ecashofficial"
                     }
                 ]
             }

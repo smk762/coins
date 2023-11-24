@@ -872,37 +872,37 @@
     },
     "DASH": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.cipig.net:10061": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:10061": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:10061": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20061": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:20061": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:20061": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3676,11 +3676,11 @@
     },
     "XEC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrum.bitcoinabc.org:50002": [
@@ -3688,8 +3688,8 @@
                 "Passed"
             ],
             "fulcrum.pepipierre.fr:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -3746,20 +3746,20 @@
     },
     "XRG": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
-            "fulcrum.ergon.network:52138": [
-                true,
-                "Passed"
-            ],
             "blackie.c3-soft.com:52138": [
                 false,
                 "timed out"
+            ],
+            "fulcrum.ergon.network:52138": [
+                false,
+                "HTTP/1.1 400 Bad Request\r\nServer: nginx/1.18.0 (Ubuntu)\r\nDate: Fri, 24 Nov 2023 00:09:00 GMT\r\nContent-Type: text/html\r\nContent-Length: 166\r\nConnection: close\r\n\r\n<html>\r\n<head><title>400 Bad Request</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r"
             ]
         },
         "ws": {}
