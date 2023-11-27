@@ -2660,29 +2660,29 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.live:50010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -3053,7 +3053,7 @@
         "tcp": {
             "electrum1.smartcash.cc:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "electrum2.smartcash.cc:50001": [
                 false,
