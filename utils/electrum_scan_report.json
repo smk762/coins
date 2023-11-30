@@ -18,7 +18,7 @@
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "electrumx-three.artbyte.live:50012": [
                 false,
