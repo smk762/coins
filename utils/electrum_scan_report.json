@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -16,11 +16,11 @@
                 true,
                 "Passed"
             ],
-            "electrumx-four.artbyte.live:50012": [
-                false,
-                "timed out"
-            ],
             "electrumx-three.artbyte.live:50012": [
+                true,
+                "Passed"
+            ],
+            "electrumx-four.artbyte.live:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -1131,11 +1131,11 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
                 false,
@@ -1147,13 +1147,13 @@
                 true,
                 "Passed"
             ],
-            "ugly-bird-70.doi.works:50002": [
+            "itchy-jellyfish-89.doi.works:50002": [
                 true,
                 "Passed"
             ],
-            "itchy-jellyfish-89.doi.works:50002": [
-                false,
-                "[Errno 101] Network is unreachable"
+            "ugly-bird-70.doi.works:50002": [
+                true,
+                "Passed"
             ],
             "pink-deer-69.doi.works:50002": [
                 false,
