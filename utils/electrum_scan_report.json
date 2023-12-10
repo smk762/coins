@@ -1516,12 +1516,16 @@
     },
     "GRS": {
         "electrums_total_all": 5,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 5,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 4,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
+            "electrum11.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ],
             "electrum12.groestlcoin.org:50001": [
                 true,
                 "Passed"
@@ -1535,10 +1539,6 @@
                 "Passed"
             ],
             "electrum10.groestlcoin.org:50001": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "electrum11.groestlcoin.org:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
