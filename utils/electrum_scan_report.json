@@ -363,23 +363,23 @@
     },
     "BLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.blackcoin.nl:10001": [
-                true,
-                "Passed"
-            ],
-            "electrum2.blackcoin.nl:20001": [
                 true,
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30001": [
                 true,
                 "Passed"
+            ],
+            "electrum2.blackcoin.nl:20001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -387,13 +387,13 @@
                 true,
                 "Passed"
             ],
-            "electrum2.blackcoin.nl:20002": [
-                true,
-                "Passed"
-            ],
             "electrum3.blackcoin.nl:30002": [
                 true,
                 "Passed"
+            ],
+            "electrum2.blackcoin.nl:20002": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -559,7 +559,7 @@
             ],
             "electrum1.btcz.rocks:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1516,9 +1516,9 @@
     },
     "GRS": {
         "electrums_total_all": 5,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 5,
-        "electrums_working_tcp": 4,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -1530,15 +1530,15 @@
                 true,
                 "Passed"
             ],
-            "electrum13.groestlcoin.org:50001": [
-                true,
-                "Passed"
-            ],
             "electrum14.groestlcoin.org:50001": [
                 true,
                 "Passed"
             ],
             "electrum10.groestlcoin.org:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum13.groestlcoin.org:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -3915,11 +3915,11 @@
     },
     "ZET": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "207.180.252.200:50011": [
                 true,
@@ -3928,8 +3928,8 @@
         },
         "ssl": {
             "zeta-seed-c.zetacoin.tech:50012": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
