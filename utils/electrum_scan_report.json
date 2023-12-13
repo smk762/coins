@@ -155,19 +155,19 @@
     },
     "AVN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum-eu.avn.network:50001": [
-                true,
-                "Passed"
-            ],
             "electrum-us.avn.network:50001": [
                 true,
                 "Passed"
+            ],
+            "electrum-eu.avn.network:50001": [
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
@@ -547,19 +547,19 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum2.btcz.rocks:50001": [
+            "electrum1.btcz.rocks:50001": [
                 true,
                 "Passed"
             ],
-            "electrum1.btcz.rocks:50001": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrum2.btcz.rocks:50001": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
