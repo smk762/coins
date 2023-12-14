@@ -14754,34 +14754,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "el0.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ]
-            },
-            {
-                "url": "el1.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ]
-            },
-            {
                 "url": "el2.verus.io:17485",
                 "contact": [
                     {
@@ -14794,40 +14766,6 @@
                         "keybase": "bloodynora"
                     }
                 ]
-            },
-            {
-                "url": "el0.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false,
-                "ws_url": "el0.verus.io:17488"
-            },
-            {
-                "url": "el1.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false,
-                "ws_url": "el1.verus.io:17488"
             },
             {
                 "url": "el2.verus.io:17486",

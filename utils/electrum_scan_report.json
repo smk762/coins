@@ -167,7 +167,7 @@
             ],
             "electrum-eu.avn.network:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3523,37 +3523,37 @@
     },
     "VRSC": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "el0.verus.io:17485": [
-                true,
-                "Passed"
-            ],
-            "el1.verus.io:17485": [
-                true,
-                "Passed"
-            ],
             "el2.verus.io:17485": [
                 true,
                 "Passed"
+            ],
+            "el0.verus.io:17485": [
+                false,
+                "[Errno 101] Network is unreachable"
+            ],
+            "el1.verus.io:17485": [
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {
-            "el0.verus.io:17486": [
-                true,
-                "Passed"
-            ],
-            "el1.verus.io:17486": [
-                true,
-                "Passed"
-            ],
             "el2.verus.io:17486": [
                 true,
                 "Passed"
+            ],
+            "el0.verus.io:17486": [
+                false,
+                "[Errno 101] Network is unreachable"
+            ],
+            "el1.verus.io:17486": [
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {
