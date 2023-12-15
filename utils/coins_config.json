@@ -15086,6 +15086,9 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.mainnet.primecoin.org:50011"
+            },
+            {
                 "url": "electrumx.primecoin.org:50001"
             }
         ]
