@@ -155,19 +155,19 @@
     },
     "AVN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum-us.avn.network:50001": [
+            "electrum-eu.avn.network:50001": [
                 true,
                 "Passed"
             ],
-            "electrum-eu.avn.network:50001": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrum-us.avn.network:50001": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -576,19 +576,19 @@
     },
     "BTE": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx6.scalaris.info:20001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "electrumx7.scalaris.info:20001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
@@ -3301,19 +3301,19 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "1.eu.tokel.electrum.dexstats.info:10077": [
                 true,
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -3322,8 +3322,8 @@
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:11077": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3523,37 +3523,37 @@
     },
     "VRSC": {
         "electrums_total_all": 6,
-        "electrums_working_all": 2,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 3,
         "tcp": {
+            "el0.verus.io:17485": [
+                true,
+                "Passed"
+            ],
+            "el1.verus.io:17485": [
+                true,
+                "Passed"
+            ],
             "el2.verus.io:17485": [
                 true,
                 "Passed"
-            ],
-            "el0.verus.io:17485": [
-                false,
-                "[Errno 101] Network is unreachable"
-            ],
-            "el1.verus.io:17485": [
-                false,
-                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {
-            "el2.verus.io:17486": [
+            "el0.verus.io:17486": [
                 true,
                 "Passed"
             ],
-            "el0.verus.io:17486": [
-                false,
-                "[Errno 101] Network is unreachable"
-            ],
             "el1.verus.io:17486": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
+            ],
+            "el2.verus.io:17486": [
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3722,23 +3722,23 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrumx.mainnet.primecoin.org:50011": [
-                true,
-                "Passed"
-            ],
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
             ],
             "electrumx.gemmer.primecoin.org:50011": [
                 false,
-                "[Errno 111] Connection refused"
+                "[Errno -3] Temporary failure in name resolution"
+            ],
+            "electrumx.mainnet.primecoin.org:50011": [
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {},
@@ -4007,11 +4007,11 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electroncash.de:50004": [
@@ -4023,8 +4023,8 @@
                 "Passed"
             ],
             "tbch.loping.net:60002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
