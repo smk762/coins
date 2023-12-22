@@ -1230,18 +1230,14 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
-                true,
-                "Passed"
-            ],
-            "holland.ecoincore.com:11017": [
                 true,
                 "Passed"
             ],
@@ -1254,6 +1250,10 @@
                 "[Errno 111] Connection refused"
             ],
             "electrum5.egulden.org:11017": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "holland.ecoincore.com:11017": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -1931,7 +1931,7 @@
         "tcp": {
             "188.166.117.139:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
