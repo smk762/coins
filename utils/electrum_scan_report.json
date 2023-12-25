@@ -1052,20 +1052,20 @@
     },
     "DIMI": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "electrumx1.diminutivecoin.com:50012": [
-                true,
-                "Passed"
-            ],
             "electrumx2.diminutivecoin.com:50012": [
                 true,
                 "Passed"
+            ],
+            "electrumx1.diminutivecoin.com:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1255,7 +1255,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -3991,15 +3991,15 @@
     },
     "ZOMBIE": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "zombie.sirseven.me:10033": [
-                true,
-                "Passed"
+                false,
+                "[Errno -2] Name or service not known"
             ]
         },
         "ssl": {},
