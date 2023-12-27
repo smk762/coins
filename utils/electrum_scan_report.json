@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -16,11 +16,11 @@
                 true,
                 "Passed"
             ],
-            "electrumx-three.artbyte.live:50012": [
-                true,
-                "Passed"
-            ],
             "electrumx-four.artbyte.live:50012": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrumx-three.artbyte.live:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -1255,7 +1255,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3457,16 +3457,12 @@
     },
     "VAL": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
-            "e1.validitytech.com:11001": [
-                true,
-                "Passed"
-            ],
             "e2.validitytech.com:11001": [
                 true,
                 "Passed"
@@ -3474,13 +3470,13 @@
             "e3.validitytech.com:11001": [
                 true,
                 "Passed"
+            ],
+            "e1.validitytech.com:11001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "e1.validitytech.com:11002": [
-                true,
-                "Passed"
-            ],
             "e2.validitytech.com:11002": [
                 true,
                 "Passed"
@@ -3488,6 +3484,10 @@
             "e3.validitytech.com:11002": [
                 true,
                 "Passed"
+            ],
+            "e1.validitytech.com:11002": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
