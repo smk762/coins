@@ -547,9 +547,9 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -558,8 +558,8 @@
                 "Passed"
             ],
             "electrum2.btcz.rocks:50001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
@@ -1255,7 +1255,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2660,19 +2660,19 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrumx.live:50010": [
                 true,
                 "Passed"
             ],
             "txserver.live:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -2681,8 +2681,8 @@
                 "Passed"
             ],
             "txserver.live:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {}

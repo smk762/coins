@@ -2565,15 +2565,6 @@
                     }
                 ],
                 "ws_url": "electrum1.btcz.rocks:50004"
-            },
-            {
-                "url": "electrum2.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "ws_url": "electrum2.btcz.rocks:50004"
             }
         ]
     },
@@ -11024,7 +11015,15 @@
                 "protocol": "TCP"
             },
             {
+                "url": "txserver.live:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.live:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50002",
                 "protocol": "SSL"
             }
         ]
