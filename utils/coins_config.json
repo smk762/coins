@@ -3160,6 +3160,12 @@
                 "ws_url": "miami.ecoincore.com:34335"
             },
             {
+                "url": "mumbai.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "mumbai.ecoincore.com:34335"
+            },
+            {
                 "url": "oakland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -11014,11 +11020,11 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "txserver.live:50001",
+                "url": "electrumx.live:50010",
                 "protocol": "TCP"
             },
             {
-                "url": "txserver.live:50002",
+                "url": "electrumx.live:50012",
                 "protocol": "SSL"
             }
         ]
@@ -14533,6 +14539,14 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "e1.validitytech.com:11001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "e2.validitytech.com:11001",
                 "contact": [
                     {
@@ -14547,6 +14561,17 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "e1.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "e1.validitytech.com:11004"
             },
             {
                 "url": "e2.validitytech.com:11002",
@@ -15068,40 +15093,6 @@
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
-    },
-    "XMY": {
-        "coin": "XMY",
-        "type": "UTXO",
-        "name": "Myriad",
-        "coinpaprika_id": "xmy-myriad",
-        "coingecko_id": "myriadcoin",
-        "nomics_id": "XMY",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/xmy/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP",
-                "ws_url": "lenoir.ecoincore.com:10894"
-            },
-            {
-                "url": "lenoir.ecoincore.com:10892",
-                "protocol": "SSL"
-            }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
     },
     "XPM": {
         "coin": "XPM",
