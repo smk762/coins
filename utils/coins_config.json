@@ -955,6 +955,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrumx.aur.ewmcx.info:50003"
+            },
+            {
                 "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -13177,10 +13183,6 @@
                     }
                 ],
                 "ws_url": "electrum3.cipig.net:30068"
-            },
-            {
-                "url": "testnet.aranguren.org:51001",
-                "protocol": "TCP"
             },
             {
                 "url": "electrum1.cipig.net:20068",
