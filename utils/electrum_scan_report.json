@@ -1255,7 +1255,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -3704,13 +3704,13 @@
         "tcp": {
             "lenoir.ecoincore.com:10891": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "lenoir.ecoincore.com:10892": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4085,9 +4085,9 @@
     },
     "tBTC": {
         "electrums_total_all": 7,
-        "electrums_working_all": 6,
+        "electrums_working_all": 7,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 4,
         "electrums_total_ssl": 3,
         "electrums_working_ssl": 3,
         "tcp": {
@@ -4104,8 +4104,8 @@
                 "Passed"
             ],
             "testnet.aranguren.org:51001": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
