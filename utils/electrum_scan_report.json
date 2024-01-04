@@ -1255,7 +1255,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1536,7 +1536,7 @@
             ],
             "electrum10.groestlcoin.org:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "electrum13.groestlcoin.org:50001": [
                 false,
