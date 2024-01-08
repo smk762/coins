@@ -782,16 +782,12 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum.shorelinecrypto.com:10007": [
-                true,
-                "Passed"
-            ],
             "electrum1.mooo.com:10007": [
                 true,
                 "Passed"
@@ -799,6 +795,10 @@
             "electrum2.mooo.com:10007": [
                 true,
                 "Passed"
+            ],
+            "electrum.shorelinecrypto.com:10007": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1255,7 +1255,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -2406,16 +2406,12 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum.shorelinecrypto.com:10001": [
-                true,
-                "Passed"
-            ],
             "electrum1.mooo.com:10001": [
                 true,
                 "Passed"
@@ -2423,6 +2419,10 @@
             "electrum2.mooo.com:10001": [
                 true,
                 "Passed"
+            ],
+            "electrum.shorelinecrypto.com:10001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3704,13 +3704,13 @@
         "tcp": {
             "lenoir.ecoincore.com:10891": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {
             "lenoir.ecoincore.com:10892": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
