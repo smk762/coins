@@ -3347,6 +3347,17 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum.shorelinecrypto.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.mooo.com:10007",
                 "contact": [
                     {
@@ -9905,6 +9916,17 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum.shorelinecrypto.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.mooo.com:10001",
                 "contact": [
                     {
@@ -13417,33 +13439,6 @@
         ],
         "asset": "TOKEL"
     },
-    "TRC": {
-        "coin": "TRC",
-        "type": "UTXO",
-        "name": "Terracoin",
-        "coinpaprika_id": "trc-terracoin",
-        "coingecko_id": "terracoin",
-        "nomics_id": "TRC",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/trc/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "failover.trc-uis.ewmcx.biz:50006",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.trc-uis.ewmcx.biz:50007"
-            }
-        ]
-    },
     "TRX-BEP20": {
         "coin": "TRX-BEP20",
         "type": "BEP-20",
@@ -15837,11 +15832,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
