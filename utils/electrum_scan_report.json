@@ -547,19 +547,19 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum1.btcz.rocks:50001": [
-                true,
-                "Passed"
-            ],
             "electrum2.btcz.rocks:50001": [
                 true,
                 "Passed"
+            ],
+            "electrum1.btcz.rocks:50001": [
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
@@ -1255,7 +1255,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -3704,13 +3704,13 @@
         "tcp": {
             "lenoir.ecoincore.com:10891": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {
             "lenoir.ecoincore.com:10892": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
