@@ -1255,7 +1255,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2660,19 +2660,19 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrumx.live:50010": [
                 true,
                 "Passed"
             ],
             "txserver.live:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -2681,8 +2681,8 @@
                 "Passed"
             ],
             "txserver.live:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -2859,19 +2859,19 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "electrum1.runebase.io:50001": [
-                true,
-                "Passed"
-            ],
             "electrum3.runebase.io:50001": [
                 true,
                 "Passed"
+            ],
+            "electrum1.runebase.io:50001": [
+                false,
+                "timed out"
             ],
             "electrum2.runebase.io:50001": [
                 false,
@@ -2883,13 +2883,13 @@
             ]
         },
         "ssl": {
-            "electrum1.runebase.io:50002": [
-                true,
-                "Passed"
-            ],
             "electrum3.runebase.io:50002": [
                 true,
                 "Passed"
+            ],
+            "electrum1.runebase.io:50002": [
+                false,
+                "timed out"
             ],
             "electrum2.runebase.io:50002": [
                 false,
