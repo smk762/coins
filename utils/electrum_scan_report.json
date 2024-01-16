@@ -155,9 +155,9 @@
     },
     "AVN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -166,8 +166,8 @@
                 "Passed"
             ],
             "electrum-us.avn.network:50001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
