@@ -667,11 +667,11 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 8,
+        "electrums_working_all": 7,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 8,
+        "electrums_working_ssl": 7,
         "tcp": {},
         "ssl": {
             "chicago.ecoincore.com:34333": [
@@ -690,10 +690,6 @@
                 true,
                 "Passed"
             ],
-            "mumbai.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
             "oakland.ecoincore.com:34333": [
                 true,
                 "Passed"
@@ -705,6 +701,10 @@
             "woolloomooloo.ecoincore.com:34333": [
                 true,
                 "Passed"
+            ],
+            "mumbai.ecoincore.com:34333": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -782,9 +782,9 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -792,13 +792,13 @@
                 true,
                 "Passed"
             ],
-            "electrum1.mooo.com:10007": [
-                true,
-                "Passed"
-            ],
             "electrum2.mooo.com:10007": [
                 true,
                 "Passed"
+            ],
+            "electrum1.mooo.com:10007": [
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
@@ -1052,20 +1052,20 @@
     },
     "DIMI": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "electrumx2.diminutivecoin.com:50012": [
+            "electrumx1.diminutivecoin.com:50012": [
                 true,
                 "Passed"
             ],
-            "electrumx1.diminutivecoin.com:50012": [
-                false,
-                "timed out"
+            "electrumx2.diminutivecoin.com:50012": [
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1230,14 +1230,22 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 1,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
+                true,
+                "Passed"
+            ],
+            "holland.ecoincore.com:11017": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:11017": [
                 true,
                 "Passed"
             ],
@@ -1248,14 +1256,6 @@
             "electrum5.egulden.org:11017": [
                 false,
                 "[Errno 111] Connection refused"
-            ],
-            "holland.ecoincore.com:11017": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "lenoir.ecoincore.com:11017": [
-                false,
-                "timed out"
             ]
         },
         "ws": {
@@ -1516,9 +1516,9 @@
     },
     "GRS": {
         "electrums_total_all": 5,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 5,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 4,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -1530,6 +1530,10 @@
                 true,
                 "Passed"
             ],
+            "electrum13.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ],
             "electrum14.groestlcoin.org:50001": [
                 true,
                 "Passed"
@@ -1537,10 +1541,6 @@
             "electrum10.groestlcoin.org:50001": [
                 false,
                 "timed out"
-            ],
-            "electrum13.groestlcoin.org:50001": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1628,7 +1628,7 @@
             ],
             "il8p.electrumx.transcenders.name:50002": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2406,9 +2406,9 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2416,13 +2416,13 @@
                 true,
                 "Passed"
             ],
-            "electrum1.mooo.com:10001": [
-                true,
-                "Passed"
-            ],
             "electrum2.mooo.com:10001": [
                 true,
                 "Passed"
+            ],
+            "electrum1.mooo.com:10001": [
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
@@ -3696,21 +3696,21 @@
     },
     "XMY": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "lenoir.ecoincore.com:10891": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "lenoir.ecoincore.com:10892": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4085,9 +4085,9 @@
     },
     "tBTC": {
         "electrums_total_all": 7,
-        "electrums_working_all": 6,
+        "electrums_working_all": 7,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 4,
         "electrums_total_ssl": 3,
         "electrums_working_ssl": 3,
         "tcp": {
@@ -4104,8 +4104,8 @@
                 "Passed"
             ],
             "testnet.aranguren.org:51001": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {

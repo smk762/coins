@@ -3163,12 +3163,6 @@
                 "ws_url": "miami.ecoincore.com:34335"
             },
             {
-                "url": "mumbai.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "mumbai.ecoincore.com:34335"
-            },
-            {
                 "url": "oakland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -3339,17 +3333,6 @@
         "electrum": [
             {
                 "url": "electrum.shorelinecrypto.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.mooo.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -4609,6 +4592,29 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "electrumx1.diminutivecoin.com:50013"
+            },
+            {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -5262,6 +5268,18 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum1.egulden.org:50004"
+            },
+            {
+                "url": "holland.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "holland.ecoincore.com:11019"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -6844,6 +6862,10 @@
             {
                 "url": "electrum12.groestlcoin.org:50001",
                 "ws_url": "electrum12.groestlcoin.org:50004"
+            },
+            {
+                "url": "electrum13.groestlcoin.org:50001",
+                "ws_url": "electrum13.groestlcoin.org:50004"
             },
             {
                 "url": "electrum14.groestlcoin.org:50001",
@@ -9762,17 +9784,6 @@
         "electrum": [
             {
                 "url": "electrum.shorelinecrypto.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.mooo.com:10001",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -13036,6 +13047,10 @@
                 "ws_url": "electrum3.cipig.net:30068"
             },
             {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.cipig.net:20068",
                 "protocol": "SSL",
                 "contact": [
@@ -14954,6 +14969,40 @@
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
+    },
+    "XMY": {
+        "coin": "XMY",
+        "type": "UTXO",
+        "name": "Myriad",
+        "coinpaprika_id": "xmy-myriad",
+        "coingecko_id": "myriadcoin",
+        "nomics_id": "XMY",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/xmy/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "lenoir.ecoincore.com:10891",
+                "protocol": "TCP",
+                "ws_url": "lenoir.ecoincore.com:10894"
+            },
+            {
+                "url": "lenoir.ecoincore.com:10892",
+                "protocol": "SSL"
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
     },
     "XPM": {
         "coin": "XPM",
