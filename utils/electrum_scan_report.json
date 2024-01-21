@@ -3053,7 +3053,7 @@
         "tcp": {
             "electrum1.smartcash.cc:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "electrum2.smartcash.cc:50001": [
                 false,
