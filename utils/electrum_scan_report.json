@@ -2851,7 +2851,7 @@
             ],
             "209.50.52.239:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
@@ -4007,17 +4007,13 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "electroncash.de:50004": [
-                true,
-                "Passed"
-            ],
             "electrs.electroncash.de:60002": [
                 true,
                 "Passed"
@@ -4025,6 +4021,10 @@
             "tbch.loping.net:60002": [
                 true,
                 "Passed"
+            ],
+            "electroncash.de:50004": [
+                false,
+                "[Errno 101] Network is unreachable"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
