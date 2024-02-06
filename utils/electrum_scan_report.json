@@ -363,16 +363,12 @@
     },
     "BLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
-            "electrum1.blackcoin.nl:10001": [
-                true,
-                "Passed"
-            ],
             "electrum2.blackcoin.nl:20001": [
                 true,
                 "Passed"
@@ -380,13 +376,13 @@
             "electrum3.blackcoin.nl:30001": [
                 true,
                 "Passed"
+            ],
+            "electrum1.blackcoin.nl:10001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "electrum1.blackcoin.nl:10002": [
-                true,
-                "Passed"
-            ],
             "electrum2.blackcoin.nl:20002": [
                 true,
                 "Passed"
@@ -394,6 +390,10 @@
             "electrum3.blackcoin.nl:30002": [
                 true,
                 "Passed"
+            ],
+            "electrum1.blackcoin.nl:10002": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -806,15 +806,15 @@
     },
     "CLC": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.cryptocollider.com:10001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1386,11 +1386,11 @@
     },
     "FLUX": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrumx2.runonflux.io:50001": [
                 true,
@@ -1399,8 +1399,8 @@
         },
         "ssl": {
             "electrumx.runonflux.io:50002": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2660,29 +2660,29 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
+            "electrumx.live:50010": [
+                true,
+                "Passed"
+            ],
             "txserver.live:50001": [
                 true,
                 "Passed"
-            ],
-            "electrumx.live:50010": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "txserver.live:50002": [
+            "electrumx.live:50012": [
                 true,
                 "Passed"
             ],
-            "electrumx.live:50012": [
-                false,
-                "[Errno 111] Connection refused"
+            "txserver.live:50002": [
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -3069,7 +3069,7 @@
             ],
             "electrum5.smartcash.cc:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "electrum6.smartcash.cc:50001": [
                 false,

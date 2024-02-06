@@ -1934,14 +1934,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum1.blackcoin.nl:10001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.blackcoin.nl:20001",
                 "contact": [
                     {
@@ -1956,17 +1948,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.blackcoin.nl:10002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "electrum1.blackcoin.nl:10004"
             },
             {
                 "url": "electrum2.blackcoin.nl:20002",
@@ -3582,39 +3563,6 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "CLC": {
-        "coin": "CLC",
-        "type": "Smart Chain",
-        "name": "Collider Coin",
-        "coinpaprika_id": "clc-collider-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "CLC2",
-        "explorer_url": [
-            "https://clc.explorer.dexstats.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx.cryptocollider.com:10001",
-                "contact": [
-                    {
-                        "email": "electrumx@cryptocollider.com"
-                    },
-                    {
-                        "discord": "collider#6160"
-                    }
-                ]
-            }
-        ],
-        "asset": "CLC"
     },
     "COMP-AVX20": {
         "coin": "COMP-AVX20",
@@ -10927,8 +10875,16 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -16001,6 +15957,12 @@
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx2.runonflux.io:50004"
+            },
+            {
+                "url": "electrumx.runonflux.io:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrumx.runonflux.io:50004"
             }
         ]
     },
