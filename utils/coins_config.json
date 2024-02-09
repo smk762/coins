@@ -447,6 +447,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -1650,107 +1656,6 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "BCH": {
-        "coin": "BCH",
-        "type": "UTXO",
-        "name": "Bitcoin Cash",
-        "coinpaprika_id": "bch-bitcoin-cash",
-        "coingecko_id": "bitcoin-cash",
-        "nomics_id": "BCH",
-        "explorer_url": [
-            "https://blockchair.com/bitcoin-cash/"
-        ],
-        "explorer_tx_url": "transaction/",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "bchd_urls": [
-            "https://bchd.fountainhead.cash:443"
-        ],
-        "other_types": [
-            "SLP"
-        ],
-        "allow_slp_unsafe_conf": false,
-        "slp_prefix": "simpleledger",
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:10055",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum1.cipig.net:30055"
-            },
-            {
-                "url": "electrum2.cipig.net:10055",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30055"
-            },
-            {
-                "url": "electrum3.cipig.net:10055",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30055"
-            },
-            {
-                "url": "electrum1.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ]
     },
     "USDT-SLP": {
         "coin": "USDT-SLP",
@@ -14461,14 +14366,6 @@
                 ]
             },
             {
-                "url": "e3.validitytech.com:11001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "e1.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -14489,17 +14386,6 @@
                     }
                 ],
                 "ws_url": "e2.validitytech.com:11004"
-            },
-            {
-                "url": "e3.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "e3.validitytech.com:11004"
             }
         ]
     },
@@ -16000,12 +15886,6 @@
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx2.runonflux.io:50004"
-            },
-            {
-                "url": "electrumx.runonflux.io:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrumx.runonflux.io:50004"
             }
         ]
     },
