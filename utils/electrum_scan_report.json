@@ -559,7 +559,7 @@
             ],
             "electrum1.btcz.rocks:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -667,11 +667,11 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 7,
+        "electrums_working_all": 8,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 7,
+        "electrums_working_ssl": 8,
         "tcp": {},
         "ssl": {
             "chicago.ecoincore.com:34333": [
@@ -690,6 +690,10 @@
                 true,
                 "Passed"
             ],
+            "mumbai.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
             "oakland.ecoincore.com:34333": [
                 true,
                 "Passed"
@@ -701,10 +705,6 @@
             "woolloomooloo.ecoincore.com:34333": [
                 true,
                 "Passed"
-            ],
-            "mumbai.ecoincore.com:34333": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1386,11 +1386,11 @@
     },
     "FLUX": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx2.runonflux.io:50001": [
                 true,
@@ -1399,8 +1399,8 @@
         },
         "ssl": {
             "electrumx.runonflux.io:50002": [
-                true,
-                "Passed"
+                false,
+                "_ssl.c:990: The handshake operation timed out"
             ]
         },
         "ws": {

@@ -3062,6 +3062,12 @@
                 "ws_url": "miami.ecoincore.com:34335"
             },
             {
+                "url": "mumbai.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "mumbai.ecoincore.com:34335"
+            },
+            {
                 "url": "oakland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -15905,12 +15911,6 @@
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx2.runonflux.io:50004"
-            },
-            {
-                "url": "electrumx.runonflux.io:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrumx.runonflux.io:50004"
             }
         ]
     },
