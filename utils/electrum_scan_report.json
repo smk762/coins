@@ -1400,7 +1400,7 @@
         "ssl": {
             "electrumx.runonflux.io:50002": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {
