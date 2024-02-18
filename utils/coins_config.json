@@ -9575,6 +9575,9 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.tamami-foundation.org:50001"
+            },
+            {
                 "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
@@ -15961,6 +15964,12 @@
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx2.runonflux.io:50004"
+            },
+            {
+                "url": "electrumx.runonflux.io:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrumx.runonflux.io:50004"
             }
         ]
     },
