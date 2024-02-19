@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -16,11 +16,11 @@
                 true,
                 "Passed"
             ],
-            "electrumx-three.artbyte.live:50012": [
-                true,
-                "Passed"
-            ],
             "electrumx-four.artbyte.live:50012": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrumx-three.artbyte.live:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -547,19 +547,19 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum2.btcz.rocks:50001": [
+            "electrum1.btcz.rocks:50001": [
                 true,
                 "Passed"
             ],
-            "electrum1.btcz.rocks:50001": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrum2.btcz.rocks:50001": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
