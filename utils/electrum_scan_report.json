@@ -1386,11 +1386,11 @@
     },
     "FLUX": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrumx2.runonflux.io:50001": [
                 true,
@@ -1399,8 +1399,8 @@
         },
         "ssl": {
             "electrumx.runonflux.io:50002": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1644,9 +1644,9 @@
     },
     "ILN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -1655,8 +1655,8 @@
                 "Passed"
             ],
             "electrum2.ilien.io:65011": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1931,7 +1931,7 @@
         "tcp": {
             "188.166.117.139:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
@@ -3597,29 +3597,29 @@
     },
     "WHIVE": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "electrumx1.cointest.com:50001": [
-                true,
-                "Passed"
-            ],
             "electrumx2.cointest.com:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx1.cointest.com:50001": [
+                false,
+                "timed out"
             ]
         },
         "ssl": {
-            "electrumx1.cointest.com:50002": [
-                true,
-                "Passed"
-            ],
             "electrumx2.cointest.com:50002": [
                 true,
                 "Passed"
+            ],
+            "electrumx1.cointest.com:50002": [
+                false,
+                "timed out"
             ]
         },
         "ws": {}
