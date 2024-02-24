@@ -13262,53 +13262,6 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
-    "TKL": {
-        "coin": "TKL",
-        "type": "Smart Chain",
-        "name": "Tokel",
-        "coinpaprika_id": "tkl-tokel",
-        "coingecko_id": "tokel",
-        "nomics_id": "TKL2",
-        "explorer_url": [
-            "https://explorer.tokel.io/",
-            "https://tokel.explorer.dexstats.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            }
-        ],
-        "asset": "TOKEL"
-    },
     "TRC": {
         "coin": "TRC",
         "type": "UTXO",
