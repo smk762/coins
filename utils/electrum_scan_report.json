@@ -3281,19 +3281,19 @@
     },
     "THC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "2.eu.thc.electrum.dexstats.info:10020": [
+            "1.eu.thc.electrum.dexstats.info:10020": [
                 true,
                 "Passed"
             ],
-            "1.eu.thc.electrum.dexstats.info:10020": [
-                false,
-                "[Errno -5] No address associated with hostname"
+            "2.eu.thc.electrum.dexstats.info:10020": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -3301,29 +3301,29 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 2,
         "tcp": {
             "1.eu.tokel.electrum.dexstats.info:10077": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "1.eu.tokel.electrum.dexstats.info:11077": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:11077": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
