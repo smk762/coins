@@ -10906,15 +10906,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "txserver.live:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx.live:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "txserver.live:50002",
                 "protocol": "SSL"
             }
         ]
