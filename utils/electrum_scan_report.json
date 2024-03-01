@@ -3231,11 +3231,11 @@
     },
     "SYS": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10064": [
                 true,
@@ -3246,8 +3246,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:10064": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -3260,8 +3260,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20064": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
