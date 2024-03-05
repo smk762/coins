@@ -363,37 +363,37 @@
     },
     "BLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.blackcoin.nl:10001": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "electrum2.blackcoin.nl:20001": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "electrum3.blackcoin.nl:30001": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrum1.blackcoin.nl:10002": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "electrum2.blackcoin.nl:20002": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "electrum3.blackcoin.nl:30002": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4035,37 +4035,37 @@
     },
     "tBLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.blackcoin.nl:10011": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "electrum2.blackcoin.nl:20011": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "electrum3.blackcoin.nl:30011": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrum1.blackcoin.nl:10012": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "electrum2.blackcoin.nl:20012": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "electrum3.blackcoin.nl:30012": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ]
         },
         "ws": {
