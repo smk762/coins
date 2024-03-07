@@ -584,11 +584,11 @@
         "tcp": {
             "electrumx6.scalaris.info:20001": [
                 false,
-                "timed out"
+                "[Errno -2] Name or service not known"
             ],
             "electrumx7.scalaris.info:20001": [
                 false,
-                "timed out"
+                "[Errno -2] Name or service not known"
             ]
         },
         "ssl": {},
@@ -2979,15 +2979,15 @@
         "tcp": {
             "electrum1.scalaris.info:10001": [
                 false,
-                "timed out"
+                "[Errno -2] Name or service not known"
             ],
             "electrum2.scalaris.info:10001": [
                 false,
-                "timed out"
+                "[Errno -2] Name or service not known"
             ],
             "electrum3.scalaris.info:10001": [
                 false,
-                "timed out"
+                "[Errno -2] Name or service not known"
             ]
         },
         "ssl": {},
@@ -3589,7 +3589,7 @@
             ],
             "electrumx3.widecoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
