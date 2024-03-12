@@ -363,16 +363,12 @@
     },
     "BLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
-            "electrum1.blackcoin.nl:10001": [
-                true,
-                "Passed"
-            ],
             "electrum2.blackcoin.nl:20001": [
                 true,
                 "Passed"
@@ -380,13 +376,13 @@
             "electrum3.blackcoin.nl:30001": [
                 true,
                 "Passed"
+            ],
+            "electrum1.blackcoin.nl:10001": [
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {
-            "electrum1.blackcoin.nl:10002": [
-                true,
-                "Passed"
-            ],
             "electrum2.blackcoin.nl:20002": [
                 true,
                 "Passed"
@@ -394,6 +390,10 @@
             "electrum3.blackcoin.nl:30002": [
                 true,
                 "Passed"
+            ],
+            "electrum1.blackcoin.nl:10002": [
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {
