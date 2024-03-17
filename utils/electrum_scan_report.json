@@ -3759,7 +3759,7 @@
             ],
             "blackie.c3-soft.com:52138": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
