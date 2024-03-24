@@ -1,20 +1,20 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "elec-seeder-one.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
             "elec-seeder-two.artbytecoin.org:50012": [
                 true,
                 "Passed"
+            ],
+            "elec-seeder-one.artbytecoin.org:50012": [
+                false,
+                "timed out"
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
@@ -122,20 +122,20 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "electrumx.aur.ewmcx.info:50002": [
-                true,
-                "Passed"
-            ],
             "failover.aur.ewmcx.biz:50002": [
                 true,
                 "Passed"
+            ],
+            "electrumx.aur.ewmcx.info:50002": [
+                false,
+                "timed out"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -463,11 +463,11 @@
     },
     "BSTY": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "66.172.33.175:50001": [
                 false,
@@ -480,8 +480,8 @@
                 "Passed"
             ],
             "bsty-main.coinmunity.gold:50012": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ws": {
@@ -3073,7 +3073,7 @@
             ],
             "electrum6.smartcash.cc:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
@@ -3407,11 +3407,11 @@
     },
     "UNO": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "uno-bkp.coinmunity.gold:50002": [
@@ -3419,8 +3419,8 @@
                 "Passed"
             ],
             "uno-main.coinmunity.gold:50002": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ws": {
