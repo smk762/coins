@@ -3589,7 +3589,7 @@
             ],
             "electrumx3.widecoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
