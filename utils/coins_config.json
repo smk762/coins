@@ -3287,17 +3287,6 @@
                         "discord": "honglu69#5911"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
             }
         ]
     },
@@ -9238,6 +9227,196 @@
         ],
         "asset": "MCL"
     },
+    "MESH": {
+        "coin": "MESH",
+        "type": "Smart Chain",
+        "name": "SuperMESH",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://mesh.kmdexplorer.io/",
+            "https://mesh.explorer.dexstats.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10016",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30016"
+            },
+            {
+                "url": "electrum2.cipig.net:10016",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30016"
+            },
+            {
+                "url": "electrum3.cipig.net:10016",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30016"
+            },
+            {
+                "url": "electrum1.cipig.net:20016",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20016",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20016",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "asset": "MESH"
+    },
+    "MGW": {
+        "coin": "MGW",
+        "type": "Smart Chain",
+        "name": "MultiGateway",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://mgw.kmdexplorer.io/",
+            "https://mgw.explorer.dexstats.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10015",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30015"
+            },
+            {
+                "url": "electrum2.cipig.net:10015",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30015"
+            },
+            {
+                "url": "electrum3.cipig.net:10015",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30015"
+            },
+            {
+                "url": "electrum1.cipig.net:20015",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20015",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20015",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "asset": "MGW"
+    },
     "MINDS": {
         "coin": "MINDS",
         "type": "ERC-20",
@@ -9764,17 +9943,6 @@
             },
             {
                 "url": "electrum1.mooo.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.mooo.com:10001",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"

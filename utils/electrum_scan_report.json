@@ -782,9 +782,9 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -797,8 +797,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10007": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2133,37 +2133,37 @@
     },
     "MESH": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10016": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:10016": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:10016": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20016": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:20016": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:20016": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2183,37 +2183,37 @@
     },
     "MGW": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10015": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:10015": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:10015": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20015": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:20015": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:20015": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2406,9 +2406,9 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2421,8 +2421,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3589,7 +3589,7 @@
             ],
             "electrumx3.widecoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
