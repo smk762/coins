@@ -1,20 +1,20 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "elec-seeder-two.artbytecoin.org:50012": [
+            "elec-seeder-one.artbytecoin.org:50012": [
                 true,
                 "Passed"
             ],
-            "elec-seeder-one.artbytecoin.org:50012": [
-                false,
-                "timed out"
+            "elec-seeder-two.artbytecoin.org:50012": [
+                true,
+                "Passed"
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
@@ -122,20 +122,20 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "failover.aur.ewmcx.biz:50002": [
+            "electrumx.aur.ewmcx.info:50002": [
                 true,
                 "Passed"
             ],
-            "electrumx.aur.ewmcx.info:50002": [
-                false,
-                "timed out"
+            "failover.aur.ewmcx.biz:50002": [
+                true,
+                "Passed"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -3722,16 +3722,12 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrumx.gemmer.primecoin.org:50011": [
-                true,
-                "Passed"
-            ],
             "electrumx.mainnet.primecoin.org:50011": [
                 true,
                 "Passed"
@@ -3739,6 +3735,10 @@
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx.gemmer.primecoin.org:50011": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
