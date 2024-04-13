@@ -972,11 +972,11 @@
     },
     "DGB": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10059": [
                 true,
@@ -987,8 +987,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:10059": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -1001,8 +1001,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20059": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
