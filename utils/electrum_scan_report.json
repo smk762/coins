@@ -4085,17 +4085,13 @@
     },
     "tBTC": {
         "electrums_total_all": 7,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 3,
         "electrums_working_ssl": 1,
         "tcp": {
             "electrum3.cipig.net:10068": [
-                true,
-                "Passed"
-            ],
-            "testnet.aranguren.org:51001": [
                 true,
                 "Passed"
             ],
@@ -4106,6 +4102,10 @@
             "electrum2.cipig.net:10068": [
                 false,
                 "[Errno 111] Connection refused"
+            ],
+            "testnet.aranguren.org:51001": [
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {
