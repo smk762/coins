@@ -92,21 +92,21 @@
         "tcp": {
             "node1.chainkeeper.pro:10032": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "node1.chainkeeper.pro:10132": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "node1.chainkeeper.pro:20032": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "node1.chainkeeper.pro:20132": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
