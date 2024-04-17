@@ -2406,16 +2406,12 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum.shorelinecrypto.com:10001": [
-                true,
-                "Passed"
-            ],
             "electrum1.mooo.com:10001": [
                 true,
                 "Passed"
@@ -2423,6 +2419,10 @@
             "electrum2.mooo.com:10001": [
                 true,
                 "Passed"
+            ],
+            "electrum.shorelinecrypto.com:10001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
