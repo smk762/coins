@@ -46,29 +46,29 @@
     },
     "ACTN": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "electrumx1.actioncoin.com:10001": [
-                true,
-                "Passed"
-            ],
             "electrumx2.actioncoin.com:10001": [
                 true,
                 "Passed"
+            ],
+            "electrumx1.actioncoin.com:10001": [
+                false,
+                "timed out"
             ]
         },
         "ssl": {
-            "electrumx1.actioncoin.com:30001": [
-                true,
-                "Passed"
-            ],
             "electrumx2.actioncoin.com:30001": [
                 true,
                 "Passed"
+            ],
+            "electrumx1.actioncoin.com:30001": [
+                false,
+                "timed out"
             ]
         },
         "ws": {
@@ -1230,18 +1230,14 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
-                true,
-                "Passed"
-            ],
-            "lenoir.ecoincore.com:11017": [
                 true,
                 "Passed"
             ],
@@ -1254,6 +1250,10 @@
                 "[Errno 111] Connection refused"
             ],
             "holland.ecoincore.com:11017": [
+                false,
+                "timed out"
+            ],
+            "lenoir.ecoincore.com:11017": [
                 false,
                 "timed out"
             ]
@@ -1540,7 +1540,7 @@
             ],
             "electrum10.groestlcoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
