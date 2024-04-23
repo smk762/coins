@@ -5153,33 +5153,6 @@
             }
         ]
     },
-    "EFL": {
-        "coin": "EFL",
-        "type": "UTXO",
-        "name": "e-Gulden",
-        "coinpaprika_id": "efl-e-gulden",
-        "coingecko_id": "electronicgulden",
-        "nomics_id": "EFL",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/efl/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum1.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum1.egulden.org:50004"
-            }
-        ]
-    },
     "EGLD-BEP20": {
         "coin": "EGLD-BEP20",
         "type": "BEP-20",
@@ -13072,6 +13045,10 @@
                 "ws_url": "electrum3.cipig.net:30068"
             },
             {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum3.cipig.net:20068",
                 "protocol": "SSL",
                 "contact": [
@@ -15978,12 +15955,6 @@
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx2.runonflux.io:50004"
-            },
-            {
-                "url": "electrumx.runonflux.io:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrumx.runonflux.io:50004"
             }
         ]
     },
