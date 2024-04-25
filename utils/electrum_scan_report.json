@@ -237,7 +237,7 @@
             ],
             "electrum2.aryacoin.io:2052": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {
@@ -247,7 +247,7 @@
             ],
             "electrum2.aryacoin.io:2053": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -1052,11 +1052,11 @@
     },
     "DIMI": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrumx1.diminutivecoin.com:50012": [
@@ -1064,8 +1064,8 @@
                 "Passed"
             ],
             "electrumx2.diminutivecoin.com:50012": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1230,16 +1230,16 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.egulden.org:50002": [
                 false,
@@ -1247,7 +1247,7 @@
             ],
             "electrum5.egulden.org:11017": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "holland.ecoincore.com:11017": [
                 false,
@@ -1622,13 +1622,13 @@
         "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "il8p.electrumx.transcenders.name:50002": [
+            "il9p.electrumx.transcenders.name:50002": [
                 true,
                 "Passed"
             ],
-            "il9p.electrumx.transcenders.name:50002": [
+            "il8p.electrumx.transcenders.name:50002": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2859,13 +2859,17 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_working_all": 8,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 4,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 4,
         "tcp": {
             "electrum1.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum2.runebase.io:50001": [
                 true,
                 "Passed"
             ],
@@ -2873,13 +2877,9 @@
                 true,
                 "Passed"
             ],
-            "electrum2.runebase.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "electrum4.runebase.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -2887,17 +2887,17 @@
                 true,
                 "Passed"
             ],
+            "electrum2.runebase.io:50002": [
+                true,
+                "Passed"
+            ],
             "electrum3.runebase.io:50002": [
                 true,
                 "Passed"
             ],
-            "electrum2.runebase.io:50002": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "electrum4.runebase.io:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
