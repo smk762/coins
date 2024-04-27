@@ -3095,32 +3095,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "chicago.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "holland.ecoincore.com:34335"
-            },
-            {
-                "url": "lenoir.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:34335"
-            },
-            {
-                "url": "miami.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "miami.ecoincore.com:34335"
-            },
-            {
-                "url": "oakland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "is_segwit_on": false,
@@ -9129,18 +9107,6 @@
                 "ws_url": "electrum2.cipig.net:30023"
             },
             {
-                "url": "electrum3.cipig.net:10023",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30023"
-            },
-            {
                 "url": "electrum1.cipig.net:20023",
                 "protocol": "SSL",
                 "contact": [
@@ -9154,18 +9120,6 @@
             },
             {
                 "url": "electrum2.cipig.net:20023",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20023",
                 "protocol": "SSL",
                 "contact": [
                     {

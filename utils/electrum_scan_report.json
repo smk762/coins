@@ -667,34 +667,34 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 5,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 5,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "chicago.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
             "holland.ecoincore.com:34333": [
                 true,
                 "Passed"
             ],
+            "chicago.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ],
             "lenoir.ecoincore.com:34333": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "miami.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
-            "oakland.ecoincore.com:34333": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "mumbai.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ],
+            "oakland.ecoincore.com:34333": [
                 false,
                 "timed out"
             ],
@@ -2083,11 +2083,11 @@
     },
     "MCL": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10023": [
                 true,
@@ -2098,8 +2098,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:10023": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -2112,8 +2112,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20023": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
