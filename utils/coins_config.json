@@ -12983,32 +12983,8 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum3.cipig.net:10068",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30068"
-            },
-            {
                 "url": "testnet.aranguren.org:51001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrum3.cipig.net:20068",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "is_segwit_on": false,
@@ -18410,15 +18386,6 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
-            {
-                "url": "electroncash.de:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
             {
                 "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
