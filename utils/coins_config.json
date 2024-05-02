@@ -8562,10 +8562,6 @@
             {
                 "url": "electrumx.widecoin.org:50001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx2.widecoin.org:50001",
-                "protocol": "TCP"
             }
         ],
         "is_segwit_on": false,
@@ -8767,11 +8763,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrum5.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum5.getlynx.io:50004"
-            },
             {
                 "url": "electrum6.getlynx.io:50002",
                 "protocol": "SSL",
@@ -9671,9 +9662,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrumx.tamami-foundation.org:50001"
-            },
             {
                 "url": "electrumx1.monacoin.ninja:50001"
             }
@@ -10979,8 +10967,16 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -18409,6 +18405,15 @@
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
                     }
                 ]
+            },
+            {
+                "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
             }
         ]
     },
@@ -18656,18 +18661,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum1.runebase.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -18702,19 +18695,6 @@
                         "discord": "Bago#7842"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ],
-                "ws_url": "electrum1.runebase.io:50004"
             },
             {
                 "url": "electrum2.runebase.io:50002",
