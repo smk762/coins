@@ -667,14 +667,22 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 1,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "holland.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "mumbai.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "woolloomooloo.ecoincore.com:34333": [
                 true,
                 "Passed"
             ],
@@ -690,10 +698,6 @@
                 false,
                 "timed out"
             ],
-            "mumbai.ecoincore.com:34333": [
-                false,
-                "timed out"
-            ],
             "oakland.ecoincore.com:34333": [
                 false,
                 "timed out"
@@ -701,10 +705,6 @@
             "seattle.ecoincore.com:34333": [
                 false,
                 "timed out"
-            ],
-            "woolloomooloo.ecoincore.com:34333": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1131,15 +1131,15 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 3,
+        "electrums_working_all": 5,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 4,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -1151,13 +1151,13 @@
                 true,
                 "Passed"
             ],
-            "ugly-bird-70.doi.works:50002": [
+            "pink-deer-69.doi.works:50002": [
                 true,
                 "Passed"
             ],
-            "pink-deer-69.doi.works:50002": [
-                false,
-                "[Errno 101] Network is unreachable"
+            "ugly-bird-70.doi.works:50002": [
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -1251,7 +1251,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "lenoir.ecoincore.com:11017": [
                 false,
