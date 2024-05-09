@@ -1251,7 +1251,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "lenoir.ecoincore.com:11017": [
                 false,
