@@ -3095,16 +3095,32 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "holland.ecoincore.com:34335"
             },
             {
+                "url": "miami.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "miami.ecoincore.com:34335"
+            },
+            {
                 "url": "mumbai.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "mumbai.ecoincore.com:34335"
+            },
+            {
+                "url": "oakland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             },
             {
                 "url": "woolloomooloo.ecoincore.com:34333",
@@ -8803,6 +8819,11 @@
                 "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum7.getlynx.io:50004"
+            },
+            {
+                "url": "electrum8.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum8.getlynx.io:50004"
             },
             {
                 "url": "electrum9.getlynx.io:50002",
