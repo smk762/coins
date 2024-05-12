@@ -3302,17 +3302,6 @@
                         "discord": "honglu69#5911"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
             }
         ]
     },
@@ -3538,6 +3527,39 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "CLC": {
+        "coin": "CLC",
+        "type": "Smart Chain",
+        "name": "Collider Coin",
+        "coinpaprika_id": "clc-collider-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "CLC2",
+        "explorer_url": [
+            "https://clc.explorer.dexstats.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrumx.cryptocollider.com:10001",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
+            }
+        ],
+        "asset": "CLC"
     },
     "COMP-AVX20": {
         "coin": "COMP-AVX20",
@@ -9921,17 +9943,6 @@
                         "discord": "honglu69#5911"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.mooo.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
             }
         ]
     },
@@ -11017,8 +11028,16 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -15008,6 +15027,9 @@
         "wallet_only": true,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx.gemmer.primecoin.org:50011"
+            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
