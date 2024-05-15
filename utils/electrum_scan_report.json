@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -16,11 +16,11 @@
                 true,
                 "Passed"
             ],
-            "electrumx-four.artbyte.live:50012": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "electrumx-three.artbyte.live:50012": [
+                true,
+                "Passed"
+            ],
+            "electrumx-four.artbyte.live:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -704,7 +704,7 @@
             ],
             "seattle.ecoincore.com:34333": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
