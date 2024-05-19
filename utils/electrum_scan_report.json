@@ -704,7 +704,7 @@
             ],
             "seattle.ecoincore.com:34333": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1386,15 +1386,15 @@
     },
     "FLUX": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
         "electrums_working_ssl": 1,
         "tcp": {
             "electrumx2.runonflux.io:50001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -4007,24 +4007,24 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electroncash.de:50004": [
                 true,
                 "Passed"
             ],
-            "tbch.loping.net:60002": [
+            "electrs.electroncash.de:60002": [
                 true,
                 "Passed"
             ],
-            "electrs.electroncash.de:60002": [
-                false,
-                "The read operation timed out"
+            "tbch.loping.net:60002": [
+                true,
+                "Passed"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,

@@ -15952,6 +15952,11 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx2.runonflux.io:50001",
+                "protocol": "TCP",
+                "ws_url": "electrumx2.runonflux.io:50004"
+            },
+            {
                 "url": "electrumx.runonflux.io:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -18457,6 +18462,15 @@
         "electrum": [
             {
                 "url": "electroncash.de:50004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
