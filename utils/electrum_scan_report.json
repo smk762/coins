@@ -704,7 +704,7 @@
             ],
             "seattle.ecoincore.com:34333": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
