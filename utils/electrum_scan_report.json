@@ -58,7 +58,7 @@
             ],
             "electrumx1.actioncoin.com:10001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {
@@ -68,7 +68,7 @@
             ],
             "electrumx1.actioncoin.com:30001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -782,9 +782,9 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -797,8 +797,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10007": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -1247,7 +1247,7 @@
             ],
             "electrum5.egulden.org:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "holland.ecoincore.com:11017": [
                 false,
@@ -2406,9 +2406,9 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2421,8 +2421,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -2859,12 +2859,16 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
+            "electrum2.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
             "electrum3.runebase.io:50001": [
                 true,
                 "Passed"
@@ -2876,13 +2880,13 @@
             "electrum1.runebase.io:50001": [
                 false,
                 "timed out"
-            ],
-            "electrum2.runebase.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
+            "electrum2.runebase.io:50002": [
+                true,
+                "Passed"
+            ],
             "electrum3.runebase.io:50002": [
                 true,
                 "Passed"
@@ -2894,10 +2898,6 @@
             "electrum1.runebase.io:50002": [
                 false,
                 "timed out"
-            ],
-            "electrum2.runebase.io:50002": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
