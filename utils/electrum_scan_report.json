@@ -1247,7 +1247,7 @@
             ],
             "electrum5.egulden.org:11017": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "holland.ecoincore.com:11017": [
                 false,
