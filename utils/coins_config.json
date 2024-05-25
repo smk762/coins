@@ -1093,14 +1093,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum-eu.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "alamshafil@pm.me"
-                    }
-                ]
-            },
-            {
                 "url": "electrum-us.avn.network:50001",
                 "contact": [
                     {
