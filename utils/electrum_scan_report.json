@@ -122,11 +122,11 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
@@ -134,8 +134,8 @@
                 "Passed"
             ],
             "failover.aur.ewmcx.biz:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -1386,11 +1386,11 @@
     },
     "FLUX": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx2.runonflux.io:50001": [
                 true,
@@ -1399,8 +1399,8 @@
         },
         "ssl": {
             "electrumx.runonflux.io:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {
