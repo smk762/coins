@@ -13943,12 +13943,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "uno-bkp.coinmunity.gold:50003"
-            },
-            {
-                "url": "uno-main.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "uno-main.coinmunity.gold:50003"
             }
         ]
     },
@@ -16016,6 +16010,12 @@
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx2.runonflux.io:50004"
+            },
+            {
+                "url": "electrumx.runonflux.io:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrumx.runonflux.io:50004"
             }
         ]
     },
