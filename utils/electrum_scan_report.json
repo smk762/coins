@@ -155,9 +155,9 @@
     },
     "AVN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -166,8 +166,8 @@
                 "Passed"
             ],
             "electrum-us.avn.network:50001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -1230,16 +1230,16 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.egulden.org:50002": [
                 false,
