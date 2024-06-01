@@ -3515,7 +3515,7 @@
         "tcp": {
             "electrum01-vrm.vericonomy.com:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
