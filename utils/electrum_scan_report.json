@@ -547,17 +547,17 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum2.btcz.rocks:50001": [
-                true,
-                "Passed"
-            ],
             "electrum1.btcz.rocks:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum2.btcz.rocks:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -3407,11 +3407,11 @@
     },
     "UNO": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "uno-bkp.coinmunity.gold:50002": [
@@ -3419,8 +3419,8 @@
                 "Passed"
             ],
             "uno-main.coinmunity.gold:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3573,15 +3573,15 @@
     },
     "WCN": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.widecoin.org:50001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "electrumx2.widecoin.org:50001": [
                 false,
