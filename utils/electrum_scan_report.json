@@ -667,11 +667,11 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 6,
+        "electrums_working_all": 7,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 6,
+        "electrums_working_ssl": 7,
         "tcp": {},
         "ssl": {
             "chicago.ecoincore.com:34333": [
@@ -679,6 +679,10 @@
                 "Passed"
             ],
             "holland.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:34333": [
                 true,
                 "Passed"
             ],
@@ -697,10 +701,6 @@
             "woolloomooloo.ecoincore.com:34333": [
                 true,
                 "Passed"
-            ],
-            "lenoir.ecoincore.com:34333": [
-                false,
-                "timed out"
             ],
             "seattle.ecoincore.com:34333": [
                 false,
@@ -1386,11 +1386,11 @@
     },
     "FLUX": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx2.runonflux.io:50001": [
                 true,
@@ -1399,8 +1399,8 @@
         },
         "ssl": {
             "electrumx.runonflux.io:50002": [
-                true,
-                "Passed"
+                false,
+                "_ssl.c:990: The handshake operation timed out"
             ]
         },
         "ws": {
@@ -3407,20 +3407,20 @@
     },
     "UNO": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "uno-bkp.coinmunity.gold:50002": [
-                true,
-                "Passed"
-            ],
             "uno-main.coinmunity.gold:50002": [
                 true,
                 "Passed"
+            ],
+            "uno-bkp.coinmunity.gold:50002": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3585,7 +3585,7 @@
             ],
             "electrumx2.widecoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrumx3.widecoin.org:50001": [
                 false,
@@ -3759,7 +3759,7 @@
             ],
             "blackie.c3-soft.com:52138": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}

@@ -3076,6 +3076,12 @@
                 "ws_url": "holland.ecoincore.com:34335"
             },
             {
+                "url": "lenoir.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:34335"
+            },
+            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -13843,12 +13849,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "uno-bkp.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "uno-bkp.coinmunity.gold:50003"
-            },
-            {
                 "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -15920,12 +15920,6 @@
                 "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx2.runonflux.io:50004"
-            },
-            {
-                "url": "electrumx.runonflux.io:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrumx.runonflux.io:50004"
             }
         ]
     },
