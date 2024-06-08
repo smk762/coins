@@ -782,16 +782,12 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum.shorelinecrypto.com:10007": [
-                true,
-                "Passed"
-            ],
             "electrum1.mooo.com:10007": [
                 true,
                 "Passed"
@@ -799,6 +795,10 @@
             "electrum2.mooo.com:10007": [
                 true,
                 "Passed"
+            ],
+            "electrum.shorelinecrypto.com:10007": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2406,16 +2406,12 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum.shorelinecrypto.com:10001": [
-                true,
-                "Passed"
-            ],
             "electrum1.mooo.com:10001": [
                 true,
                 "Passed"
@@ -2423,6 +2419,10 @@
             "electrum2.mooo.com:10001": [
                 true,
                 "Passed"
+            ],
+            "electrum.shorelinecrypto.com:10001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2859,13 +2859,17 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum2.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum4.runebase.io:50001": [
                 true,
                 "Passed"
             ],
@@ -2876,14 +2880,14 @@
             "electrum3.runebase.io:50001": [
                 false,
                 "[Errno 111] Connection refused"
-            ],
-            "electrum4.runebase.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum2.runebase.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum4.runebase.io:50002": [
                 true,
                 "Passed"
             ],
@@ -2892,10 +2896,6 @@
                 "timed out"
             ],
             "electrum3.runebase.io:50002": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "electrum4.runebase.io:50002": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -3585,7 +3585,7 @@
             ],
             "electrumx2.widecoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrumx3.widecoin.org:50001": [
                 false,
@@ -4007,11 +4007,11 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "electroncash.de:50004": [
@@ -4023,8 +4023,8 @@
                 "Passed"
             ],
             "tbch.loping.net:60002": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
