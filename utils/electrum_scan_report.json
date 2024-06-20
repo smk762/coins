@@ -2859,13 +2859,17 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum2.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum3.runebase.io:50001": [
                 true,
                 "Passed"
             ],
@@ -2876,14 +2880,14 @@
             "electrum1.runebase.io:50001": [
                 false,
                 "timed out"
-            ],
-            "electrum3.runebase.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum2.runebase.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum3.runebase.io:50002": [
                 true,
                 "Passed"
             ],
@@ -2894,10 +2898,6 @@
             "electrum1.runebase.io:50002": [
                 false,
                 "timed out"
-            ],
-            "electrum3.runebase.io:50002": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {

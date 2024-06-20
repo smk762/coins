@@ -18759,6 +18759,18 @@
                 ]
             },
             {
+                "url": "electrum3.runebase.io:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
                 "url": "electrum4.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -18782,6 +18794,19 @@
                     }
                 ],
                 "ws_url": "electrum2.runebase.io:50004"
+            },
+            {
+                "url": "electrum3.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ],
+                "ws_url": "electrum3.runebase.io:50004"
             },
             {
                 "url": "electrum4.runebase.io:50002",
