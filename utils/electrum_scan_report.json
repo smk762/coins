@@ -1466,11 +1466,11 @@
     },
     "GLEEC": {
         "electrums_total_all": 6,
-        "electrums_working_all": 5,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
         "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10022": [
                 true,
@@ -1495,8 +1495,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20022": [
-                false,
-                "_ssl.c:990: The handshake operation timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {
