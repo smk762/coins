@@ -547,19 +547,19 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.btcz.rocks:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.btcz.rocks:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -1466,11 +1466,11 @@
     },
     "GLEEC": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 5,
         "electrums_total_tcp": 3,
         "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10022": [
                 true,
@@ -1495,8 +1495,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20022": [
-                true,
-                "Passed"
+                false,
+                "_ssl.c:990: The handshake operation timed out"
             ]
         },
         "ws": {
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "209.50.52.239:50001": [
                 false,
