@@ -441,12 +441,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -10991,15 +10985,7 @@
                 "protocol": "TCP"
             },
             {
-                "url": "txserver.live:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx.live:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "txserver.live:50002",
                 "protocol": "SSL"
             }
         ]
