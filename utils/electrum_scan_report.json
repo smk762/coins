@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -3597,29 +3597,29 @@
     },
     "WHIVE": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "electrumx1.cointest.com:50001": [
-                true,
-                "Passed"
-            ],
             "electrumx2.cointest.com:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx1.cointest.com:50001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "electrumx1.cointest.com:50002": [
-                true,
-                "Passed"
-            ],
             "electrumx2.cointest.com:50002": [
                 true,
                 "Passed"
+            ],
+            "electrumx1.cointest.com:50002": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -3759,7 +3759,7 @@
             ],
             "blackie.c3-soft.com:52138": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
