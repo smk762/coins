@@ -4424,11 +4424,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.dgc.ewmcx.org:50001",
-                "protocol": "TCP",
-                "ws_url": "electrumx.dgc.ewmcx.org:50003"
-            },
-            {
                 "url": "failover.dgc.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -6463,19 +6458,6 @@
                 "ws_url": "electrum2.cipig.net:30022"
             },
             {
-                "url": "electrum3.cipig.net:10022",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30022"
-            },
-            {
                 "url": "electrum1.cipig.net:20022",
                 "protocol": "SSL",
                 "contact": [
@@ -6489,18 +6471,6 @@
             },
             {
                 "url": "electrum2.cipig.net:20022",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20022",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -15146,10 +15116,6 @@
             {
                 "url": "electrumx1.vanillacash.info:50011",
                 "ws_url": "electrumx1.vanillacash.info:50013"
-            },
-            {
-                "url": "electrumx2.vanillacash.info:50011",
-                "ws_url": "electrumx2.vanillacash.info:50013"
             }
         ]
     },
