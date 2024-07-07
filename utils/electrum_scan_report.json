@@ -806,15 +806,15 @@
     },
     "CLC": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.cryptocollider.com:10001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1022,15 +1022,15 @@
     },
     "DGC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
         "electrums_working_ssl": 1,
         "tcp": {
             "electrumx.dgc.ewmcx.org:50001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -1131,11 +1131,11 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 5,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 2,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
                 true,
@@ -1143,10 +1143,6 @@
             ]
         },
         "ssl": {
-            "big-parrot-60.doi.works:50002": [
-                true,
-                "Passed"
-            ],
             "itchy-jellyfish-89.doi.works:50002": [
                 true,
                 "Passed"
@@ -1155,9 +1151,13 @@
                 true,
                 "Passed"
             ],
+            "big-parrot-60.doi.works:50002": [
+                false,
+                "[Errno 101] Network is unreachable"
+            ],
             "ugly-bird-70.doi.works:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {}
@@ -1466,11 +1466,11 @@
     },
     "GLEEC": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10022": [
                 true,
@@ -1481,8 +1481,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:10022": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -1495,8 +1495,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20022": [
-                false,
-                "_ssl.c:990: The handshake operation timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2660,29 +2660,29 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "electrumx.live:50010": [
-                true,
-                "Passed"
-            ],
             "txserver.live:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx.live:50010": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "electrumx.live:50012": [
-                true,
-                "Passed"
-            ],
             "txserver.live:50002": [
                 true,
                 "Passed"
+            ],
+            "electrumx.live:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -3766,9 +3766,9 @@
     },
     "XVC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -3777,8 +3777,8 @@
                 "Passed"
             ],
             "electrumx2.vanillacash.info:50011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},

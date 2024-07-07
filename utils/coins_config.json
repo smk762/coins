@@ -3494,39 +3494,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "CLC": {
-        "coin": "CLC",
-        "type": "Smart Chain",
-        "name": "Collider Coin",
-        "coinpaprika_id": "clc-collider-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "CLC2",
-        "explorer_url": [
-            "https://clc.explorer.dexstats.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx.cryptocollider.com:10001",
-                "contact": [
-                    {
-                        "email": "electrumx@cryptocollider.com"
-                    },
-                    {
-                        "discord": "collider#6160"
-                    }
-                ]
-            }
-        ],
-        "asset": "CLC"
-    },
     "COMP-AVX20": {
         "coin": "COMP-AVX20",
         "type": "AVX-20",
@@ -4424,6 +4391,11 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.dgc.ewmcx.org:50001",
+                "protocol": "TCP",
+                "ws_url": "electrumx.dgc.ewmcx.org:50003"
+            },
+            {
                 "url": "failover.dgc.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -5013,17 +4985,6 @@
                 ]
             },
             {
-                "url": "big-parrot-60.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "big-parrot-60.doi.works:50004"
-            },
-            {
                 "url": "itchy-jellyfish-89.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -5044,17 +5005,6 @@
                     }
                 ],
                 "ws-url": "pink-deer-69.doi.works:50004"
-            },
-            {
-                "url": "ugly-bird-70.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "ugly-bird-70.doi.works:50004"
             }
         ],
         "is_segwit_on": false,
@@ -6458,6 +6408,19 @@
                 "ws_url": "electrum2.cipig.net:30022"
             },
             {
+                "url": "electrum3.cipig.net:10022",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30022"
+            },
+            {
                 "url": "electrum1.cipig.net:20022",
                 "protocol": "SSL",
                 "contact": [
@@ -6471,6 +6434,18 @@
             },
             {
                 "url": "electrum2.cipig.net:20022",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20022",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -10953,16 +10928,8 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -15116,6 +15083,10 @@
             {
                 "url": "electrumx1.vanillacash.info:50011",
                 "ws_url": "electrumx1.vanillacash.info:50013"
+            },
+            {
+                "url": "electrumx2.vanillacash.info:50011",
+                "ws_url": "electrumx2.vanillacash.info:50013"
             }
         ]
     },
