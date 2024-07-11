@@ -1333,9 +1333,9 @@
     },
     "FIRO": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -1343,13 +1343,13 @@
                 true,
                 "Passed"
             ],
-            "electrumx02.firo.org:50001": [
-                true,
-                "Passed"
-            ],
             "electrumx03.firo.org:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx02.firo.org:50001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -3585,7 +3585,7 @@
             ],
             "electrumx2.widecoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrumx3.widecoin.org:50001": [
                 false,
@@ -3722,16 +3722,12 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrumx.gemmer.primecoin.org:50011": [
-                true,
-                "Passed"
-            ],
             "electrumx.mainnet.primecoin.org:50011": [
                 true,
                 "Passed"
@@ -3739,6 +3735,10 @@
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx.gemmer.primecoin.org:50011": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
