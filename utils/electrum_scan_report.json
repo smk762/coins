@@ -2682,7 +2682,7 @@
             ],
             "txserver.live:50002": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "The read operation timed out"
             ]
         },
         "ws": {}
