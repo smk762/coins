@@ -9615,9 +9615,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
                 "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
