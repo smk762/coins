@@ -5143,6 +5143,33 @@
             }
         ]
     },
+    "EFL": {
+        "coin": "EFL",
+        "type": "UTXO",
+        "name": "e-Gulden",
+        "coinpaprika_id": "efl-e-gulden",
+        "coingecko_id": "electronicgulden",
+        "nomics_id": "EFL",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/efl/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
+            }
+        ]
+    },
     "EGLD-BEP20": {
         "coin": "EGLD-BEP20",
         "type": "BEP-20",
@@ -9655,6 +9682,9 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx.tamami-foundation.org:50001"
+            },
             {
                 "url": "electrumx1.monacoin.ninja:50001"
             }
