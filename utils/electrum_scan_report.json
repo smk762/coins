@@ -58,7 +58,7 @@
             ],
             "electrumx1.actioncoin.com:10001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {
@@ -68,7 +68,7 @@
             ],
             "electrumx1.actioncoin.com:30001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
