@@ -22,7 +22,7 @@
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -1251,7 +1251,7 @@
             ],
             "electrum5.egulden.org:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "holland.ecoincore.com:11017": [
                 false,
