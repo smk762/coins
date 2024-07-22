@@ -15907,11 +15907,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx2.runonflux.io:50001",
-                "protocol": "TCP",
-                "ws_url": "electrumx2.runonflux.io:50004"
-            },
-            {
                 "url": "electrumx.runonflux.io:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
