@@ -1,13 +1,17 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
+            "elec-seeder-one.artbytecoin.org:50012": [
+                true,
+                "Passed"
+            ],
             "elec-seeder-two.artbytecoin.org:50012": [
                 true,
                 "Passed"
@@ -15,10 +19,6 @@
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
-            ],
-            "elec-seeder-one.artbytecoin.org:50012": [
-                false,
-                "[Errno 111] Connection refused"
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
@@ -122,20 +122,20 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "electrumx.aur.ewmcx.info:50002": [
-                true,
-                "Passed"
-            ],
             "failover.aur.ewmcx.biz:50002": [
                 true,
                 "Passed"
+            ],
+            "electrumx.aur.ewmcx.info:50002": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -547,19 +547,19 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum1.btcz.rocks:50001": [
-                true,
-                "Passed"
-            ],
             "electrum2.btcz.rocks:50001": [
                 true,
                 "Passed"
+            ],
+            "electrum1.btcz.rocks:50001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1230,20 +1230,20 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "lenoir.ecoincore.com:11017": [
+            "electrum1.egulden.org:50002": [
                 true,
                 "Passed"
             ],
-            "electrum1.egulden.org:50002": [
-                false,
-                "[Errno 111] Connection refused"
+            "lenoir.ecoincore.com:11017": [
+                true,
+                "Passed"
             ],
             "electrum2.egulden.org:50002": [
                 false,
@@ -1615,11 +1615,11 @@
     },
     "IL8P": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "il8p.electrumx.transcenders.name:50002": [
@@ -1627,8 +1627,8 @@
                 "Passed"
             ],
             "il9p.electrumx.transcenders.name:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
