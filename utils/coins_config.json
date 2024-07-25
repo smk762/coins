@@ -3281,17 +3281,6 @@
                         "discord": "honglu69#5911"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
             }
         ]
     },
@@ -9873,17 +9862,6 @@
                         "discord": "honglu69#5911"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.mooo.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
             }
         ]
     },
@@ -15914,6 +15892,11 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx2.runonflux.io:50001",
+                "protocol": "TCP",
+                "ws_url": "electrumx2.runonflux.io:50004"
+            },
             {
                 "url": "electrumx.runonflux.io:50002",
                 "protocol": "SSL",
