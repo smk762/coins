@@ -443,6 +443,12 @@
                 "ws_url": "elec-seeder-one.artbytecoin.org:50013"
             },
             {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "elec-seeder-two.artbytecoin.org:50013"
+            },
+            {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -4463,6 +4469,12 @@
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx.dgc.ewmcx.org:50003"
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.dgc.ewmcx.biz:50003"
             }
         ]
     },
@@ -15288,6 +15300,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.vanillacash.info:50011",
+                "ws_url": "electrumx1.vanillacash.info:50013"
+            },
+            {
                 "url": "electrumx2.vanillacash.info:50011",
                 "ws_url": "electrumx2.vanillacash.info:50013"
             }
@@ -18578,7 +18594,7 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "electroncash.de:50004",
+                "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -18587,7 +18603,7 @@
                 ]
             },
             {
-                "url": "electrs.electroncash.de:60002",
+                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
