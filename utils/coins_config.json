@@ -437,22 +437,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -18654,7 +18642,36 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.cointest.com:50001",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx2.cointest.com:50001",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.cointest.com:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "protocol@whive.io"
