@@ -1,13 +1,17 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
+            "electrumx-three.artbyte.live:50012": [
+                true,
+                "Passed"
+            ],
             "elec-seeder-one.artbytecoin.org:50012": [
                 false,
                 "[Errno 111] Connection refused"
@@ -17,10 +21,6 @@
                 "[Errno 111] Connection refused"
             ],
             "electrumx-four.artbyte.live:50012": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "electrumx-three.artbyte.live:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -122,20 +122,20 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "failover.aur.ewmcx.biz:50002": [
+            "electrumx.aur.ewmcx.info:50002": [
                 true,
                 "Passed"
             ],
-            "electrumx.aur.ewmcx.info:50002": [
-                false,
-                "[Errno 111] Connection refused"
+            "failover.aur.ewmcx.biz:50002": [
+                true,
+                "Passed"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -1386,15 +1386,15 @@
     },
     "FLUX": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
         "electrums_working_ssl": 1,
         "tcp": {
             "electrumx2.runonflux.io:50001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -2859,23 +2859,23 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrum2.runebase.io:50001": [
-                true,
-                "Passed"
-            ],
-            "electrum3.runebase.io:50001": [
                 true,
                 "Passed"
             ],
             "electrum1.runebase.io:50001": [
                 false,
                 "timed out"
+            ],
+            "electrum3.runebase.io:50001": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50001": [
                 false,
@@ -2887,13 +2887,13 @@
                 true,
                 "Passed"
             ],
-            "electrum3.runebase.io:50002": [
-                true,
-                "Passed"
-            ],
             "electrum1.runebase.io:50002": [
                 false,
                 "timed out"
+            ],
+            "electrum3.runebase.io:50002": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50002": [
                 false,
@@ -4007,22 +4007,22 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "electrs.electroncash.de:60002": [
                 true,
                 "Passed"
             ],
-            "tbch.loping.net:60002": [
-                true,
-                "Passed"
-            ],
             "electroncash.de:50004": [
+                false,
+                "[Errno 101] Network is unreachable"
+            ],
+            "tbch.loping.net:60002": [
                 false,
                 "[Errno 101] Network is unreachable"
             ],
