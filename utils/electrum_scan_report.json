@@ -92,7 +92,7 @@
         "tcp": {
             "node1.chainkeeper.pro:10032": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "node1.chainkeeper.pro:10132": [
                 false,
