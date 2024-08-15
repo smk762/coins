@@ -1,22 +1,22 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "elec-seeder-two.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
             ],
             "elec-seeder-one.artbytecoin.org:50012": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "elec-seeder-two.artbytecoin.org:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ],
@@ -92,7 +92,7 @@
         "tcp": {
             "node1.chainkeeper.pro:10032": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "node1.chainkeeper.pro:10132": [
                 false,
@@ -547,9 +547,9 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -558,8 +558,8 @@
                 "Passed"
             ],
             "electrum2.btcz.rocks:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1540,7 +1540,7 @@
             ],
             "electrum10.groestlcoin.org:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
@@ -3073,7 +3073,7 @@
             ],
             "electrum6.smartcash.cc:50001": [
                 false,
-                "timed out"
+                "HTTP/1.1 400 Bad Request\r\nContent-Type: text/plain; charset=utf-8\r\nConnection: close\r\n\r\n400 Bad Reques"
             ]
         },
         "ssl": {},
