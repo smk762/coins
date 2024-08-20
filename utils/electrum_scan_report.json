@@ -1,24 +1,24 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 1,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
-            "electrumx-three.artbyte.live:50012": [
+            "elec-seeder-one.artbytecoin.org:50012": [
                 true,
                 "Passed"
             ],
-            "elec-seeder-one.artbytecoin.org:50012": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "elec-seeder-two.artbytecoin.org:50012": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
+            ],
+            "electrumx-three.artbyte.live:50012": [
+                true,
+                "Passed"
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
@@ -1022,11 +1022,11 @@
     },
     "DGC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrumx.dgc.ewmcx.org:50001": [
                 true,
@@ -1035,8 +1035,8 @@
         },
         "ssl": {
             "failover.dgc.ewmcx.biz:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1516,16 +1516,12 @@
     },
     "GRS": {
         "electrums_total_all": 5,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 5,
-        "electrums_working_tcp": 4,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum11.groestlcoin.org:50001": [
-                true,
-                "Passed"
-            ],
             "electrum12.groestlcoin.org:50001": [
                 true,
                 "Passed"
@@ -1541,6 +1537,10 @@
             "electrum10.groestlcoin.org:50001": [
                 false,
                 "timed out"
+            ],
+            "electrum11.groestlcoin.org:50001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1644,15 +1644,15 @@
     },
     "ILN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.ilien.io:65011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.ilien.io:65011": [
                 false,
