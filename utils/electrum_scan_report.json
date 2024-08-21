@@ -547,9 +547,9 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -558,8 +558,8 @@
                 "Passed"
             ],
             "electrum2.btcz.rocks:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -1516,12 +1516,16 @@
     },
     "GRS": {
         "electrums_total_all": 5,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 5,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 4,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
+            "electrum11.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ],
             "electrum12.groestlcoin.org:50001": [
                 true,
                 "Passed"
@@ -1537,10 +1541,6 @@
             "electrum10.groestlcoin.org:50001": [
                 false,
                 "timed out"
-            ],
-            "electrum11.groestlcoin.org:50001": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "209.50.52.239:50001": [
                 false,
