@@ -1131,29 +1131,29 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 4,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 1,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {
-            "big-parrot-60.doi.works:50002": [
-                true,
-                "Passed"
-            ],
             "itchy-jellyfish-89.doi.works:50002": [
                 true,
                 "Passed"
             ],
+            "big-parrot-60.doi.works:50002": [
+                false,
+                "[Errno -3] Temporary failure in name resolution"
+            ],
             "pink-deer-69.doi.works:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "ugly-bird-70.doi.works:50002": [
                 false,
