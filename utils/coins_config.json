@@ -2529,15 +2529,6 @@
                     }
                 ],
                 "ws_url": "electrum1.btcz.rocks:50004"
-            },
-            {
-                "url": "electrum2.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "ws_url": "electrum2.btcz.rocks:50004"
             }
         ]
     },
@@ -7320,6 +7311,18 @@
                     }
                 ],
                 "ws_url": "electrum1.ilien.io:30069"
+            },
+            {
+                "url": "electrum2.ilien.io:65011",
+                "contact": [
+                    {
+                        "email": "support@chainmake.rs"
+                    },
+                    {
+                        "discord": "siu - Chainmakers#3920"
+                    }
+                ],
+                "ws_url": "electrum2.ilien.io:30069"
             }
         ],
         "asset": "ILN"
@@ -9844,6 +9847,11 @@
                 "url": "electrum2.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum2.nav.community:40004"
+            },
+            {
+                "url": "electrum3.nav.community:40002",
+                "protocol": "SSL",
+                "ws_url": "electrum3.nav.community:40004"
             }
         ]
     },
