@@ -447,12 +447,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -13142,10 +13136,6 @@
                 "ws_url": "electrum3.cipig.net:30068"
             },
             {
-                "url": "testnet.aranguren.org:51001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum3.cipig.net:20068",
                 "protocol": "SSL",
                 "contact": [
@@ -13729,6 +13719,33 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "UIS": {
+        "coin": "UIS",
+        "type": "UTXO",
+        "name": "Unitus",
+        "coinpaprika_id": "uis-unitus",
+        "coingecko_id": "unitus",
+        "nomics_id": "UIS",
+        "explorer_url": [
+            "https://explorer.unitus.network/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+            }
+        ]
     },
     "UMA-AVX20": {
         "coin": "UMA-AVX20",
