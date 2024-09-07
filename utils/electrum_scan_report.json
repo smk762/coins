@@ -1,18 +1,18 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
-            "elec-seeder-two.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
             "elec-seeder-one.artbytecoin.org:50012": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "elec-seeder-two.artbytecoin.org:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ],
@@ -3073,7 +3073,7 @@
             ],
             "electrum6.smartcash.cc:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
@@ -3339,11 +3339,11 @@
     },
     "TRC": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum.southofheaven.ca:50001": [
                 false,
@@ -3356,8 +3356,8 @@
         },
         "ssl": {
             "failover.trc-uis.ewmcx.biz:50006": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
