@@ -437,12 +437,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -13427,33 +13421,6 @@
         ],
         "asset": "TOKEL"
     },
-    "TRC": {
-        "coin": "TRC",
-        "type": "UTXO",
-        "name": "Terracoin",
-        "coinpaprika_id": "trc-terracoin",
-        "coingecko_id": "terracoin",
-        "nomics_id": "TRC",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/trc/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "failover.trc-uis.ewmcx.biz:50006",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.trc-uis.ewmcx.biz:50007"
-            }
-        ]
-    },
     "TRX-BEP20": {
         "coin": "TRX-BEP20",
         "type": "BEP-20",
@@ -14027,12 +13994,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "uno-bkp.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "uno-bkp.coinmunity.gold:50003"
-            },
             {
                 "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
@@ -15156,9 +15117,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.gemmer.primecoin.org:50011"
-            },
-            {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
             {
@@ -15316,10 +15274,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrumx1.vanillacash.info:50011",
-                "ws_url": "electrumx1.vanillacash.info:50013"
-            },
             {
                 "url": "electrumx2.vanillacash.info:50011",
                 "ws_url": "electrumx2.vanillacash.info:50013"
