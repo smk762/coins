@@ -1,18 +1,18 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
-            "elec-seeder-two.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
             "elec-seeder-one.artbytecoin.org:50012": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "elec-seeder-two.artbytecoin.org:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ],
@@ -3722,12 +3722,16 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
+            "electrumx.gemmer.primecoin.org:50011": [
+                true,
+                "Passed"
+            ],
             "electrumx.mainnet.primecoin.org:50011": [
                 true,
                 "Passed"
@@ -3735,10 +3739,6 @@
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
-            ],
-            "electrumx.gemmer.primecoin.org:50011": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
