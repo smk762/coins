@@ -1516,9 +1516,9 @@
     },
     "GRS": {
         "electrums_total_all": 5,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 5,
-        "electrums_working_tcp": 4,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -1534,11 +1534,11 @@
                 true,
                 "Passed"
             ],
-            "electrum14.groestlcoin.org:50001": [
-                true,
-                "Passed"
-            ],
             "electrum10.groestlcoin.org:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum14.groestlcoin.org:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -2544,21 +2544,21 @@
         "tcp": {
             "electrumx.live:50020": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50020": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50022": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50022": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -2660,29 +2660,29 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrumx.live:50010": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ],
             "txserver.live:50001": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrumx.live:50012": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ],
             "txserver.live:50002": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -3585,7 +3585,7 @@
             ],
             "electrumx2.widecoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrumx3.widecoin.org:50001": [
                 false,
