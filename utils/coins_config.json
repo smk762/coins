@@ -417,6 +417,33 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
+    "ABY": {
+        "coin": "ABY",
+        "type": "UTXO",
+        "name": "ArtByte",
+        "coinpaprika_id": "aby-artbyte",
+        "coingecko_id": "artbyte",
+        "nomics_id": "ABY2",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/aby/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-three.artbyte.live:50013"
+            }
+        ]
+    },
     "ADA-BEP20": {
         "coin": "ADA-BEP20",
         "type": "BEP-20",
@@ -2482,6 +2509,15 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrum1.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "ws_url": "electrum1.btcz.rocks:50004"
+            },
             {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
@@ -6696,6 +6732,10 @@
             {
                 "url": "electrum13.groestlcoin.org:50001",
                 "ws_url": "electrum13.groestlcoin.org:50004"
+            },
+            {
+                "url": "electrum14.groestlcoin.org:50001",
+                "ws_url": "electrum14.groestlcoin.org:50004"
             }
         ],
         "is_segwit_on": false,
@@ -9697,6 +9737,9 @@
             },
             {
                 "url": "electrumx1.monacoin.ninja:50001"
+            },
+            {
+                "url": "electrumx3.monacoin.nl:50001"
             }
         ],
         "is_segwit_on": false,
@@ -11074,43 +11117,6 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "PRUX": {
-        "coin": "PRUX",
-        "type": "UTXO",
-        "name": "PRUX",
-        "coinpaprika_id": "prux-prux-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "PRUX",
-        "explorer_url": [
-            "https://explorer.prux.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
-                "url": "txserver.live:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "txserver.live:50002",
-                "protocol": "SSL"
-            }
-        ]
     },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
@@ -13352,31 +13358,7 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
-                "url": "2.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            },
-            {
-                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -13943,33 +13925,6 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "UNO": {
-        "coin": "UNO",
-        "type": "UTXO",
-        "name": "Unobtanium",
-        "coinpaprika_id": "uno-unobtanium",
-        "coingecko_id": "unobtanium",
-        "nomics_id": "UNO",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/uno/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "uno-main.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "uno-main.coinmunity.gold:50003"
-            }
-        ]
     },
     "USDC-AVX20": {
         "coin": "USDC-AVX20",
@@ -18821,18 +18776,6 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -18844,19 +18787,6 @@
                     }
                 ],
                 "ws_url": "electrum2.runebase.io:50004"
-            },
-            {
-                "url": "electrum4.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ],
-                "ws_url": "electrum4.runebase.io:50004"
             }
         ],
         "is_segwit_on": false,

@@ -1,13 +1,17 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
+            "electrumx-three.artbyte.live:50012": [
+                true,
+                "Passed"
+            ],
             "elec-seeder-one.artbytecoin.org:50012": [
                 false,
                 "[Errno 111] Connection refused"
@@ -17,10 +21,6 @@
                 "[Errno 111] Connection refused"
             ],
             "electrumx-four.artbyte.live:50012": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "electrumx-three.artbyte.live:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -547,19 +547,19 @@
     },
     "BTCZ": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum2.btcz.rocks:50001": [
+            "electrum1.btcz.rocks:50001": [
                 true,
                 "Passed"
             ],
-            "electrum1.btcz.rocks:50001": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrum2.btcz.rocks:50001": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -1516,9 +1516,9 @@
     },
     "GRS": {
         "electrums_total_all": 5,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 5,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 4,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -1534,11 +1534,11 @@
                 true,
                 "Passed"
             ],
-            "electrum10.groestlcoin.org:50001": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "electrum14.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum10.groestlcoin.org:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -2233,9 +2233,9 @@
     },
     "MONA": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2247,11 +2247,11 @@
                 true,
                 "Passed"
             ],
-            "103.125.218.246:50001": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "electrumx3.monacoin.nl:50001": [
+                true,
+                "Passed"
+            ],
+            "103.125.218.246:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -2544,21 +2544,21 @@
         "tcp": {
             "electrumx.live:50020": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "txserver.live:50020": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {
             "electrumx.live:50022": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "txserver.live:50022": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {}
@@ -2660,29 +2660,29 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.live:50010": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "txserver.live:50001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {
             "electrumx.live:50012": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ],
             "txserver.live:50002": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ws": {}
@@ -2859,17 +2859,13 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrum2.runebase.io:50001": [
-                true,
-                "Passed"
-            ],
-            "electrum4.runebase.io:50001": [
                 true,
                 "Passed"
             ],
@@ -2880,14 +2876,14 @@
             "electrum3.runebase.io:50001": [
                 false,
                 "[Errno 111] Connection refused"
+            ],
+            "electrum4.runebase.io:50001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum2.runebase.io:50002": [
-                true,
-                "Passed"
-            ],
-            "electrum4.runebase.io:50002": [
                 true,
                 "Passed"
             ],
@@ -2896,6 +2892,10 @@
                 "timed out"
             ],
             "electrum3.runebase.io:50002": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum4.runebase.io:50002": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -3301,19 +3301,19 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "1.eu.tokel.electrum.dexstats.info:10077": [
                 true,
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -3322,8 +3322,8 @@
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:11077": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3407,18 +3407,18 @@
     },
     "UNO": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
-            "uno-main.coinmunity.gold:50002": [
-                true,
-                "Passed"
-            ],
             "uno-bkp.coinmunity.gold:50002": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "uno-main.coinmunity.gold:50002": [
                 false,
                 "[Errno 111] Connection refused"
             ]
