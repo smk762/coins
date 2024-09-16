@@ -2544,21 +2544,21 @@
         "tcp": {
             "electrumx.live:50020": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50020": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50022": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50022": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -2668,21 +2668,21 @@
         "tcp": {
             "electrumx.live:50010": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50012": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50002": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -3407,20 +3407,20 @@
     },
     "UNO": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "uno-bkp.coinmunity.gold:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "uno-main.coinmunity.gold:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
