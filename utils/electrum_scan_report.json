@@ -2893,7 +2893,7 @@
             ],
             "electrum3.runebase.io:50002": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "timed out"
             ],
             "electrum4.runebase.io:50002": [
                 false,
