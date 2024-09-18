@@ -58,7 +58,7 @@
             ],
             "electrumx1.actioncoin.com:10001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {
@@ -68,7 +68,7 @@
             ],
             "electrumx1.actioncoin.com:30001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -122,11 +122,11 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
@@ -134,8 +134,8 @@
                 "Passed"
             ],
             "failover.aur.ewmcx.biz:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -596,16 +596,16 @@
     },
     "BTX": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
             "btx-electrumx.coinsmunity.com:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2859,21 +2859,21 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrum2.runebase.io:50001": [
                 true,
                 "Passed"
             ],
-            "electrum3.runebase.io:50001": [
-                true,
-                "Passed"
-            ],
             "electrum1.runebase.io:50001": [
+                false,
+                "timed out"
+            ],
+            "electrum3.runebase.io:50001": [
                 false,
                 "timed out"
             ],
@@ -2887,13 +2887,13 @@
                 true,
                 "Passed"
             ],
-            "electrum3.runebase.io:50002": [
-                true,
-                "Passed"
-            ],
             "electrum1.runebase.io:50002": [
                 false,
                 "timed out"
+            ],
+            "electrum3.runebase.io:50002": [
+                false,
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "electrum4.runebase.io:50002": [
                 false,
@@ -4085,13 +4085,17 @@
     },
     "tBTC": {
         "electrums_total_all": 7,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
         "electrums_working_ssl": 1,
         "tcp": {
             "electrum3.cipig.net:10068": [
+                true,
+                "Passed"
+            ],
+            "testnet.aranguren.org:51001": [
                 true,
                 "Passed"
             ],
@@ -4102,10 +4106,6 @@
             "electrum2.cipig.net:10068": [
                 false,
                 "[Errno 111] Connection refused"
-            ],
-            "testnet.aranguren.org:51001": [
-                false,
-                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {
