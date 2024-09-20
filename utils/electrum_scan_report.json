@@ -58,7 +58,7 @@
             ],
             "electrumx1.actioncoin.com:10001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {
@@ -68,7 +68,7 @@
             ],
             "electrumx1.actioncoin.com:30001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -806,15 +806,15 @@
     },
     "CLC": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.cryptocollider.com:10001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -3301,27 +3301,27 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "1.eu.tokel.electrum.dexstats.info:10077": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
+                true,
+                "Passed"
+            ],
+            "1.eu.tokel.electrum.dexstats.info:10077": [
                 false,
                 "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "1.eu.tokel.electrum.dexstats.info:11077": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "2.eu.tokel.electrum.dexstats.info:11077": [
+                true,
+                "Passed"
+            ],
+            "1.eu.tokel.electrum.dexstats.info:11077": [
                 false,
                 "[Errno 111] Connection refused"
             ]
