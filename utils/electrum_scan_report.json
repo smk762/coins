@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -3766,9 +3766,9 @@
     },
     "XVC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -3777,8 +3777,8 @@
                 "Passed"
             ],
             "electrumx2.vanillacash.info:50011": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
