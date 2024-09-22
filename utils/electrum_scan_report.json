@@ -3044,16 +3044,16 @@
         }
     },
     "SMART": {
-        "electrums_total_all": 6,
+        "electrums_total_all": 5,
         "electrums_working_all": 0,
-        "electrums_total_tcp": 6,
+        "electrums_total_tcp": 5,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.smartcash.cc:50001": [
                 false,
-                "timed out"
+                "[Errno -3] Temporary failure in name resolution"
             ],
             "electrum2.smartcash.cc:50001": [
                 false,
@@ -3063,17 +3063,13 @@
                 false,
                 "timed out"
             ],
-            "electrum4.smartcash.cc:50001": [
-                false,
-                "timed out"
-            ],
             "electrum5.smartcash.cc:50001": [
                 false,
                 "timed out"
             ],
             "electrum6.smartcash.cc:50001": [
                 false,
-                "timed out"
+                "[Errno -3] Temporary failure in name resolution"
             ]
         },
         "ssl": {},
@@ -3766,9 +3762,9 @@
     },
     "XVC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -3777,8 +3773,8 @@
                 "Passed"
             ],
             "electrumx2.vanillacash.info:50011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
