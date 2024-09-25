@@ -1131,15 +1131,15 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {
@@ -1152,8 +1152,8 @@
                 "Passed"
             ],
             "pink-deer-69.doi.works:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ],
             "ugly-bird-70.doi.works:50002": [
                 false,
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -2875,7 +2875,7 @@
             ],
             "electrum3.runebase.io:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50001": [
                 false,
@@ -2893,7 +2893,7 @@
             ],
             "electrum3.runebase.io:50002": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50002": [
                 false,
@@ -3301,29 +3301,29 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
+            "1.eu.tokel.electrum.dexstats.info:10077": [
+                true,
+                "Passed"
+            ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
                 true,
                 "Passed"
-            ],
-            "1.eu.tokel.electrum.dexstats.info:10077": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "2.eu.tokel.electrum.dexstats.info:11077": [
+            "1.eu.tokel.electrum.dexstats.info:11077": [
                 true,
                 "Passed"
             ],
-            "1.eu.tokel.electrum.dexstats.info:11077": [
-                false,
-                "[Errno 111] Connection refused"
+            "2.eu.tokel.electrum.dexstats.info:11077": [
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
