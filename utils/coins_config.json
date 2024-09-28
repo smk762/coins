@@ -5101,12 +5101,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum1.egulden.org:50004"
-            },
-            {
-                "url": "lenoir.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -15017,40 +15011,6 @@
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
-    },
-    "XMY": {
-        "coin": "XMY",
-        "type": "UTXO",
-        "name": "Myriad",
-        "coinpaprika_id": "xmy-myriad",
-        "coingecko_id": "myriadcoin",
-        "nomics_id": "XMY",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/xmy/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP",
-                "ws_url": "lenoir.ecoincore.com:10894"
-            },
-            {
-                "url": "lenoir.ecoincore.com:10892",
-                "protocol": "SSL"
-            }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
     },
     "XPM": {
         "coin": "XPM",
