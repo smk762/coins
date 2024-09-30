@@ -122,24 +122,24 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
-            "failover.aur.ewmcx.biz:50002": [
-                true,
-                "Passed"
-            ],
             "electrumx.aur.ewmcx.info:50002": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "failover.aur.ewmcx.biz:50002": [
                 false,
                 "[Errno 111] Connection refused"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1022,11 +1022,11 @@
     },
     "DGC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.dgc.ewmcx.org:50001": [
                 true,
@@ -1035,8 +1035,8 @@
         },
         "ssl": {
             "failover.dgc.ewmcx.biz:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1131,15 +1131,15 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -1152,8 +1152,8 @@
                 "Passed"
             ],
             "pink-deer-69.doi.works:50002": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ],
             "ugly-bird-70.doi.works:50002": [
                 false,
@@ -1230,14 +1230,18 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:11017": [
                 true,
                 "Passed"
             ],
@@ -1250,10 +1254,6 @@
                 "timed out"
             ],
             "holland.ecoincore.com:11017": [
-                false,
-                "timed out"
-            ],
-            "lenoir.ecoincore.com:11017": [
                 false,
                 "timed out"
             ]
@@ -3696,21 +3696,21 @@
     },
     "XMY": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "lenoir.ecoincore.com:10891": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "lenoir.ecoincore.com:10892": [
-                false,
-                "timed out"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4007,24 +4007,24 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrs.electroncash.de:60002": [
                 true,
                 "Passed"
             ],
+            "tbch.loping.net:60002": [
+                true,
+                "Passed"
+            ],
             "electroncash.de:50004": [
                 false,
                 "_ssl.c:990: The handshake operation timed out"
-            ],
-            "tbch.loping.net:60002": [
-                false,
-                "[Errno 101] Network is unreachable"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,

@@ -935,33 +935,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "AUR": {
-        "coin": "AUR",
-        "type": "UTXO",
-        "name": "Auroracoin",
-        "coinpaprika_id": "aur-auroracoin",
-        "coingecko_id": "auroracoin",
-        "nomics_id": "AUR",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/aur/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "failover.aur.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.aur.ewmcx.biz:50003"
-            }
-        ]
-    },
     "AVA-BEP20": {
         "coin": "AVA-BEP20",
         "type": "BEP-20",
@@ -4457,12 +4430,6 @@
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx.dgc.ewmcx.org:50003"
-            },
-            {
-                "url": "failover.dgc.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.dgc.ewmcx.biz:50003"
             }
         ]
     },
@@ -5038,6 +5005,16 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "pink-deer-69.doi.works:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues",
+                        "twitter": "example_username"
+                    }
+                ]
+            },
+            {
                 "url": "big-parrot-60.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -5058,6 +5035,17 @@
                     }
                 ],
                 "ws-url": "itchy-jellyfish-89.doi.works:50004"
+            },
+            {
+                "url": "pink-deer-69.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues",
+                        "twitter": "example_username"
+                    }
+                ],
+                "ws-url": "pink-deer-69.doi.works:50004"
             }
         ],
         "is_segwit_on": false,
@@ -5134,6 +5122,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum1.egulden.org:50004"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -15021,6 +15015,40 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
+    "XMY": {
+        "coin": "XMY",
+        "type": "UTXO",
+        "name": "Myriad",
+        "coinpaprika_id": "xmy-myriad",
+        "coingecko_id": "myriadcoin",
+        "nomics_id": "XMY",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/xmy/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "lenoir.ecoincore.com:10891",
+                "protocol": "TCP",
+                "ws_url": "lenoir.ecoincore.com:10894"
+            },
+            {
+                "url": "lenoir.ecoincore.com:10892",
+                "protocol": "SSL"
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
+    },
     "XPM": {
         "coin": "XPM",
         "type": "UTXO",
@@ -18497,6 +18525,15 @@
         "electrum": [
             {
                 "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
