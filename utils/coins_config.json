@@ -437,10 +437,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
-                "ws_url": "elec-seeder-two.artbytecoin.org:50013"
+                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
@@ -934,6 +934,39 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "AUR": {
+        "coin": "AUR",
+        "type": "UTXO",
+        "name": "Auroracoin",
+        "coinpaprika_id": "aur-auroracoin",
+        "coingecko_id": "auroracoin",
+        "nomics_id": "AUR",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/aur/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrumx.aur.ewmcx.info:50003"
+            },
+            {
+                "url": "failover.aur.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.aur.ewmcx.biz:50003"
+            }
+        ]
     },
     "AVA-BEP20": {
         "coin": "AVA-BEP20",
@@ -2490,6 +2523,15 @@
                     }
                 ],
                 "ws_url": "electrum1.btcz.rocks:50004"
+            },
+            {
+                "url": "electrum2.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "ws_url": "electrum2.btcz.rocks:50004"
             }
         ]
     },
@@ -4430,6 +4472,12 @@
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx.dgc.ewmcx.org:50003"
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.dgc.ewmcx.biz:50003"
             }
         ]
     },
@@ -13698,6 +13746,33 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "UIS": {
+        "coin": "UIS",
+        "type": "UTXO",
+        "name": "Unitus",
+        "coinpaprika_id": "uis-unitus",
+        "coingecko_id": "unitus",
+        "nomics_id": "UIS",
+        "explorer_url": [
+            "https://explorer.unitus.network/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+            }
+        ]
     },
     "UMA-AVX20": {
         "coin": "UMA-AVX20",
