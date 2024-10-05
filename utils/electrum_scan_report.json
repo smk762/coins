@@ -2133,37 +2133,37 @@
     },
     "MESH": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "electrum1.cipig.net:10016": [
-                true,
-                "Passed"
-            ],
-            "electrum2.cipig.net:10016": [
-                true,
-                "Passed"
-            ],
             "electrum3.cipig.net:10016": [
                 true,
                 "Passed"
+            ],
+            "electrum1.cipig.net:10016": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum2.cipig.net:10016": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "electrum1.cipig.net:20016": [
-                true,
-                "Passed"
-            ],
-            "electrum2.cipig.net:20016": [
-                true,
-                "Passed"
-            ],
             "electrum3.cipig.net:20016": [
                 true,
                 "Passed"
+            ],
+            "electrum1.cipig.net:20016": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum2.cipig.net:20016": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2183,37 +2183,37 @@
     },
     "MGW": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "electrum1.cipig.net:10015": [
-                true,
-                "Passed"
-            ],
-            "electrum2.cipig.net:10015": [
-                true,
-                "Passed"
-            ],
             "electrum3.cipig.net:10015": [
                 true,
                 "Passed"
+            ],
+            "electrum1.cipig.net:10015": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum2.cipig.net:10015": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "electrum1.cipig.net:20015": [
-                true,
-                "Passed"
-            ],
-            "electrum2.cipig.net:20015": [
-                true,
-                "Passed"
-            ],
             "electrum3.cipig.net:20015": [
                 true,
                 "Passed"
+            ],
+            "electrum1.cipig.net:20015": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum2.cipig.net:20015": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -3377,11 +3377,11 @@
     },
     "UIS": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.uis.ewmcx.info:50001": [
                 false,
@@ -3390,8 +3390,8 @@
         },
         "ssl": {
             "failover.trc-uis.ewmcx.biz:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4007,24 +4007,24 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "electrs.electroncash.de:60002": [
                 true,
                 "Passed"
             ],
-            "tbch.loping.net:60002": [
-                true,
-                "Passed"
-            ],
             "electroncash.de:50004": [
                 false,
                 "_ssl.c:990: The handshake operation timed out"
+            ],
+            "tbch.loping.net:60002": [
+                false,
+                "[Errno 101] Network is unreachable"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
