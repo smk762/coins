@@ -437,12 +437,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -960,12 +954,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrumx.aur.ewmcx.info:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrumx.aur.ewmcx.info:50003"
-            },
             {
                 "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
@@ -4380,12 +4368,6 @@
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx.dgc.ewmcx.org:50003"
-            },
-            {
-                "url": "failover.dgc.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.dgc.ewmcx.biz:50003"
             }
         ]
     },
@@ -13011,6 +12993,18 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "1.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
                 "url": "2.eu.tokel.electrum.dexstats.info:10077",
                 "contact": [
                     {
@@ -13021,6 +13015,18 @@
                     }
                 ],
                 "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
             },
             {
                 "url": "2.eu.tokel.electrum.dexstats.info:11077",
@@ -14165,14 +14171,6 @@
                 ]
             },
             {
-                "url": "e2.validitytech.com:11001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "e3.validitytech.com:11001",
                 "contact": [
                     {
@@ -14190,17 +14188,6 @@
                     }
                 ],
                 "ws_url": "e1.validitytech.com:11004"
-            },
-            {
-                "url": "e2.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "e2.validitytech.com:11004"
             },
             {
                 "url": "e3.validitytech.com:11002",
