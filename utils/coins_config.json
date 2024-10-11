@@ -5899,7 +5899,25 @@
                 ]
             },
             {
+                "url": "electrumx2.fujicoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -14734,9 +14752,6 @@
         "wallet_only": true,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrumx.gemmer.primecoin.org:50011"
-            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
