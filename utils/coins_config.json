@@ -18234,6 +18234,15 @@
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
                     }
                 ]
+            },
+            {
+                "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
             }
         ]
     },
