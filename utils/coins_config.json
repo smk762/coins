@@ -437,6 +437,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -954,6 +960,12 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx.aur.ewmcx.info:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrumx.aur.ewmcx.info:50003"
+            },
             {
                 "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
@@ -4368,6 +4380,12 @@
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx.dgc.ewmcx.org:50003"
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.dgc.ewmcx.biz:50003"
             }
         ]
     },
@@ -6639,10 +6657,6 @@
             {
                 "url": "electrum13.groestlcoin.org:50001",
                 "ws_url": "electrum13.groestlcoin.org:50004"
-            },
-            {
-                "url": "electrum14.groestlcoin.org:50001",
-                "ws_url": "electrum14.groestlcoin.org:50004"
             }
         ],
         "is_segwit_on": false,
