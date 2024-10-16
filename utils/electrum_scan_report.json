@@ -58,7 +58,7 @@
             ],
             "electrumx1.actioncoin.com:10001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {
@@ -68,7 +68,7 @@
             ],
             "electrumx1.actioncoin.com:30001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -1022,15 +1022,15 @@
     },
     "DGC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
         "electrums_working_ssl": 1,
         "tcp": {
             "electrumx.dgc.ewmcx.org:50001": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {
@@ -1516,9 +1516,9 @@
     },
     "GRS": {
         "electrums_total_all": 5,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 5,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 4,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -1534,11 +1534,11 @@
                 true,
                 "Passed"
             ],
-            "electrum10.groestlcoin.org:50001": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "electrum14.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum10.groestlcoin.org:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -2466,9 +2466,9 @@
         "ws": {}
     },
     "NMC": {
-        "electrums_total_all": 8,
+        "electrums_total_all": 9,
         "electrums_working_all": 2,
-        "electrums_total_tcp": 6,
+        "electrums_total_tcp": 7,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
         "electrums_working_ssl": 1,
@@ -2490,6 +2490,10 @@
                 "[Errno 101] Network is unreachable"
             ],
             "electrumx3.nmc.bitclc.net:50001": [
+                false,
+                "[Errno 101] Network is unreachable"
+            ],
+            "electrumx4.nmc.bitclc.net:50001": [
                 false,
                 "[Errno 101] Network is unreachable"
             ],
