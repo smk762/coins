@@ -122,11 +122,11 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
@@ -134,8 +134,8 @@
                 "Passed"
             ],
             "failover.aur.ewmcx.biz:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -4020,7 +4020,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
