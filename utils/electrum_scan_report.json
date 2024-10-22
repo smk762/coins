@@ -122,11 +122,11 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
@@ -134,8 +134,8 @@
                 "Passed"
             ],
             "failover.aur.ewmcx.biz:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -1230,20 +1230,20 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "lenoir.ecoincore.com:11017": [
+            "electrum1.egulden.org:50002": [
                 true,
                 "Passed"
             ],
-            "electrum1.egulden.org:50002": [
-                false,
-                "[Errno 111] Connection refused"
+            "lenoir.ecoincore.com:11017": [
+                true,
+                "Passed"
             ],
             "electrum2.egulden.org:50002": [
                 false,
@@ -2565,37 +2565,37 @@
     },
     "PANGEA": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.cipig.net:10010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:10010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:10010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.cipig.net:20010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum3.cipig.net:20010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4007,22 +4007,22 @@
     },
     "tBCH": {
         "electrums_total_all": 4,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
+            "electrs.electroncash.de:60002": [
+                true,
+                "Passed"
+            ],
             "tbch.loping.net:60002": [
                 true,
                 "Passed"
             ],
             "electroncash.de:50004": [
-                false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
-            ],
-            "electrs.electroncash.de:60002": [
                 false,
                 "_ssl.c:990: The handshake operation timed out"
             ],
