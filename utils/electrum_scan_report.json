@@ -2565,37 +2565,37 @@
     },
     "PANGEA": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10010": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:10010": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:10010": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "electrum1.cipig.net:20010": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum2.cipig.net:20010": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:20010": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
