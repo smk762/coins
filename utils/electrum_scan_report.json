@@ -2689,23 +2689,23 @@
     },
     "QTUM": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10050": [
-                true,
-                "Passed"
-            ],
-            "electrum2.cipig.net:10050": [
                 true,
                 "Passed"
             ],
             "electrum3.cipig.net:10050": [
                 true,
                 "Passed"
+            ],
+            "electrum2.cipig.net:10050": [
+                false,
+                "timed out"
             ]
         },
         "ssl": {
@@ -2713,13 +2713,13 @@
                 true,
                 "Passed"
             ],
-            "electrum2.cipig.net:20050": [
-                true,
-                "Passed"
-            ],
             "electrum3.cipig.net:20050": [
                 true,
                 "Passed"
+            ],
+            "electrum2.cipig.net:20050": [
+                false,
+                "_ssl.c:990: The handshake operation timed out"
             ]
         },
         "ws": {
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
