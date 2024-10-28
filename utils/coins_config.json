@@ -5033,6 +5033,33 @@
             }
         ]
     },
+    "EFL": {
+        "coin": "EFL",
+        "type": "UTXO",
+        "name": "e-Gulden",
+        "coinpaprika_id": "efl-e-gulden",
+        "coingecko_id": "electronicgulden",
+        "nomics_id": "EFL",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/efl/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum1.egulden.org:50004"
+            }
+        ]
+    },
     "EGLD-BEP20": {
         "coin": "EGLD-BEP20",
         "type": "BEP-20",
@@ -5157,18 +5184,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:10062",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum1.cipig.net:30062"
-            },
-            {
                 "url": "electrum2.cipig.net:10062",
                 "contact": [
                     {
@@ -5179,18 +5194,6 @@
                     }
                 ],
                 "ws_url": "electrum2.cipig.net:30062"
-            },
-            {
-                "url": "electrum1.cipig.net:20062",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             },
             {
                 "url": "electrum2.cipig.net:20062",
@@ -12890,53 +12893,6 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
-    "TKL": {
-        "coin": "TKL",
-        "type": "Smart Chain",
-        "name": "Tokel",
-        "coinpaprika_id": "tkl-tokel",
-        "coingecko_id": "tokel",
-        "nomics_id": "TKL2",
-        "explorer_url": [
-            "https://explorer.tokel.io/",
-            "https://tokel.explorer.dexstats.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            }
-        ],
-        "asset": "TOKEL"
-    },
     "TRC": {
         "coin": "TRC",
         "type": "UTXO",
@@ -14806,35 +14762,6 @@
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
-    },
-    "XVC": {
-        "coin": "XVC",
-        "type": "UTXO",
-        "name": "VanillaCash",
-        "coinpaprika_id": "xvc-vcash",
-        "coingecko_id": "vcash",
-        "nomics_id": "XVC",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/xvc/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx1.vanillacash.info:50011",
-                "ws_url": "electrumx1.vanillacash.info:50013"
-            },
-            {
-                "url": "electrumx2.vanillacash.info:50011",
-                "ws_url": "electrumx2.vanillacash.info:50013"
-            }
-        ]
     },
     "XVC-BEP20": {
         "coin": "XVC-BEP20",
@@ -18120,15 +18047,6 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
-            {
-                "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
