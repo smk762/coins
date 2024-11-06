@@ -363,11 +363,11 @@
     },
     "BLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.blackcoin.nl:10001": [
                 true,
@@ -378,8 +378,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30001": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -392,8 +392,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30002": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1131,15 +1131,15 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 5,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {
@@ -1151,13 +1151,13 @@
                 true,
                 "Passed"
             ],
-            "pink-deer-69.doi.works:50002": [
-                true,
-                "Passed"
-            ],
             "ugly-bird-70.doi.works:50002": [
                 true,
                 "Passed"
+            ],
+            "pink-deer-69.doi.works:50002": [
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {}
@@ -4035,11 +4035,11 @@
     },
     "tBLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.blackcoin.nl:10011": [
                 true,
@@ -4050,8 +4050,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30011": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -4064,8 +4064,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30012": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ws": {
