@@ -1,24 +1,24 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "elec-seeder-one.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
-            "elec-seeder-two.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
+            ],
+            "elec-seeder-one.artbytecoin.org:50012": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "elec-seeder-two.artbytecoin.org:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
@@ -122,11 +122,11 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
@@ -134,8 +134,8 @@
                 "Passed"
             ],
             "failover.aur.ewmcx.biz:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -3407,11 +3407,11 @@
     },
     "UNO": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "uno-bkp.coinmunity.gold:50002": [
@@ -3419,8 +3419,8 @@
                 "Passed"
             ],
             "uno-main.coinmunity.gold:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3722,16 +3722,12 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrumx.gemmer.primecoin.org:50011": [
-                true,
-                "Passed"
-            ],
             "electrumx.mainnet.primecoin.org:50011": [
                 true,
                 "Passed"
@@ -3739,6 +3735,10 @@
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx.gemmer.primecoin.org:50011": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -4020,7 +4020,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
