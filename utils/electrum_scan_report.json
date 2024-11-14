@@ -1,17 +1,13 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "elec-seeder-one.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
             "elec-seeder-two.artbytecoin.org:50012": [
                 true,
                 "Passed"
@@ -19,6 +15,10 @@
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
+            ],
+            "elec-seeder-one.artbytecoin.org:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
@@ -2689,23 +2689,23 @@
     },
     "QTUM": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10050": [
-                true,
-                "Passed"
-            ],
-            "electrum2.cipig.net:10050": [
                 true,
                 "Passed"
             ],
             "electrum3.cipig.net:10050": [
                 true,
                 "Passed"
+            ],
+            "electrum2.cipig.net:10050": [
+                false,
+                "timed out"
             ]
         },
         "ssl": {
@@ -2713,13 +2713,13 @@
                 true,
                 "Passed"
             ],
-            "electrum2.cipig.net:20050": [
-                true,
-                "Passed"
-            ],
             "electrum3.cipig.net:20050": [
                 true,
                 "Passed"
+            ],
+            "electrum2.cipig.net:20050": [
+                false,
+                "_ssl.c:990: The handshake operation timed out"
             ]
         },
         "ws": {
@@ -2859,23 +2859,23 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum2.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum3.runebase.io:50001": [
                 true,
                 "Passed"
             ],
             "electrum1.runebase.io:50001": [
                 false,
                 "timed out"
-            ],
-            "electrum3.runebase.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50001": [
                 false,
@@ -2887,13 +2887,13 @@
                 true,
                 "Passed"
             ],
+            "electrum3.runebase.io:50002": [
+                true,
+                "Passed"
+            ],
             "electrum1.runebase.io:50002": [
                 false,
                 "timed out"
-            ],
-            "electrum3.runebase.io:50002": [
-                false,
-                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50002": [
                 false,
@@ -3065,7 +3065,7 @@
             ],
             "electrum4.smartcash.cc:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrum5.smartcash.cc:50001": [
                 false,
