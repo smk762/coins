@@ -4016,7 +4016,7 @@
         "ssl": {
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
