@@ -447,12 +447,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -4947,6 +4941,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum1.egulden.org:50004"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -6505,6 +6505,10 @@
             {
                 "url": "electrum12.groestlcoin.org:50001",
                 "ws_url": "electrum12.groestlcoin.org:50004"
+            },
+            {
+                "url": "electrum13.groestlcoin.org:50001",
+                "ws_url": "electrum13.groestlcoin.org:50004"
             },
             {
                 "url": "electrum14.groestlcoin.org:50001",

@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -16,11 +16,11 @@
                 true,
                 "Passed"
             ],
-            "electrumx-three.artbyte.live:50012": [
-                true,
-                "Passed"
-            ],
             "electrumx-four.artbyte.live:50012": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrumx-three.artbyte.live:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -1230,14 +1230,18 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:11017": [
                 true,
                 "Passed"
             ],
@@ -1252,10 +1256,6 @@
             "holland.ecoincore.com:11017": [
                 false,
                 "timed out"
-            ],
-            "lenoir.ecoincore.com:11017": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1516,9 +1516,9 @@
     },
     "GRS": {
         "electrums_total_all": 5,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 5,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 4,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -1530,6 +1530,10 @@
                 true,
                 "Passed"
             ],
+            "electrum13.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ],
             "electrum14.groestlcoin.org:50001": [
                 true,
                 "Passed"
@@ -1537,10 +1541,6 @@
             "electrum10.groestlcoin.org:50001": [
                 false,
                 "timed out"
-            ],
-            "electrum13.groestlcoin.org:50001": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
