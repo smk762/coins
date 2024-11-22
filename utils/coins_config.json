@@ -437,10 +437,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -13944,14 +13944,6 @@
                 ]
             },
             {
-                "url": "e2.validitytech.com:11001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "e3.validitytech.com:11001",
                 "contact": [
                     {
@@ -13969,17 +13961,6 @@
                     }
                 ],
                 "ws_url": "e1.validitytech.com:11004"
-            },
-            {
-                "url": "e2.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "e2.validitytech.com:11004"
             },
             {
                 "url": "e3.validitytech.com:11002",
