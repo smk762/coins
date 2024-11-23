@@ -3467,13 +3467,13 @@
                 true,
                 "Passed"
             ],
-            "e3.validitytech.com:11001": [
+            "e2.validitytech.com:11001": [
                 true,
                 "Passed"
             ],
-            "e2.validitytech.com:11001": [
+            "e3.validitytech.com:11001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -3481,13 +3481,13 @@
                 true,
                 "Passed"
             ],
-            "e3.validitytech.com:11002": [
+            "e2.validitytech.com:11002": [
                 true,
                 "Passed"
             ],
-            "e2.validitytech.com:11002": [
+            "e3.validitytech.com:11002": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
