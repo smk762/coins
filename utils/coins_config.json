@@ -1902,6 +1902,14 @@
                 ]
             },
             {
+                "url": "electrum3.blackcoin.nl:30001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.blackcoin.nl:10002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -1922,6 +1930,17 @@
                     }
                 ],
                 "ws_url": "electrum2.blackcoin.nl:20004"
+            },
+            {
+                "url": "electrum3.blackcoin.nl:30002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "electrum3.blackcoin.nl:30004"
             }
         ],
         "is_segwit_on": false,
@@ -14578,10 +14597,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx1.vanillacash.info:50011",
-                "ws_url": "electrumx1.vanillacash.info:50013"
-            },
-            {
                 "url": "electrumx2.vanillacash.info:50011",
                 "ws_url": "electrumx2.vanillacash.info:50013"
             }
@@ -17946,36 +17961,7 @@
                 ]
             },
             {
-                "url": "electrumx2.cointest.com:50001",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx1.cointest.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
