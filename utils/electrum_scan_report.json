@@ -1,17 +1,13 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "elec-seeder-one.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
             "elec-seeder-two.artbytecoin.org:50012": [
                 true,
                 "Passed"
@@ -19,6 +15,10 @@
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
+            ],
+            "elec-seeder-one.artbytecoin.org:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
@@ -667,11 +667,11 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 6,
+        "electrums_working_all": 5,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 6,
+        "electrums_working_ssl": 5,
         "tcp": {},
         "ssl": {
             "chicago.ecoincore.com:34333": [
@@ -694,15 +694,15 @@
                 true,
                 "Passed"
             ],
-            "woolloomooloo.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
             "lenoir.ecoincore.com:34333": [
                 false,
                 "[Errno 111] Connection refused"
             ],
             "mumbai.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ],
+            "woolloomooloo.ecoincore.com:34333": [
                 false,
                 "timed out"
             ]
@@ -3457,11 +3457,11 @@
     },
     "VAL": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "e1.validitytech.com:11001": [
                 true,
@@ -3472,8 +3472,8 @@
                 "Passed"
             ],
             "e3.validitytech.com:11001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -3486,8 +3486,8 @@
                 "Passed"
             ],
             "e3.validitytech.com:11002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {

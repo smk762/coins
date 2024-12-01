@@ -437,12 +437,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -3065,12 +3059,6 @@
                 "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "woolloomooloo.ecoincore.com:34335"
             }
         ],
         "is_segwit_on": false,
@@ -13896,6 +13884,14 @@
                 ]
             },
             {
+                "url": "e3.validitytech.com:11001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "e1.validitytech.com:11002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -13916,6 +13912,17 @@
                     }
                 ],
                 "ws_url": "e2.validitytech.com:11004"
+            },
+            {
+                "url": "e3.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "e3.validitytech.com:11004"
             }
         ]
     },
