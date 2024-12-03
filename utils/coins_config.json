@@ -437,6 +437,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -1080,6 +1086,14 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrum-eu.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "alamshafil@pm.me"
+                    }
+                ]
+            },
             {
                 "url": "electrum-us.avn.network:50001",
                 "contact": [
@@ -5036,18 +5050,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:10062",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum1.cipig.net:30062"
-            },
-            {
                 "url": "electrum2.cipig.net:10062",
                 "contact": [
                     {
@@ -5058,18 +5060,6 @@
                     }
                 ],
                 "ws_url": "electrum2.cipig.net:30062"
-            },
-            {
-                "url": "electrum1.cipig.net:20062",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             },
             {
                 "url": "electrum2.cipig.net:20062",
@@ -13111,6 +13101,33 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
+    "UIS": {
+        "coin": "UIS",
+        "type": "UTXO",
+        "name": "Unitus",
+        "coinpaprika_id": "uis-unitus",
+        "coingecko_id": "unitus",
+        "nomics_id": "UIS",
+        "explorer_url": [
+            "https://explorer.unitus.network/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+            }
+        ]
+    },
     "UMA-AVX20": {
         "coin": "UMA-AVX20",
         "type": "AVX-20",
@@ -14607,6 +14624,10 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx1.vanillacash.info:50011",
+                "ws_url": "electrumx1.vanillacash.info:50013"
+            },
             {
                 "url": "electrumx2.vanillacash.info:50011",
                 "ws_url": "electrumx2.vanillacash.info:50013"
