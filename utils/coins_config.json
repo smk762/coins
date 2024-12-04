@@ -2010,6 +2010,14 @@
                 ]
             },
             {
+                "url": "electrum3.blackcoin.nl:30011",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.blackcoin.nl:10012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -2030,6 +2038,17 @@
                     }
                 ],
                 "ws_url": "electrum2.blackcoin.nl:20014"
+            },
+            {
+                "url": "electrum3.blackcoin.nl:30012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "electrum3.blackcoin.nl:30014"
             }
         ],
         "is_segwit_on": false,
@@ -5050,6 +5069,18 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum1.cipig.net:10062",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30062"
+            },
+            {
                 "url": "electrum2.cipig.net:10062",
                 "contact": [
                     {
@@ -5060,6 +5091,18 @@
                     }
                 ],
                 "ws_url": "electrum2.cipig.net:30062"
+            },
+            {
+                "url": "electrum1.cipig.net:20062",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             },
             {
                 "url": "electrum2.cipig.net:20062",

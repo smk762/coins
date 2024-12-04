@@ -1283,19 +1283,19 @@
     },
     "EMC2": {
         "electrums_total_all": 6,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
-            "electrum2.cipig.net:10062": [
+            "electrum1.cipig.net:10062": [
                 true,
                 "Passed"
             ],
-            "electrum1.cipig.net:10062": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrum2.cipig.net:10062": [
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:10062": [
                 false,
@@ -1303,13 +1303,13 @@
             ]
         },
         "ssl": {
-            "electrum2.cipig.net:20062": [
+            "electrum1.cipig.net:20062": [
                 true,
                 "Passed"
             ],
-            "electrum1.cipig.net:20062": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrum2.cipig.net:20062": [
+                true,
+                "Passed"
             ],
             "electrum3.cipig.net:20062": [
                 false,
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
@@ -4035,11 +4035,11 @@
     },
     "tBLK": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.blackcoin.nl:10011": [
                 true,
@@ -4050,8 +4050,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30011": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -4064,8 +4064,8 @@
                 "Passed"
             ],
             "electrum3.blackcoin.nl:30012": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ws": {
