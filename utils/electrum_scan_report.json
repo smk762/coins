@@ -605,7 +605,7 @@
         "ssl": {
             "btx-electrumx.coinsmunity.com:50002": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -3915,15 +3915,15 @@
     },
     "ZET": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
         "electrums_working_ssl": 0,
         "tcp": {
             "207.180.252.200:50011": [
-                true,
-                "Passed"
+                false,
+                "timed out"
             ]
         },
         "ssl": {
