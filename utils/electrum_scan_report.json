@@ -3407,11 +3407,11 @@
     },
     "UNO": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "uno-bkp.coinmunity.gold:50002": [
@@ -3419,8 +3419,8 @@
                 "Passed"
             ],
             "uno-main.coinmunity.gold:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
