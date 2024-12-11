@@ -704,7 +704,7 @@
             ],
             "mumbai.ecoincore.com:34333": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3301,15 +3301,15 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "1.eu.tokel.electrum.dexstats.info:10077": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
                 false,
@@ -3318,8 +3318,8 @@
         },
         "ssl": {
             "1.eu.tokel.electrum.dexstats.info:11077": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:11077": [
                 false,
@@ -3722,16 +3722,12 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrumx.gemmer.primecoin.org:50011": [
-                true,
-                "Passed"
-            ],
             "electrumx.mainnet.primecoin.org:50011": [
                 true,
                 "Passed"
@@ -3739,6 +3735,10 @@
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
+            ],
+            "electrumx.gemmer.primecoin.org:50011": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
