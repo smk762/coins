@@ -3065,11 +3065,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "chicago.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -3080,11 +3075,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "miami.ecoincore.com:34335"
-            },
-            {
-                "url": "oakland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             },
             {
                 "url": "seattle.ecoincore.com:34333",
@@ -4944,6 +4934,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum1.egulden.org:50004"
+            },
+            {
                 "url": "holland.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -6499,10 +6495,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrum11.groestlcoin.org:50001",
-                "ws_url": "electrum11.groestlcoin.org:50004"
-            },
             {
                 "url": "electrum12.groestlcoin.org:50001",
                 "ws_url": "electrum12.groestlcoin.org:50004"
