@@ -6496,6 +6496,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum11.groestlcoin.org:50001",
+                "ws_url": "electrum11.groestlcoin.org:50004"
+            },
+            {
                 "url": "electrum12.groestlcoin.org:50001",
                 "ws_url": "electrum12.groestlcoin.org:50004"
             },
