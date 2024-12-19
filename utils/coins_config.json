@@ -437,12 +437,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -14507,9 +14501,6 @@
             },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
-            },
-            {
-                "url": "electrumx.primecoin.org:50001"
             }
         ]
     },
