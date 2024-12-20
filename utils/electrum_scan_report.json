@@ -139,7 +139,7 @@
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -692,7 +692,7 @@
             ],
             "lenoir.ecoincore.com:34333": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "miami.ecoincore.com:34333": [
                 false,
@@ -1131,15 +1131,15 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 3,
+        "electrums_working_all": 5,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 4,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -1151,13 +1151,13 @@
                 true,
                 "Passed"
             ],
-            "ugly-bird-70.doi.works:50002": [
+            "pink-deer-69.doi.works:50002": [
                 true,
                 "Passed"
             ],
-            "pink-deer-69.doi.works:50002": [
-                false,
-                "[Errno 101] Network is unreachable"
+            "ugly-bird-70.doi.works:50002": [
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -1255,7 +1255,7 @@
             ],
             "lenoir.ecoincore.com:11017": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -1931,7 +1931,7 @@
         "tcp": {
             "188.166.117.139:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3704,13 +3704,13 @@
         "tcp": {
             "lenoir.ecoincore.com:10891": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {
             "lenoir.ecoincore.com:10892": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ws": {
@@ -3738,7 +3738,7 @@
             ],
             "electrumx.primecoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
