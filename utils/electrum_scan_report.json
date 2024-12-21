@@ -696,7 +696,7 @@
             ],
             "miami.ecoincore.com:34333": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "mumbai.ecoincore.com:34333": [
                 false,
