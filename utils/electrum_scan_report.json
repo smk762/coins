@@ -3377,11 +3377,11 @@
     },
     "UIS": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.uis.ewmcx.info:50001": [
                 false,
@@ -3390,8 +3390,8 @@
         },
         "ssl": {
             "failover.trc-uis.ewmcx.biz:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
