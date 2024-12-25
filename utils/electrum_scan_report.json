@@ -1931,7 +1931,7 @@
         "tcp": {
             "188.166.117.139:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
@@ -2544,7 +2544,7 @@
         "tcp": {
             "electrumx.live:50020": [
                 false,
-                "[Errno -5] No address associated with hostname"
+                "timed out"
             ],
             "txserver.live:50020": [
                 false,
@@ -2554,7 +2554,7 @@
         "ssl": {
             "electrumx.live:50022": [
                 false,
-                "[Errno -5] No address associated with hostname"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "txserver.live:50022": [
                 false,
@@ -2668,7 +2668,7 @@
         "tcp": {
             "electrumx.live:50010": [
                 false,
-                "[Errno -5] No address associated with hostname"
+                "timed out"
             ],
             "txserver.live:50001": [
                 false,
@@ -2678,11 +2678,11 @@
         "ssl": {
             "electrumx.live:50012": [
                 false,
-                "[Errno -5] No address associated with hostname"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "txserver.live:50002": [
                 false,
-                "timed out"
+                "_ssl.c:990: The handshake operation timed out"
             ]
         },
         "ws": {}
@@ -3722,9 +3722,9 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -3737,8 +3737,8 @@
                 "Passed"
             ],
             "electrumx.primecoin.org:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
