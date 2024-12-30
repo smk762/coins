@@ -6515,6 +6515,10 @@
             {
                 "url": "electrum13.groestlcoin.org:50001",
                 "ws_url": "electrum13.groestlcoin.org:50004"
+            },
+            {
+                "url": "electrum14.groestlcoin.org:50001",
+                "ws_url": "electrum14.groestlcoin.org:50004"
             }
         ],
         "is_segwit_on": false,
@@ -9376,6 +9380,11 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrum.nav.community:40002",
+                "protocol": "SSL",
+                "ws_url": "electrum.nav.community:40004"
+            },
             {
                 "url": "electrum2.nav.community:40002",
                 "protocol": "SSL",
