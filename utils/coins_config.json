@@ -13152,33 +13152,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "UIS": {
-        "coin": "UIS",
-        "type": "UTXO",
-        "name": "Unitus",
-        "coinpaprika_id": "uis-unitus",
-        "coingecko_id": "unitus",
-        "nomics_id": "UIS",
-        "explorer_url": [
-            "https://explorer.unitus.network/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "failover.trc-uis.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.trc-uis.ewmcx.biz:50003"
-            }
-        ]
-    },
     "UMA-AVX20": {
         "coin": "UMA-AVX20",
         "type": "AVX-20",
@@ -14676,6 +14649,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.vanillacash.info:50011",
+                "ws_url": "electrumx1.vanillacash.info:50013"
+            },
+            {
                 "url": "electrumx2.vanillacash.info:50011",
                 "ws_url": "electrumx2.vanillacash.info:50013"
             }
@@ -15434,38 +15411,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            }
-        ]
-    },
-    "FLUX": {
-        "coin": "FLUX",
-        "type": "UTXO",
-        "name": "Flux",
-        "coinpaprika_id": "zel-zelcash",
-        "coingecko_id": "zelcash",
-        "nomics_id": "ZEL",
-        "explorer_url": [
-            "https://explorer.runonflux.io/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx2.runonflux.io:50001",
-                "protocol": "TCP",
-                "ws_url": "electrumx2.runonflux.io:50004"
-            },
-            {
-                "url": "electrumx.runonflux.io:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrumx.runonflux.io:50004"
             }
         ]
     },
@@ -18200,18 +18145,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum2.runebase.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -18222,19 +18155,6 @@
                         "discord": "Bago#7842"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ],
-                "ws_url": "electrum2.runebase.io:50004"
             },
             {
                 "url": "electrum3.runebase.io:50002",
