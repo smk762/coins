@@ -688,7 +688,7 @@
             ],
             "chicago.ecoincore.com:34333": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "lenoir.ecoincore.com:34333": [
                 false,
@@ -696,7 +696,7 @@
             ],
             "miami.ecoincore.com:34333": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "mumbai.ecoincore.com:34333": [
                 false,
@@ -2548,7 +2548,7 @@
             ],
             "txserver.live:50020": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
+                "timed out"
             ]
         },
         "ssl": {
@@ -2558,7 +2558,7 @@
             ],
             "txserver.live:50022": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
+                "_ssl.c:990: The handshake operation timed out"
             ]
         },
         "ws": {}
@@ -2672,40 +2672,40 @@
             ],
             "txserver.live:50001": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
+                "timed out"
             ]
         },
         "ssl": {
             "electrumx.live:50012": [
                 false,
-                "timed out"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "txserver.live:50002": [
                 false,
-                "[Errno -3] Temporary failure in name resolution"
+                "_ssl.c:990: The handshake operation timed out"
             ]
         },
         "ws": {}
     },
     "QTUM": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10050": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10050": [
                 true,
                 "Passed"
             ],
             "electrum3.cipig.net:10050": [
                 true,
                 "Passed"
-            ],
-            "electrum2.cipig.net:10050": [
-                false,
-                "timed out"
             ]
         },
         "ssl": {
@@ -2713,13 +2713,13 @@
                 true,
                 "Passed"
             ],
-            "electrum3.cipig.net:20050": [
+            "electrum2.cipig.net:20050": [
                 true,
                 "Passed"
             ],
-            "electrum2.cipig.net:20050": [
-                false,
-                "_ssl.c:990: The handshake operation timed out"
+            "electrum3.cipig.net:20050": [
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -3457,16 +3457,12 @@
     },
     "VAL": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
-            "e1.validitytech.com:11001": [
-                true,
-                "Passed"
-            ],
             "e2.validitytech.com:11001": [
                 true,
                 "Passed"
@@ -3474,13 +3470,13 @@
             "e3.validitytech.com:11001": [
                 true,
                 "Passed"
+            ],
+            "e1.validitytech.com:11001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
-            "e1.validitytech.com:11002": [
-                true,
-                "Passed"
-            ],
             "e2.validitytech.com:11002": [
                 true,
                 "Passed"
@@ -3488,6 +3484,10 @@
             "e3.validitytech.com:11002": [
                 true,
                 "Passed"
+            ],
+            "e1.validitytech.com:11002": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
