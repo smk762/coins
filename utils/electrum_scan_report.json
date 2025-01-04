@@ -688,7 +688,7 @@
             ],
             "chicago.ecoincore.com:34333": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "lenoir.ecoincore.com:34333": [
                 false,
@@ -696,7 +696,7 @@
             ],
             "miami.ecoincore.com:34333": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "mumbai.ecoincore.com:34333": [
                 false,
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -3339,11 +3339,11 @@
     },
     "TRC": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrum.southofheaven.ca:50001": [
                 false,
@@ -3356,8 +3356,8 @@
         },
         "ssl": {
             "failover.trc-uis.ewmcx.biz:50006": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[Errno 101] Network is unreachable"
+                "_ssl.c:990: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
