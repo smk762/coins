@@ -688,7 +688,7 @@
             ],
             "chicago.ecoincore.com:34333": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "lenoir.ecoincore.com:34333": [
                 false,
@@ -2554,11 +2554,11 @@
         "ssl": {
             "electrumx.live:50022": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "txserver.live:50022": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "_ssl.c:983: The handshake operation timed out"
             ]
         },
         "ws": {}
@@ -2678,11 +2678,11 @@
         "ssl": {
             "electrumx.live:50012": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "txserver.live:50002": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "_ssl.c:983: The handshake operation timed out"
             ]
         },
         "ws": {}
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:990: The handshake operation timed out"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
