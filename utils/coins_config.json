@@ -437,6 +437,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -6494,6 +6500,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum11.groestlcoin.org:50001",
+                "ws_url": "electrum11.groestlcoin.org:50004"
+            },
+            {
                 "url": "electrum12.groestlcoin.org:50001",
                 "ws_url": "electrum12.groestlcoin.org:50004"
             },
@@ -8549,11 +8559,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrum5.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum5.getlynx.io:50004"
-            },
             {
                 "url": "electrum6.getlynx.io:50002",
                 "protocol": "SSL",
@@ -12758,19 +12763,18 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
-    "TKL": {
-        "coin": "TKL",
-        "type": "Smart Chain",
-        "name": "Tokel",
-        "coinpaprika_id": "tkl-tokel",
-        "coingecko_id": "tokel",
-        "nomics_id": "TKL2",
+    "TRC": {
+        "coin": "TRC",
+        "type": "UTXO",
+        "name": "Terracoin",
+        "coinpaprika_id": "trc-terracoin",
+        "coingecko_id": "terracoin",
+        "nomics_id": "TRC",
         "explorer_url": [
-            "https://explorer.tokel.io/",
-            "https://tokel.explorer.dexstats.info/"
+            "https://chainz.cryptoid.info/trc/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -12779,31 +12783,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "1.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "url": "failover.trc-uis.ewmcx.biz:50006",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
+                "disable_cert_verification": true,
+                "ws_url": "failover.trc-uis.ewmcx.biz:50007"
             }
-        ],
-        "asset": "TOKEL"
+        ]
     },
     "TRX-BEP20": {
         "coin": "TRX-BEP20",
@@ -13109,6 +13094,33 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "UIS": {
+        "coin": "UIS",
+        "type": "UTXO",
+        "name": "Unitus",
+        "coinpaprika_id": "uis-unitus",
+        "coingecko_id": "unitus",
+        "nomics_id": "UIS",
+        "explorer_url": [
+            "https://explorer.unitus.network/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+            }
+        ]
     },
     "UMA-AVX20": {
         "coin": "UMA-AVX20",
@@ -15129,32 +15141,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            }
-        ]
-    },
-    "ZET": {
-        "coin": "ZET",
-        "type": "UTXO",
-        "name": "Zetacoin",
-        "coinpaprika_id": "zet-zetacoin",
-        "coingecko_id": "zetacoin",
-        "nomics_id": "ZET",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/zet/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "207.180.252.200:50011",
-                "protocol": "TCP",
-                "ws_url": "207.180.252.200:50013"
             }
         ]
     },
