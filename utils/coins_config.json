@@ -2670,6 +2670,42 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
+    "BTX": {
+        "coin": "BTX",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "bitcore",
+        "nomics_id": "BTX",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/btx/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "btx-electrumx.coinsmunity.com:50003"
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
+    },
     "BTX-BEP20": {
         "coin": "BTX-BEP20",
         "type": "BEP-20",
@@ -8560,11 +8596,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum6.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum6.getlynx.io:50004"
-            },
-            {
                 "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum7.getlynx.io:50004"
@@ -12763,6 +12794,53 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
+    "TKL": {
+        "coin": "TKL",
+        "type": "Smart Chain",
+        "name": "Tokel",
+        "coinpaprika_id": "tkl-tokel",
+        "coingecko_id": "tokel",
+        "nomics_id": "TKL2",
+        "explorer_url": [
+            "https://explorer.tokel.io/",
+            "https://tokel.explorer.dexstats.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            }
+        ],
+        "asset": "TOKEL"
+    },
     "TRC": {
         "coin": "TRC",
         "type": "UTXO",
@@ -13883,6 +13961,14 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "e1.validitytech.com:11001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "e2.validitytech.com:11001",
                 "contact": [
                     {
@@ -13897,6 +13983,17 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "e1.validitytech.com:11002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "e1.validitytech.com:11004"
             },
             {
                 "url": "e2.validitytech.com:11002",
@@ -15141,6 +15238,32 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            }
+        ]
+    },
+    "ZET": {
+        "coin": "ZET",
+        "type": "UTXO",
+        "name": "Zetacoin",
+        "coinpaprika_id": "zet-zetacoin",
+        "coingecko_id": "zetacoin",
+        "nomics_id": "ZET",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/zet/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "207.180.252.200:50011",
+                "protocol": "TCP",
+                "ws_url": "207.180.252.200:50013"
             }
         ]
     },
