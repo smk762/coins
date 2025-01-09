@@ -1,24 +1,24 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
                 true,
                 "Passed"
             ],
-            "elec-seeder-two.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
+            ],
+            "elec-seeder-two.artbytecoin.org:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
@@ -688,7 +688,7 @@
             ],
             "chicago.ecoincore.com:34333": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "lenoir.ecoincore.com:34333": [
                 false,
@@ -696,7 +696,7 @@
             ],
             "miami.ecoincore.com:34333": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "mumbai.ecoincore.com:34333": [
                 false,
@@ -1131,11 +1131,11 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 4,
+        "electrums_working_all": 5,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 4,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
                 true,
@@ -1147,6 +1147,10 @@
                 true,
                 "Passed"
             ],
+            "itchy-jellyfish-89.doi.works:50002": [
+                true,
+                "Passed"
+            ],
             "pink-deer-69.doi.works:50002": [
                 true,
                 "Passed"
@@ -1154,10 +1158,6 @@
             "ugly-bird-70.doi.works:50002": [
                 true,
                 "Passed"
-            ],
-            "itchy-jellyfish-89.doi.works:50002": [
-                false,
-                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {}
@@ -2689,23 +2689,23 @@
     },
     "QTUM": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10050": [
-                true,
-                "Passed"
-            ],
-            "electrum2.cipig.net:10050": [
                 true,
                 "Passed"
             ],
             "electrum3.cipig.net:10050": [
                 true,
                 "Passed"
+            ],
+            "electrum2.cipig.net:10050": [
+                false,
+                "timed out"
             ]
         },
         "ssl": {
@@ -2713,13 +2713,13 @@
                 true,
                 "Passed"
             ],
-            "electrum2.cipig.net:20050": [
-                true,
-                "Passed"
-            ],
             "electrum3.cipig.net:20050": [
                 true,
                 "Passed"
+            ],
+            "electrum2.cipig.net:20050": [
+                false,
+                "_ssl.c:983: The handshake operation timed out"
             ]
         },
         "ws": {
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:983: The handshake operation timed out"
+                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
