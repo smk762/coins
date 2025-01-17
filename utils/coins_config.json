@@ -5733,15 +5733,6 @@
                         "github": "https://github.com/firoorg/electrum-xzc/issues"
                     }
                 ]
-            },
-            {
-                "url": "electrumx03.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
-                    }
-                ]
             }
         ]
     },
@@ -12796,10 +12787,6 @@
                 "ws_url": "electrum3.cipig.net:30068"
             },
             {
-                "url": "testnet.aranguren.org:51001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum3.cipig.net:20068",
                 "protocol": "SSL",
                 "contact": [
@@ -18406,18 +18393,6 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -18429,19 +18404,6 @@
                     }
                 ],
                 "ws_url": "electrum2.runebase.io:50004"
-            },
-            {
-                "url": "electrum3.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ],
-                "ws_url": "electrum3.runebase.io:50004"
             }
         ],
         "is_segwit_on": false,
