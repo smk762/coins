@@ -4305,6 +4305,32 @@
             "format": "standard"
         }
     },
+    "DGC": {
+        "coin": "DGC",
+        "type": "UTXO",
+        "name": "Digitalcoin",
+        "coinpaprika_id": "dgc-digitalcoin",
+        "coingecko_id": "digitalcoin",
+        "nomics_id": "DGC",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/dgc/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrumx.dgc.ewmcx.org:50001",
+                "protocol": "TCP",
+                "ws_url": "electrumx.dgc.ewmcx.org:50003"
+            }
+        ]
+    },
     "DIA-ERC20": {
         "coin": "DIA-ERC20",
         "type": "ERC-20",
@@ -5715,6 +5741,15 @@
             },
             {
                 "url": "electrumx02.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx03.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
