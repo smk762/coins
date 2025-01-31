@@ -4340,12 +4340,6 @@
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx.dgc.ewmcx.org:50003"
-            },
-            {
-                "url": "failover.dgc.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.dgc.ewmcx.biz:50003"
             }
         ]
     },
@@ -8732,11 +8726,6 @@
                 "ws_url": "electrum7.getlynx.io:50004"
             },
             {
-                "url": "electrum8.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum8.getlynx.io:50004"
-            },
-            {
                 "url": "electrum9.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum9.getlynx.io:50004"
@@ -9430,6 +9419,9 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "103.125.218.246:50001"
+            },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
             },
@@ -12836,6 +12828,10 @@
                     }
                 ],
                 "ws_url": "electrum3.cipig.net:30068"
+            },
+            {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
             },
             {
                 "url": "electrum3.cipig.net:20068",
