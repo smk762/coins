@@ -2689,23 +2689,23 @@
     },
     "QTUM": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10050": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10050": [
                 true,
                 "Passed"
             ],
             "electrum3.cipig.net:10050": [
                 true,
                 "Passed"
-            ],
-            "electrum2.cipig.net:10050": [
-                false,
-                "timed out"
             ]
         },
         "ssl": {
@@ -2713,13 +2713,13 @@
                 true,
                 "Passed"
             ],
-            "electrum3.cipig.net:20050": [
+            "electrum2.cipig.net:20050": [
                 true,
                 "Passed"
             ],
-            "electrum2.cipig.net:20050": [
-                false,
-                "_ssl.c:983: The handshake operation timed out"
+            "electrum3.cipig.net:20050": [
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4020,7 +4020,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:983: The handshake operation timed out"
+                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
