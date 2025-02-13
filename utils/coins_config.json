@@ -2759,42 +2759,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "BTX": {
-        "coin": "BTX",
-        "type": "UTXO",
-        "name": "BitCore",
-        "coinpaprika_id": "btx-bitcore",
-        "coingecko_id": "bitcore",
-        "nomics_id": "BTX",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/btx/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "btx-electrumx.coinsmunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "btx-electrumx.coinsmunity.com:50003"
-            }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
-    },
     "BTX-BEP20": {
         "coin": "BTX-BEP20",
         "type": "BEP-20",
@@ -4610,18 +4574,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -4635,18 +4587,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -10058,18 +9998,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -10083,18 +10011,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -10974,18 +10890,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -10999,18 +10903,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -11069,18 +10961,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -11094,18 +10974,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -11163,18 +11031,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -11188,18 +11044,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -11403,18 +11247,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -11428,18 +11260,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -15106,18 +14926,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -15131,18 +14939,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -15742,18 +15538,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -15767,18 +15551,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -15920,18 +15692,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -15945,18 +15705,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16014,18 +15762,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16039,18 +15775,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16108,18 +15832,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16133,18 +15845,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16202,18 +15902,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16227,18 +15915,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16296,18 +15972,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16321,18 +15985,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16390,18 +16042,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16415,18 +16055,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16484,18 +16112,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16509,18 +16125,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16578,18 +16182,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16603,18 +16195,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16672,18 +16252,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16697,18 +16265,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16766,18 +16322,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16791,18 +16335,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16860,18 +16392,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16885,18 +16405,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -16954,18 +16462,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -16979,18 +16475,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17048,18 +16532,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -17073,18 +16545,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17142,18 +16602,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -17167,18 +16615,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17236,18 +16672,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -17261,18 +16685,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17330,18 +16742,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -17355,18 +16755,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17424,18 +16812,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -17449,18 +16825,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17518,18 +16882,6 @@
                 "ws_url": "electrum1.cipig.net:30050"
             },
             {
-                "url": "electrum2.cipig.net:10050",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
                 "url": "electrum3.cipig.net:10050",
                 "contact": [
                     {
@@ -17543,18 +16895,6 @@
             },
             {
                 "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -18573,6 +17913,18 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum2.runebase.io:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -18583,6 +17935,19 @@
                         "discord": "Bago#7842"
                     }
                 ]
+            },
+            {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ],
+                "ws_url": "electrum2.runebase.io:50004"
             },
             {
                 "url": "electrum3.runebase.io:50002",
