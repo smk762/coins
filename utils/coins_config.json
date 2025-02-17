@@ -437,12 +437,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -5021,17 +5015,6 @@
                     }
                 ],
                 "ws-url": "pink-deer-69.doi.works:50004"
-            },
-            {
-                "url": "ugly-bird-70.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "ugly-bird-70.doi.works:50004"
             }
         ],
         "is_segwit_on": false,
@@ -6621,6 +6604,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum11.groestlcoin.org:50001",
+                "ws_url": "electrum11.groestlcoin.org:50004"
+            },
+            {
                 "url": "electrum12.groestlcoin.org:50001",
                 "ws_url": "electrum12.groestlcoin.org:50004"
             },
@@ -7145,29 +7132,6 @@
                     }
                 ],
                 "ws_url": "il8p.electrumx.transcenders.name:50003"
-            },
-            {
-                "url": "il9p.electrumx.transcenders.name:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ],
-                "ws_url": "il9p.electrumx.transcenders.name:50003"
             }
         ]
     },
@@ -13128,53 +13092,6 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
-    "TKL": {
-        "coin": "TKL",
-        "type": "Smart Chain",
-        "name": "Tokel",
-        "coinpaprika_id": "tkl-tokel",
-        "coingecko_id": "tokel",
-        "nomics_id": "TKL2",
-        "explorer_url": [
-            "https://explorer.tokel.io/",
-            "https://tokel.explorer.dexstats.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            }
-        ],
-        "asset": "TOKEL"
-    },
     "TRC": {
         "coin": "TRC",
         "type": "UTXO",
@@ -13748,6 +13665,12 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "uno-bkp.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "uno-bkp.coinmunity.gold:50003"
+            },
             {
                 "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
@@ -18457,19 +18380,6 @@
                         "twitter": "bytesofman"
                     }
                 ]
-            },
-            {
-                "url": "fulcrum.pepipierre.fr:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "contact@e.cash"
-                    },
-                    {
-                        "twitter": "ecashofficial"
-                    }
-                ]
             }
         ]
     },
@@ -18558,18 +18468,6 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -18581,19 +18479,6 @@
                     }
                 ],
                 "ws_url": "electrum2.runebase.io:50004"
-            },
-            {
-                "url": "electrum3.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ],
-                "ws_url": "electrum3.runebase.io:50004"
             }
         ],
         "is_segwit_on": false,
