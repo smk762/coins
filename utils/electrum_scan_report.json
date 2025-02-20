@@ -2859,27 +2859,27 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 2,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum2.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum3.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum4.runebase.io:50001": [
                 true,
                 "Passed"
             ],
             "electrum1.runebase.io:50001": [
                 false,
                 "timed out"
-            ],
-            "electrum3.runebase.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "electrum4.runebase.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -2887,17 +2887,17 @@
                 true,
                 "Passed"
             ],
+            "electrum3.runebase.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum4.runebase.io:50002": [
+                true,
+                "Passed"
+            ],
             "electrum1.runebase.io:50002": [
                 false,
                 "timed out"
-            ],
-            "electrum3.runebase.io:50002": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "electrum4.runebase.io:50002": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3457,37 +3457,37 @@
     },
     "VAL": {
         "electrums_total_all": 6,
-        "electrums_working_all": 0,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 3,
         "tcp": {
             "e1.validitytech.com:11001": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "e2.validitytech.com:11001": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "e3.validitytech.com:11001": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
             "e1.validitytech.com:11002": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "e2.validitytech.com:11002": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ],
             "e3.validitytech.com:11002": [
-                false,
-                "[Errno -3] Temporary failure in name resolution"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -4020,7 +4020,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "electrs.electroncash.de:60002": [
                 false,
