@@ -2009,11 +2009,11 @@
     },
     "LYNX": {
         "electrums_total_all": 10,
-        "electrums_working_all": 4,
+        "electrums_working_all": 5,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 9,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 5,
         "tcp": {
             "electrum.getlynx.io:50001": [
                 false,
@@ -2030,6 +2030,10 @@
                 "Passed"
             ],
             "electrum7.getlynx.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum8.getlynx.io:50002": [
                 true,
                 "Passed"
             ],
@@ -2052,10 +2056,6 @@
             "electrum.getlynx.club:50002": [
                 false,
                 "[Errno -2] Name or service not known"
-            ],
-            "electrum8.getlynx.io:50002": [
-                false,
-                "timed out"
             ]
         },
         "ws": {
@@ -2859,12 +2859,16 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 4,
         "electrums_working_ssl": 1,
         "tcp": {
+            "electrum3.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
             "electrum4.runebase.io:50001": [
                 true,
                 "Passed"
@@ -2874,10 +2878,6 @@
                 "timed out"
             ],
             "electrum2.runebase.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "electrum3.runebase.io:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
@@ -2897,7 +2897,7 @@
             ],
             "electrum3.runebase.io:50002": [
                 false,
-                "[Errno 111] Connection refused"
+                "_ssl.c:983: The handshake operation timed out"
             ]
         },
         "ws": {
@@ -4020,7 +4020,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:983: The handshake operation timed out"
+                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
             ],
             "electrs.electroncash.de:60002": [
                 false,
