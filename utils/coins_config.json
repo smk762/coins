@@ -2590,37 +2590,6 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
-    "BTCZ": {
-        "coin": "BTCZ",
-        "type": "UTXO",
-        "name": "BitcoinZ",
-        "coinpaprika_id": "btcz-bitcoinz",
-        "coingecko_id": "bitcoinz",
-        "nomics_id": "BTCZ",
-        "explorer_url": [
-            "https://explorer.btcz.rocks/",
-            "https://btczexplorer.blockhub.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum1.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "ws_url": "electrum1.btcz.rocks:50004"
-            }
-        ]
-    },
     "BTCZ-BEP20": {
         "coin": "BTCZ-BEP20",
         "type": "BEP-20",
@@ -8851,6 +8820,11 @@
                 "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum7.getlynx.io:50004"
+            },
+            {
+                "url": "electrum8.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum8.getlynx.io:50004"
             },
             {
                 "url": "electrum9.getlynx.io:50002",
@@ -18593,6 +18567,18 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum3.runebase.io:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
                 "url": "electrum4.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -18603,6 +18589,19 @@
                         "discord": "Bago#7842"
                     }
                 ]
+            },
+            {
+                "url": "electrum3.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ],
+                "ws_url": "electrum3.runebase.io:50004"
             },
             {
                 "url": "electrum4.runebase.io:50002",
