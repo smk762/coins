@@ -959,12 +959,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrumx.aur.ewmcx.info:50003"
-            },
-            {
-                "url": "failover.aur.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.aur.ewmcx.biz:50003"
             }
         ]
     },
@@ -4435,12 +4429,6 @@
                 "url": "electrumx.dgc.ewmcx.org:50001",
                 "protocol": "TCP",
                 "ws_url": "electrumx.dgc.ewmcx.org:50003"
-            },
-            {
-                "url": "failover.dgc.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.dgc.ewmcx.biz:50003"
             }
         ]
     },
@@ -13162,53 +13150,6 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
-    "TKL": {
-        "coin": "TKL",
-        "type": "Smart Chain",
-        "name": "Tokel",
-        "coinpaprika_id": "tkl-tokel",
-        "coingecko_id": "tokel",
-        "nomics_id": "TKL2",
-        "explorer_url": [
-            "https://explorer.tokel.io/",
-            "https://tokel.explorer.dexstats.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            }
-        ],
-        "asset": "TOKEL"
-    },
     "TRC": {
         "coin": "TRC",
         "type": "UTXO",
@@ -13540,33 +13481,6 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "UIS": {
-        "coin": "UIS",
-        "type": "UTXO",
-        "name": "Unitus",
-        "coinpaprika_id": "uis-unitus",
-        "coingecko_id": "unitus",
-        "nomics_id": "UIS",
-        "explorer_url": [
-            "https://explorer.unitus.network/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "failover.trc-uis.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.trc-uis.ewmcx.biz:50003"
-            }
-        ]
     },
     "UMA-AVX20": {
         "coin": "UMA-AVX20",
@@ -18627,18 +18541,6 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -18663,19 +18565,6 @@
                     }
                 ],
                 "ws_url": "electrum3.runebase.io:50004"
-            },
-            {
-                "url": "electrum4.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ],
-                "ws_url": "electrum4.runebase.io:50004"
             }
         ],
         "is_segwit_on": false,
