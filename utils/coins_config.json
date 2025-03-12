@@ -5036,33 +5036,6 @@
             "format": "standard"
         }
     },
-    "EFL": {
-        "coin": "EFL",
-        "type": "UTXO",
-        "name": "e-Gulden",
-        "coinpaprika_id": "efl-e-gulden",
-        "coingecko_id": "electronicgulden",
-        "nomics_id": "EFL",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/efl/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum1.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum1.egulden.org:50004"
-            }
-        ]
-    },
     "EGLD-BEP20": {
         "coin": "EGLD-BEP20",
         "type": "BEP-20",
@@ -13123,6 +13096,53 @@
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
     },
+    "TKL": {
+        "coin": "TKL",
+        "type": "Smart Chain",
+        "name": "Tokel",
+        "coinpaprika_id": "tkl-tokel",
+        "coingecko_id": "tokel",
+        "nomics_id": "TKL2",
+        "explorer_url": [
+            "https://explorer.tokel.io/",
+            "https://tokel.explorer.dexstats.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            }
+        ],
+        "asset": "TOKEL"
+    },
     "TRC": {
         "coin": "TRC",
         "type": "UTXO",
@@ -14818,36 +14838,13 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.gemmer.primecoin.org:50011"
+            },
+            {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
             {
                 "url": "electrumx.primecoin.org:50001"
-            }
-        ]
-    },
-    "XRG": {
-        "coin": "XRG",
-        "type": "UTXO",
-        "name": "Ergon",
-        "coinpaprika_id": "xrg-ergon",
-        "coingecko_id": "test-coin",
-        "nomics_id": "XRG",
-        "explorer_url": [
-            "https://explorer.ergon.network/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "fulcrum.ergon.network:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ]
     },
