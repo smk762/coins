@@ -5036,6 +5036,33 @@
             "format": "standard"
         }
     },
+    "EFL": {
+        "coin": "EFL",
+        "type": "UTXO",
+        "name": "e-Gulden",
+        "coinpaprika_id": "efl-e-gulden",
+        "coingecko_id": "electronicgulden",
+        "nomics_id": "EFL",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/efl/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum1.egulden.org:50004"
+            }
+        ]
+    },
     "EGLD-BEP20": {
         "coin": "EGLD-BEP20",
         "type": "BEP-20",
@@ -13475,33 +13502,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "UIS": {
-        "coin": "UIS",
-        "type": "UTXO",
-        "name": "Unitus",
-        "coinpaprika_id": "uis-unitus",
-        "coingecko_id": "unitus",
-        "nomics_id": "UIS",
-        "explorer_url": [
-            "https://explorer.unitus.network/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "failover.trc-uis.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.trc-uis.ewmcx.biz:50003"
-            }
-        ]
-    },
     "UMA-AVX20": {
         "coin": "UMA-AVX20",
         "type": "AVX-20",
@@ -14845,6 +14845,32 @@
             },
             {
                 "url": "electrumx.primecoin.org:50001"
+            }
+        ]
+    },
+    "XRG": {
+        "coin": "XRG",
+        "type": "UTXO",
+        "name": "Ergon",
+        "coinpaprika_id": "xrg-ergon",
+        "coingecko_id": "test-coin",
+        "nomics_id": "XRG",
+        "explorer_url": [
+            "https://explorer.ergon.network/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "fulcrum.ergon.network:52138",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ]
     },
@@ -18266,6 +18292,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
