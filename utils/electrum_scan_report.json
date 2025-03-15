@@ -155,9 +155,9 @@
     },
     "AVN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -166,8 +166,8 @@
                 "Passed"
             ],
             "electrum-us.avn.network:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -1251,7 +1251,7 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "lenoir.ecoincore.com:11017": [
                 false,
@@ -2859,17 +2859,13 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrum3.runebase.io:50001": [
-                true,
-                "Passed"
-            ],
-            "electrum4.runebase.io:50001": [
                 true,
                 "Passed"
             ],
@@ -2880,14 +2876,14 @@
             "electrum2.runebase.io:50001": [
                 false,
                 "[Errno 111] Connection refused"
+            ],
+            "electrum4.runebase.io:50001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrum3.runebase.io:50002": [
-                true,
-                "Passed"
-            ],
-            "electrum4.runebase.io:50002": [
                 true,
                 "Passed"
             ],
@@ -2896,6 +2892,10 @@
                 "timed out"
             ],
             "electrum2.runebase.io:50002": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum4.runebase.io:50002": [
                 false,
                 "[Errno 111] Connection refused"
             ]
