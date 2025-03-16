@@ -155,9 +155,9 @@
     },
     "AVN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -166,8 +166,8 @@
                 "Passed"
             ],
             "electrum-us.avn.network:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -596,16 +596,16 @@
     },
     "BTX": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
             "btx-electrumx.coinsmunity.com:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1565,11 +1565,11 @@
     },
     "HODL": {
         "electrums_total_all": 6,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.cipig.net:10009": [
                 true,
@@ -1580,8 +1580,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:10009": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -1594,8 +1594,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20009": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2406,16 +2406,12 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum.shorelinecrypto.com:10001": [
-                true,
-                "Passed"
-            ],
             "electrum1.mooo.com:10001": [
                 true,
                 "Passed"
@@ -2423,6 +2419,10 @@
             "electrum2.mooo.com:10001": [
                 true,
                 "Passed"
+            ],
+            "electrum.shorelinecrypto.com:10001": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
