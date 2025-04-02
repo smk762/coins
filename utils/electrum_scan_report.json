@@ -1,18 +1,18 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "elec-seeder-one.artbytecoin.org:50012": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "elec-seeder-two.artbytecoin.org:50012": [
+                true,
+                "Passed"
+            ],
+            "elec-seeder-one.artbytecoin.org:50012": [
                 false,
                 "[Errno 111] Connection refused"
             ],
@@ -122,11 +122,11 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
@@ -134,8 +134,8 @@
                 "Passed"
             ],
             "failover.aur.ewmcx.biz:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -596,16 +596,16 @@
     },
     "BTX": {
         "electrums_total_all": 1,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "btx-electrumx.coinsmunity.com:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1247,7 +1247,7 @@
             ],
             "electrum5.egulden.org:11017": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "holland.ecoincore.com:11017": [
                 false,
@@ -1565,11 +1565,11 @@
     },
     "HODL": {
         "electrums_total_all": 6,
-        "electrums_working_all": 4,
+        "electrums_working_all": 6,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 3,
         "tcp": {
             "electrum1.cipig.net:10009": [
                 true,
@@ -1580,8 +1580,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:10009": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -1594,8 +1594,8 @@
                 "Passed"
             ],
             "electrum3.cipig.net:20009": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1615,11 +1615,11 @@
     },
     "IL8P": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "il8p.electrumx.transcenders.name:50002": [
@@ -1627,8 +1627,8 @@
                 "Passed"
             ],
             "il9p.electrumx.transcenders.name:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2406,12 +2406,16 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
+            "electrum.shorelinecrypto.com:10001": [
+                true,
+                "Passed"
+            ],
             "electrum1.mooo.com:10001": [
                 true,
                 "Passed"
@@ -2419,10 +2423,6 @@
             "electrum2.mooo.com:10001": [
                 true,
                 "Passed"
-            ],
-            "electrum.shorelinecrypto.com:10001": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2875,7 +2875,7 @@
             ],
             "electrum2.runebase.io:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "electrum4.runebase.io:50001": [
                 false,
@@ -2893,7 +2893,7 @@
             ],
             "electrum2.runebase.io:50002": [
                 false,
-                "[Errno 111] Connection refused"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "electrum4.runebase.io:50002": [
                 false,
@@ -3377,11 +3377,11 @@
     },
     "UIS": {
         "electrums_total_all": 2,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrumx.uis.ewmcx.info:50001": [
                 false,
@@ -3390,8 +3390,8 @@
         },
         "ssl": {
             "failover.trc-uis.ewmcx.biz:50002": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3581,15 +3581,15 @@
         "tcp": {
             "electrumx.widecoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno -2] Name or service not known"
             ],
             "electrumx2.widecoin.org:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "[Errno -2] Name or service not known"
             ],
             "electrumx3.widecoin.org:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "[Errno -2] Name or service not known"
             ]
         },
         "ssl": {},
