@@ -3722,12 +3722,16 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
+            "electrumx.gemmer.primecoin.org:50011": [
+                true,
+                "Passed"
+            ],
             "electrumx.mainnet.primecoin.org:50011": [
                 true,
                 "Passed"
@@ -3735,10 +3739,6 @@
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
-            ],
-            "electrumx.gemmer.primecoin.org:50011": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
