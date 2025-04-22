@@ -1,20 +1,20 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
-            "elec-seeder-one.artbytecoin.org:50012": [
-                true,
-                "Passed"
-            ],
             "elec-seeder-two.artbytecoin.org:50012": [
                 true,
                 "Passed"
+            ],
+            "elec-seeder-one.artbytecoin.org:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrumx-four.artbyte.live:50012": [
                 false,
@@ -122,20 +122,20 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "failover.aur.ewmcx.biz:50002": [
+            "electrumx.aur.ewmcx.info:50002": [
                 true,
                 "Passed"
             ],
-            "electrumx.aur.ewmcx.info:50002": [
-                false,
-                "[Errno 111] Connection refused"
+            "failover.aur.ewmcx.biz:50002": [
+                true,
+                "Passed"
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
@@ -1131,15 +1131,15 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 5,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ssl": {
@@ -1151,13 +1151,13 @@
                 true,
                 "Passed"
             ],
-            "pink-deer-69.doi.works:50002": [
-                true,
-                "Passed"
-            ],
             "ugly-bird-70.doi.works:50002": [
                 true,
                 "Passed"
+            ],
+            "pink-deer-69.doi.works:50002": [
+                false,
+                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {}
@@ -1540,7 +1540,7 @@
             ],
             "electrum14.groestlcoin.org:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
@@ -2859,21 +2859,21 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
-            "electrum2.runebase.io:50001": [
-                true,
-                "Passed"
-            ],
             "electrum3.runebase.io:50001": [
                 true,
                 "Passed"
             ],
             "electrum1.runebase.io:50001": [
+                false,
+                "timed out"
+            ],
+            "electrum2.runebase.io:50001": [
                 false,
                 "timed out"
             ],
@@ -2883,10 +2883,6 @@
             ]
         },
         "ssl": {
-            "electrum2.runebase.io:50002": [
-                true,
-                "Passed"
-            ],
             "electrum3.runebase.io:50002": [
                 true,
                 "Passed"
@@ -2894,6 +2890,10 @@
             "electrum1.runebase.io:50002": [
                 false,
                 "timed out"
+            ],
+            "electrum2.runebase.io:50002": [
+                false,
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "electrum4.runebase.io:50002": [
                 false,
@@ -3339,11 +3339,11 @@
     },
     "TRC": {
         "electrums_total_all": 3,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrum.southofheaven.ca:50001": [
                 false,
@@ -3356,8 +3356,8 @@
         },
         "ssl": {
             "failover.trc-uis.ewmcx.biz:50006": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3766,9 +3766,9 @@
     },
     "XVC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -3777,8 +3777,8 @@
                 "Passed"
             ],
             "electrumx2.vanillacash.info:50011": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
