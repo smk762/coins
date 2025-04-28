@@ -1131,33 +1131,33 @@
     },
     "DOI": {
         "electrums_total_all": 5,
-        "electrums_working_all": 2,
+        "electrums_working_all": 5,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 4,
         "tcp": {
             "pink-deer-69.doi.works:50001": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
+            "big-parrot-60.doi.works:50002": [
+                true,
+                "Passed"
+            ],
             "itchy-jellyfish-89.doi.works:50002": [
+                true,
+                "Passed"
+            ],
+            "pink-deer-69.doi.works:50002": [
                 true,
                 "Passed"
             ],
             "ugly-bird-70.doi.works:50002": [
                 true,
                 "Passed"
-            ],
-            "big-parrot-60.doi.works:50002": [
-                false,
-                "[Errno 101] Network is unreachable"
-            ],
-            "pink-deer-69.doi.works:50002": [
-                false,
-                "[Errno 101] Network is unreachable"
             ]
         },
         "ws": {}
@@ -1540,7 +1540,7 @@
             ],
             "electrum14.groestlcoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
