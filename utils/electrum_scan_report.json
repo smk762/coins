@@ -2875,7 +2875,7 @@
             ],
             "electrum2.runebase.io:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50001": [
                 false,
@@ -2893,7 +2893,7 @@
             ],
             "electrum2.runebase.io:50002": [
                 false,
-                "_ssl.c:983: The handshake operation timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50002": [
                 false,
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "_ssl.c:983: The handshake operation timed out"
+                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
