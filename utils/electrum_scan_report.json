@@ -1230,16 +1230,16 @@
     },
     "EFL": {
         "electrums_total_all": 5,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 5,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
             "electrum1.egulden.org:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.egulden.org:50002": [
                 false,
@@ -1540,7 +1540,7 @@
             ],
             "electrum14.groestlcoin.org:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ]
         },
         "ssl": {},
@@ -2859,12 +2859,16 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
+            "electrum2.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
             "electrum3.runebase.io:50001": [
                 true,
                 "Passed"
@@ -2873,16 +2877,16 @@
                 false,
                 "timed out"
             ],
-            "electrum2.runebase.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "electrum4.runebase.io:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
+            "electrum2.runebase.io:50002": [
+                true,
+                "Passed"
+            ],
             "electrum3.runebase.io:50002": [
                 true,
                 "Passed"
@@ -2890,10 +2894,6 @@
             "electrum1.runebase.io:50002": [
                 false,
                 "timed out"
-            ],
-            "electrum2.runebase.io:50002": [
-                false,
-                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50002": [
                 false,
@@ -3766,9 +3766,9 @@
     },
     "XVC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -3777,8 +3777,8 @@
                 "Passed"
             ],
             "electrumx2.vanillacash.info:50011": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
