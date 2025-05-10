@@ -122,16 +122,16 @@
     },
     "AUR": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 3,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
             "electrumx.aur.ewmcx.info:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "failover.aur.ewmcx.biz:50002": [
                 false,
@@ -2233,21 +2233,21 @@
     },
     "MONA": {
         "electrums_total_all": 4,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
+            "electrumx.tamami-foundation.org:50001": [
+                true,
+                "Passed"
+            ],
             "electrumx1.monacoin.ninja:50001": [
                 true,
                 "Passed"
             ],
             "103.125.218.246:50001": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
-            "electrumx.tamami-foundation.org:50001": [
                 false,
                 "[Errno 111] Connection refused"
             ],
@@ -2847,7 +2847,7 @@
         "tcp": {
             "209.151.151.21:50001": [
                 false,
-                "[Errno 111] Connection refused"
+                "timed out"
             ],
             "209.50.52.239:50001": [
                 false,
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
