@@ -14769,9 +14769,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.gemmer.primecoin.org:50011"
-            },
-            {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
             {
