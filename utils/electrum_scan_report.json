@@ -2859,11 +2859,11 @@
     },
     "RUNES": {
         "electrums_total_all": 8,
-        "electrums_working_all": 6,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.runebase.io:50001": [
                 true,
@@ -2874,8 +2874,8 @@
                 "Passed"
             ],
             "electrum3.runebase.io:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50001": [
                 false,
@@ -2892,8 +2892,8 @@
                 "Passed"
             ],
             "electrum3.runebase.io:50002": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50002": [
                 false,
@@ -3407,20 +3407,20 @@
     },
     "UNO": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "uno-main.coinmunity.gold:50002": [
+            "uno-bkp.coinmunity.gold:50002": [
                 true,
                 "Passed"
             ],
-            "uno-bkp.coinmunity.gold:50002": [
-                false,
-                "[Errno 111] Connection refused"
+            "uno-main.coinmunity.gold:50002": [
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -3722,12 +3722,16 @@
     },
     "XPM": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
+            "electrumx.gemmer.primecoin.org:50011": [
+                true,
+                "Passed"
+            ],
             "electrumx.mainnet.primecoin.org:50011": [
                 true,
                 "Passed"
@@ -3735,10 +3739,6 @@
             "electrumx.primecoin.org:50001": [
                 true,
                 "Passed"
-            ],
-            "electrumx.gemmer.primecoin.org:50011": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
