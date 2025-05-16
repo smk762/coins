@@ -1528,19 +1528,19 @@
             ],
             "electrum11.groestlcoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrum12.groestlcoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrum13.groestlcoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ],
             "electrum14.groestlcoin.org:50001": [
                 false,
-                "timed out"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2406,9 +2406,9 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2421,8 +2421,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -4024,7 +4024,7 @@
             ],
             "electroncash.de:50004": [
                 false,
-                "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)"
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "testnet.bitcoincash.network:60002": [
                 false,
