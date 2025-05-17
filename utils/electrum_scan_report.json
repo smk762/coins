@@ -667,11 +667,11 @@
     },
     "CDN": {
         "electrums_total_all": 8,
-        "electrums_working_all": 6,
+        "electrums_working_all": 5,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 8,
-        "electrums_working_ssl": 6,
+        "electrums_working_ssl": 5,
         "tcp": {},
         "ssl": {
             "chicago.ecoincore.com:34333": [
@@ -679,10 +679,6 @@
                 "Passed"
             ],
             "holland.ecoincore.com:34333": [
-                true,
-                "Passed"
-            ],
-            "miami.ecoincore.com:34333": [
                 true,
                 "Passed"
             ],
@@ -701,6 +697,10 @@
             "lenoir.ecoincore.com:34333": [
                 false,
                 "timed out"
+            ],
+            "miami.ecoincore.com:34333": [
+                false,
+                "_ssl.c:983: The handshake operation timed out"
             ],
             "mumbai.ecoincore.com:34333": [
                 false,
