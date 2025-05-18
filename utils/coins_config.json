@@ -417,33 +417,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "ABY": {
-        "coin": "ABY",
-        "type": "UTXO",
-        "name": "ArtByte",
-        "coinpaprika_id": "aby-artbyte",
-        "coingecko_id": "artbyte",
-        "nomics_id": "ABY2",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/aby/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-two.artbytecoin.org:50013"
-            }
-        ]
-    },
     "ADA-BEP20": {
         "coin": "ADA-BEP20",
         "type": "BEP-20",
@@ -2612,6 +2585,15 @@
                     }
                 ],
                 "ws_url": "electrum1.btcz.rocks:50004"
+            },
+            {
+                "url": "electrum2.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "ws_url": "electrum2.btcz.rocks:50004"
             }
         ]
     },
@@ -2743,6 +2725,42 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "BTX": {
+        "coin": "BTX",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "bitcore",
+        "nomics_id": "BTX",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/btx/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "btx-electrumx.coinsmunity.com:50003"
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
     },
     "BTX-BEP20": {
         "coin": "BTX-BEP20",
@@ -13090,6 +13108,33 @@
             }
         ],
         "asset": "TOKEL"
+    },
+    "TRC": {
+        "coin": "TRC",
+        "type": "UTXO",
+        "name": "Terracoin",
+        "coinpaprika_id": "trc-terracoin",
+        "coingecko_id": "terracoin",
+        "nomics_id": "TRC",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/trc/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50006",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.trc-uis.ewmcx.biz:50007"
+            }
+        ]
     },
     "TRX-BEP20": {
         "coin": "TRX-BEP20",
