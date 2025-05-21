@@ -2605,15 +2605,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum1.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "ws_url": "electrum1.btcz.rocks:50004"
-            },
-            {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
                     {
@@ -5197,6 +5188,18 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum1.cipig.net:10062",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30062"
+            },
+            {
                 "url": "electrum2.cipig.net:10062",
                 "contact": [
                     {
@@ -5207,6 +5210,18 @@
                     }
                 ],
                 "ws_url": "electrum2.cipig.net:30062"
+            },
+            {
+                "url": "electrum1.cipig.net:20062",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             },
             {
                 "url": "electrum2.cipig.net:20062",
